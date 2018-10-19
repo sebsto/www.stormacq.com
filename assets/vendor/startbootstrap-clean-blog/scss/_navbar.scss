@@ -5,7 +5,8 @@
   background-color: white;
   @include sans-serif-font;
   .navbar-brand {
-    font-weight: 800;
+    // font-weight: 800;
+    font-size: 14px; //align with other nav items (font size defined in body)
     color: $gray-800;
   }
   .navbar-toggler {
