@@ -1,0 +1,137 @@
+---
+layout: default
+---
+
+<style type="text/css">
+
+.icon-arrow-left:before {
+    content: "\261F";
+}
+
+/* Create a bouncing scroll-down arrow on homepage with cover image */
+.scroll-down {
+    display: block;
+    position: absolute;
+    z-index: 100;
+    bottom: 45px;
+    left: 50%;
+    margin-left: -16px;
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: rgba(255,255,255,0.7);
+    -webkit-animation: bounce 4s 2s infinite;
+    animation: bounce 4s 2s infinite;
+}
+
+/* Used to bounce .scroll-down on home page */
+@-webkit-keyframes bounce {
+    0%, 10%, 25%, 40%, 50% {
+        -webkit-transform: translateY(0) ;
+                transform: translateY(0) ;
+    }
+    20% {
+        -webkit-transform: translateY(-10px) ;
+                transform: translateY(-10px) ;
+    }
+    30% {
+        -webkit-transform: translateY(-5px) ;
+                transform: translateY(-5px) ;
+    }
+}
+@keyframes bounce {
+  0%, 10%, 25%, 40%, 50% {
+        -webkit-transform: translateY(0) ;
+                transform: translateY(0) ;
+    }
+    20% {
+        -webkit-transform: translateY(-10px) ;
+                transform: translateY(-10px) ;
+    }
+    30% {
+        -webkit-transform: translateY(-5px) ;
+                transform: translateY(-5px) ;
+    }
+}
+
+
+/* Stop it bouncing and increase contrast when hovered */
+.scroll-down:hover {
+  -webkit-animation: none;
+  animation: none;
+}
+.icon-arrow-left:hover {
+  text-decoration: none;
+}
+</style>
+<!-- Page Header -->
+{% if page.background %}
+  <header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+  {% else %}
+    <header class="masthead">
+    {% endif %}
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>{{ site.title }}</h1>
+            {% if site.description %}
+              <span class="subheading">{{ site.description }}</span>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      <a class="scroll-down icon-arrow-left" href="#content"></a>
+    </div>
+  </header>
+
+  <div id="content" class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        {{ content }}
+
+        <!-- Home Post List -->
+        {% for post in site.posts limit : 5 %}
+
+          <article class="post-preview">
+            <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+              <h2 class="post-title">{{ post.title }}</h2>
+              {% if post.subtitle %}
+                <h3 class="post-subtitle">{{ post.subtitle }}</h3>
+              {% else %}
+                <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
+              {% endif %}
+            </a>
+            <p class="post-meta">Posted by
+              {% if post.author %}
+                {{ post.author }}
+              {% else %}
+                {{ site.author }}
+              {% endif %}
+              on
+              {{ post.date | date: '%B %d, %Y' }}</p>
+          </article>
+
+          <hr>
+
+        {% endfor %}
+
+        <!-- Pager -->
+        <div class="clearfix">
+          <a class="btn btn-primary float-right" href="{{"/posts/index.html" | relative_url }}">View All Posts &rarr;</a>
+        </div>
+  
+      </div>
+
+      <!-- embedded twitter -->
+      <div class="col-lg-4 col-md-2 mx-auto">
+          <a class="twitter-timeline" data-width="400" data-height="800" data-dnt="true" data-theme="light" href="https://twitter.com/sebsto?ref_src=twsrc%5Etfw">Tweets by sebsto</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+      </div>
+
+    <!-- end row-->
+    </div>
+  </div>
