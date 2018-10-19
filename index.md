@@ -3,6 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-regenerate: true
+# regenerate: true
 background: '/img/bg-index.png'
 ---
