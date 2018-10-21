@@ -42,6 +42,6 @@ After a couple of days, I noticed many S3 ``403 Forbidden`` errors in Cloudfront
 [httrack]: [https://www.httrack.com/]
 [jekyll]: https://jekyllrb.com/
 [startbootstrap]: https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/
-[athena]: [https://aws.amazon.com/athena/]
-[athena_cfn_logs]:[https://docs.aws.amazon.com/athena/latest/ug/cloudfront-logs.html]
-[lambda@edge]: [https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-at-the-edge.html]
+[athena]: https://aws.amazon.com/athena/
+[athena_cfn_logs]:https://docs.aws.amazon.com/athena/latest/ug/cloudfront-logs.html
+[lambda@edge]: https://docs.aws.amazon.com/AmazonCloudFront/latest/DeveloperGuide/lambda-at-the-edge.html
