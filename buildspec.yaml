@@ -1,0 +1,28 @@
+# buildspec.yml
+version: 0.2
+
+phases:
+  install:
+    commands:
+      # - echo Install Ruby 2.4
+      # - yum install -y ruby24 ruby24-devel
+      # - alternatives --set ruby /usr/bin/ruby2.4
+      # - echo Install Bundle and Jekyll 
+      # - yum groupinstall -y "Development Tools"
+      - gem install bundler jekyll
+      - ruby --version && gem --version && jekyll --version
+
+  build:
+    commands:
+      - echo Build started on `date`
+      - jekyll build
+
+  post_build:
+    commands:
+      - echo Build completed on `date`
+
+artifacts:
+  type: zip
+  files:
+    - '_site/*'
+  name: sebinthecloud-$(date +%Y%m%d%H%M%S).zip
