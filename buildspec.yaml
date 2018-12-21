@@ -10,12 +10,12 @@ phases:
       # - echo Install Bundle and Jekyll 
       # - yum groupinstall -y "Development Tools"
       - gem install bundler jekyll
-      - ruby --version && gem --version && jekyll --version
+      - ruby --version && gem --version && bundle exec jekyll --version
 
   build:
     commands:
       - echo Build started on `date`
-      - jekyll build
+      - bundle exec jekyll build
 
   post_build:
     commands:
