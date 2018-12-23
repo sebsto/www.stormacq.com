@@ -25,3 +25,23 @@
   font-size: 16px;
   padding: 25px 35px;
 }
+
+.highlight {
+  background: $gray-100;
+}
+
+.highlight .c1 {
+  color: $gray-600;
+}
+
+.highlight .kd {
+  color: $orange;
+}
+
+.highlight .nv {
+  font-weight: bold;
+}
+
+.highlight .s {
+  color: #0085A1;
+}
