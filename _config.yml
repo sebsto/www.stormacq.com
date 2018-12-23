@@ -44,7 +44,7 @@ exclude:
   - Gemfile.lock
   - docker
   - buildspec.yaml
-  - *.sh
+  - publish.sh
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/
