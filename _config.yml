@@ -43,6 +43,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - docker
+  - buildspec.yaml
+  - *.sh
 #   - node_modules
 #   - vendor/bundle/
 #   - vendor/cache/

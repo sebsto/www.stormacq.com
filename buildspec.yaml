@@ -19,10 +19,11 @@ phases:
 
   post_build:
     commands:
-      - echo Build completed on `date`
+      - echo Build completed on `date`, publisng to stormacq.com
+      - aws s3 sync _site/ s3://stormacq.com
 
 artifacts:
   type: zip
   files:
-    - '_site/**'
+    - '_site/**/*'
   name: sebinthecloud-$(date +%Y%m%d%H%M%S).zip
