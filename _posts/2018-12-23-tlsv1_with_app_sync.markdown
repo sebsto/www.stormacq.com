@@ -2,7 +2,7 @@
 layout: post
 title:  "Running AWS AppSync clients on Android v5 and older"
 subtitle: "How to configure TLSv1.1 and TLSv1.2?"
-date:   2018-12-23 00:00:00 +0100
+date:   2018-01-4 00:00:00 +0100
 categories: aws appsync
 tags: [mobile, appsync, aws, android, tls, ssl]
 author: Seb
@@ -13,7 +13,7 @@ When developing mobile applications, supporting older devices is a common requir
 
 One of the challenges doing so is to continue to use state-to-the-art network protocols on operating systems released several years ago, and not always maintained anymore.  For example, Android 5.x only supports TLSv1.0 and SSLv3 protocols by default, which [have been proved to be insecure][poddle]{:target="_blank"} since then.  Backend services, on the other side, now rely on TLSv1.2, in order to meet strict security requirements ([NIST][NIST]{:target="_blank"}, [PCI-DSS][PCIDSS]{:target="_blank"} are just two examples).
 
-AWS AppSync endpoints only offer TLSv1.1 and TLSv1.2 during the protocol negotiation. You can verify this using the ```nmap``` command, such as below:
+For example, AWS AppSync endpoints only offer TLSv1.1 and TLSv1.2 during the protocol negotiation. You can verify this using the ```nmap``` command, such as below:
 
 {% highlight bash %}
 $ nmap --script ssl-enum-ciphers <your_appsync_id>.appsync-api.eu-west-1.amazonaws.com
@@ -68,7 +68,7 @@ First, you will need to create your own [SSLSocketFactory](https://developer.and
 socket.enabledProtocols = arrayOf("TLSv1.1", "TLSv1.2")
 {% endhighlight %}
 
-Second, you will need to tell AppSync Client to use that new SSLSocketFactory class instead of the default.  As AppSync Client is using [OKHTTP](https://github.com/square/okhttp/){:target="_blank"} library behind the scene, you'll need first to create your own ``OKHttpClient`` and configure it to use your ``SSLSocketFactory`` class created just before.  The you will provide AppSync Client with your own ``OkHttpClient``.  The code looks like this:
+Second, you will need to tell AppSync Client to use that new SSLSocketFactory class instead of the default.  As AppSync Client is using [OKHTTP](https://github.com/square/okhttp/){:target="_blank"} library behind the scene, you'll need first to create your own ``OKHttpClient`` and configure it to use your ``SSLSocketFactory`` class created just before.  Then you will provide AppSync Client with your own ``OkHttpClient``.  The code looks like this:
 
 {% highlight kotlin %}
 // tm is the trust manager, code to instantiate this is skipped for brevity
