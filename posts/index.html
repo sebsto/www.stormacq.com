@@ -30,6 +30,17 @@ background: '/img/bg-post.png'
 
 {% endfor %}
 
+{% if paginator.total_pages == paginator.page %}
+<article class="post-preview">
+  <a href="/old/index.html">
+    <h2 class="post-title">Older posts migrated from Wordpress</h2>
+    <h3 class="post-subtitle">Posts between 2005 and 2018</h3>
+  </a>
+</article>
+<hr>
+{% endif %}
+
+
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}
 
@@ -42,6 +53,7 @@ background: '/img/bg-post.png'
     {% if paginator.next_page %}
       <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span class="d-none d-md-inline"> Posts</span> &rarr;</a>
     {% endif %}
+
 
   </div>
 
