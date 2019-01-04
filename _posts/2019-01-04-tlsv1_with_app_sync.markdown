@@ -40,7 +40,7 @@ PORT    STATE SERVICE
 
 So, on the client side, you have [TLSv1.0 and SSLv3 by default][androidtlsv1.1]{:target="_blank"}, while on the server side, you have TLSv1.1 and TLSv1.2.
 
-If you try [to instantiate an AppSync client][AppSyncClient]{:target="_blank"} using the default configuration, such as this :
+On Android Lollipop, if you try [to instantiate an AppSync client][AppSyncClient]{:target="_blank"} using the default configuration, such as this :
 
 {% highlight kotlin %}
 // initialize the AppSync client
