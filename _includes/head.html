@@ -29,7 +29,7 @@
   <meta content="{{ site.url }}/about/" property="article:author">
 {% endif %}
 {% if page.background %}
-  <meta content="{{ page.background }}" property="og:image">
+  <meta content="{{ site.url }}{{ page.background }}" property="og:image">
 {% else %}
   <meta content="/img/bg-post.png" property="og:image">
 {% endif %}
