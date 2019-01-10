@@ -9,6 +9,7 @@ phases:
       # - alternatives --set ruby /usr/bin/ruby2.4
       # - echo Install Bundle and Jekyll 
       # - yum groupinstall -y "Development Tools"
+      - gem pristine --all
       - gem install concurrent-ruby jekyll jekyll-paginate jekyll-sass-converter jekyll-theme-clean-blog jekyll-watch
       - ruby --version && gem --version && gem list --local && jekyll --version
 
