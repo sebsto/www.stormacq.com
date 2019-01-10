@@ -2,6 +2,7 @@
 layout: post
 title:  "AWS re:Invent 2018"
 subtitle: "re:Cap Tour in France"
+description: "AWS re:Invent 2018 - re:Cap Tour in France"
 date:   2018-12-21 12:00:00 +0100
 categories: aws
 author: Seb
