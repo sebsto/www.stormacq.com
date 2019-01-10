@@ -1,1 +1,0 @@
-docker build -t sebsto/jekyll:3.8.5 .
