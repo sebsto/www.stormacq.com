@@ -24,6 +24,8 @@ twitter_username: sebsto
 github_username:  sebsto
 linkedin_username: sebastienstormacq
 
+google_analytics: UA-5360703-2
+
 # Build settings
 markdown: kramdown
 
