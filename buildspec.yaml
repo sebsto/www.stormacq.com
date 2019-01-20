@@ -25,7 +25,11 @@ phases:
 
 artifacts:
   type: zip
-  base-directory: _site 
   files:
     - '**/*'
-    name: sebinthecloud-$(date +%Y%m%d%H%M%S).zip
+  name: sebinthecloud-$(date +%Y%m%d%H%M%S).zip
+  base-directory: '_site'
+
+cache:
+  paths:
+    - 'vendor/**/*''
