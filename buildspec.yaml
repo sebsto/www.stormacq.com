@@ -20,8 +20,8 @@ phases:
 
   post_build:
     commands:
-      - echo Build completed on `date`, publisng to stormacq.com
-      - aws s3 sync _site/ s3://stormacq.com
+      - echo Build completed on `date`, publisng to stormacq.com will be done by the pipeline.
+      # - aws s3 sync _site/ s3://stormacq.com
 
 artifacts:
   type: zip
