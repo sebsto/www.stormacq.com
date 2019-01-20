@@ -27,4 +27,5 @@ artifacts:
   type: zip
   files:
     - '_site/**/*'
-  name: sebinthecloud-$(date +%Y%m%d%H%M%S).zip
+    name: sebinthecloud-$(date +%Y%m%d%H%M%S).zip
+  base-directory: _site 
