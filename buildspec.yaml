@@ -30,6 +30,6 @@ artifacts:
   name: sebinthecloud-$(date +%Y%m%d%H%M%S).zip
   base-directory: '_site'
 
-cache:
-  paths:
-    - 'vendor/**/*''
+# cache:
+#   paths:
+#     - 'vendor/**/*''
