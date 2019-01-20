@@ -4,3 +4,4 @@ _site
 .amplifyrc
 amplify/**
 vendor/**
+Gemlock.lock
