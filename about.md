@@ -7,9 +7,11 @@ background: '/img/bg-about.png'
 regenerate: true
 ---
 
-Today, as Technical Evangelist @ AWS, Seb is inspiring builders to unlock the value of the AWS cloud, using his secret blend of passion, enthusiasm, customer advocacy, curiosity and creativity.
+Seb is inspiring builders to unlock the value of the AWS cloud, using his secret blend of passion, enthusiasm, customer advocacy, curiosity and creativity.
 
-Sébastien worked for the last 20+ years with large enterprises and startups alike to help them to transform their business requirements into technical solutions, to unlock the value of software, mobile applications and to scale systems to meet customer demand. He built & lead the [AWS Technical Training][awstc] team in EMEA, then he built & lead the [Alexa Solution Architecture][alexadev] team in UK, France, Italy and Spain.  
+Sébastien worked as consultant and pre-sales engineer for the last 20+ years with large enterprises and startups helping them transform business requirements into technical solutions, unlock the value of middleware, mobile applications, and scale systems to meet customer demand.
+
+Before joining the AWS Evangelist team, Seb built & lead the [AWS technical training][awstc] team in EMEA, and the [Alexa solution architecture][alexadev] team in UK, France, Italy and Spain.
 
 Download high-resolution profile pictures : [head][picture_head] - [full][picture]
 
