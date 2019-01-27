@@ -3,7 +3,7 @@ layout: post
 title:  "Alexa Account Linking & Login With Amazon"
 subtitle: "Learn how to configure Alexa Account Linking to leverage Login With Amazon."
 date:   2016-08-03 12:15:49 +0100
-categories: alexa lwa
+# categories: alexa lwa
 tags: [alexa, lwa, login with amazon, account linking, oauth]
 author: Seb
 # background: '/img/large-orange@2x.png'

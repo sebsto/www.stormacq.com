@@ -4,7 +4,7 @@ title:  "Running AWS AppSync clients on Android v5 and older"
 subtitle: "How to configure TLSv1.1 and TLSv1.2?"
 description: "Running AWS AppSync clients on Android v5 and older. How to configure TLSv1.1 and TLSv1.2?"
 date: 2019-01-04 00:00:00 +0100
-categories: aws appsync
+# categories: aws appsync
 tags: [mobile, appsync, aws, android, tls, ssl]
 author: Seb
 background: '/img/posts/2019-01-04-security.jpg'

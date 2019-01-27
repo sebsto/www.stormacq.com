@@ -3,7 +3,7 @@ layout: post
 title:  "How to Update Your Alexa Skills for France"
 subtitle: "Learn how to support for another language in your Alexa Skills."
 date:   2018-03-13 12:15:49 +0100
-categories: alexa i18n
+# categories: alexa i18n
 tags: [alexa, french, france, i18n]
 author: Seb
 background: '/img/posts/2018-03-13-develop-skills-french.png'

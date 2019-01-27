@@ -6,6 +6,11 @@ description: Here is the full list of post published since 2016
 background: '/img/bg-post.png'
 ---
 
+<!-- 
+  this file is in index.html because it is a requirement for pagination.
+  It is not working from files with different names
+  https://jekyllrb.com/docs/pagination/
+-->
 {% for post in paginator.posts %}
 
   <article class="post-preview">

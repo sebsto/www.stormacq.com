@@ -3,7 +3,7 @@ layout: post
 title:  "Debugging Alexa Account Linking with AWS API Gateway"
 subtitle: "How to Set up Amazon API Gateway as a Proxy to Debug Account Linking"
 date:   2016-11-10 12:15:49 +0100
-categories: alexa lwa
+# categories: alexa lwa
 tags: [alexa, lwa, login with amazon, account linking, oauth, apigateway, aws, debug]
 author: Seb
 # background: '/img/large-orange@2x.png'

@@ -3,7 +3,7 @@ layout: post
 title:  "Blogging without servers"
 subtitle: "Why I migrated this blog to a serverless architecture."
 date:   2018-10-17 19:15:49 +0100
-categories: serverless
+# categories: serverless
 tags: [serverless, migration, s3, jekyll]
 author: Seb
 background: '/img/posts/2018-10-17-migrated-to-serverless.jpg'
