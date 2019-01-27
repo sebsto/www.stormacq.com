@@ -20,9 +20,7 @@ gem "jekyll-theme-clean-blog"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  # gem "jekyll-feed", "~> 0.9"
-  # gem "jekyll-seo-tag", "~> 2.1"
-  gem "jekyll-paginate", "~> 1.1.0"
+  gem "jekyll-paginate-v2"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

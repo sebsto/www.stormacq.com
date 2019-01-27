@@ -32,11 +32,40 @@ markdown: kramdown
 # theme: minima
 theme: jekyll-theme-clean-blog 
 
-paginate: 5
-paginate_path: "/posts/page:num/"
+# paginate for /posts/ page
 plugins:
-  - jekyll-paginate
-  # - jekyll-feed
+  - jekyll-paginate-v2
+# paginate: 5
+# paginate_path: "/posts/page:num/"
+# plugins:
+#   - jekyll-paginate
+#   # - jekyll-feed
+
+autopages:
+  collections:
+    enabled: true
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/:num/'
+  title: ':title | :num of :max'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+ # extension: htm
+ # indexpage: 'default'
+  trail: 
+    before: 2
+    after: 2
+
+# collections for podcast
+collections:
+  podcasts:
+    output: true
+    permalink: /podcast/:path/
+# collections_dir: collections
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -45,10 +74,8 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - docker
+  - amplify
   - buildspec.yaml
   - publish.sh
 #   - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+  - vendor
