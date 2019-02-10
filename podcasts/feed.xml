@@ -11,7 +11,7 @@ layout: none
     <description>{{ site.podcast.description | xml_escape }}</description>
     <copyright>All rights reserved</copyright>
     <language>fr</language>
-    <link href="{{ site.url | append: '/podcasts/index.html' }}" />
+    <link>{{ site.url | append: '/podcasts/index.html' }}"</link>>
     <atom:link href="{{ site.url }}/podcasts/feed.xml" rel="self" type="application/rss+xml" />
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
     <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
