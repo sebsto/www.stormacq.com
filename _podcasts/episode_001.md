@@ -8,7 +8,7 @@ episode: 1
 duration: "00:18:42"
 size: 35909299
 file: 001.mp3  
-date:   2019-01-20 12:00:00 +0100
+date:   2019-02-08 23:00:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner.jpg'
