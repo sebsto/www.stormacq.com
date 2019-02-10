@@ -8,13 +8,16 @@ layout: none
     <description>{{ site.podcast.description | xml_escape }}</description>
     <copyright>&#x2117; &amp; &#xA9; 2019, {{ site.author | xml_escape }}</copyright>
     <language>fr</language>
-    <link href="{{ site.url }}/podcasts/feed.xml" rel="self" type="application/rss+xml" />
-
+    <atom:link href="{{ site.url }}/podcasts/feed.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+    <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
     <itunes:subtitle>{{ site.podcast.subtitle | xml_escape }}</itunes:subtitle>
     <itunes:summary>{{ site.podcast.description | xml_escape }}</itunes:summary>
     <itunes:author>{{ site.podcast.author | xml_escape }}</itunes:author>
     <itunes:type>episodic</itunes:type>
-    <itunes:category text="Tech News" />
+    <itunes:category text="Technology">
+      <itunes:category text="Tech News"/>
+    </itunes:category>
     <itunes:explicit>no</itunes:explicit>
     <itunes:image>{{ site.podcast.link | xml_escape }}{{ site.podcast.artwork | xml_escape }}</itunes:image>
     <itunes:owner>
@@ -28,21 +31,22 @@ layout: none
         <title>{{ podcast.title | xml_escape }}</title>
         <description>{{ podcast.description | xml_escape }}</description>
         <content:encoded><![CDATA[{{ podcast.content }}]]></content:encoded>
+        <author>{{ podcast.author | xml_escape }}</author>
+        <pubDate>{{ podcast.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <link>{{ site.url | xml_escape }}{{ podcast.url | xml_escape }}index.html</link>
+        <enclosure url="{{ site.podcast.link }}{{ podcast.file }}" length="{{ podcast.size }}" type="audio/mpeg"/>
+        <guid isPermaLink="true">{{ site.podcast.link }}{{ podcast.file }}</guid>
 
         <itunes:title>{{ podcast.title | xml_escape }}</itunes:title>
         <itunes:subtitle>{{ podcast.subtitle | xml_escape }}</itunes:subtitle>
         <itunes:summary>{{ podcast.description | xml_escape }}</itunes:summary>
         <itunes:author>{{ podcast.author | xml_escape }}</itunes:author>
 
-        <enclosure url="{{ site.podcast.link }}{{ podcast.file }}" length="{{ podcast.size }}" type="audio/mpeg"/>
-        <guid isPermaLink="true">{{ site.podcast.link }}{{ podcast.file }}</guid>
         <itunes:author>{{ site.author | xml_escape }}</itunes:author>
         <itunes:duration>{{ podcast.duration }}</itunes:duration>
         <itunes:episode>{{ podcast.episode }}</itunes:episode>
         <itunes:explicit>no</itunes:explicit>
 
-        <pubDate>{{ podcast.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ site.url | xml_escape }}{{ podcast.url | xml_escape }}index.html</link>
 
       </item>
     {% endfor %}
