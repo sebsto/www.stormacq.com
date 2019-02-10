@@ -29,17 +29,9 @@ pagination:
         {% endif %}
         </a>
       <p>
-        {{ podcasts.description }}
-        <br/><br/>
-        {% if podcasts.guest %}
-        <i>Invité</i> : {{ podcasts.guest }}
-        {% endif %}
-        {% if podcasts.guests %}
-        <i>Invités</i> : {{ podcasts.guests }}
-        {% endif %}
-        <br/>
-        <i>Durée:</i> {{ podcasts.duration }} 
-        <br/>
+        {{ podcasts.description }}  Avec {{ podcasts.guest }}
+      </p>
+      <p>
         <audio src="{{ site.podcast.link }}{{ podcasts.file }}" controls="">
           <a href="{{ site.podcast.link }}{{ podcasts.file }}">Download episode »</a>
         </audio>
