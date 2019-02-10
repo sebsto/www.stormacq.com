@@ -11,6 +11,7 @@ layout: none
     <description>{{ site.podcast.description | xml_escape }}</description>
     <copyright>All rights reserved</copyright>
     <language>fr</language>
+    <link href="{{ site.url }}/podcasts/feed.xml" rel="self" type="application/rss+xml" />
     <atom:link href="{{ site.url }}/podcasts/feed.xml" rel="self" type="application/rss+xml" />
     <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
     <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
@@ -33,10 +34,21 @@ layout: none
       <item>
         <title>{{ podcast.title | xml_escape }}</title>
         <description>{{ podcast.description | xml_escape }}</description>
-        <content:encoded>{{ podcast.description | xml_escape }}</content:encoded>
+        <!-- <content:encoded>{{ podcast.description | xml_escape }}</content:encoded> -->
+        <content:encoded><![CDATA[
+        {{ podcast.description }} 
+        <p/>
+        {% if podcast.guest %}
+        <i>Invité</i> : {{ podcast.guest }}
+        {% endif %}
+        {% if podcast.guests %}
+        <i>Invités</i> : {{ podcast.guests }}
+        {% endif %}
+        {{ podcast.content }}
+        ]]></content:encoded>
         <author>{{ podcast.author | xml_escape }}</author>
         <pubDate>{{ podcast.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ site.url | xml_escape }}{{ podcast.url | xml_escape }}index.html</link>
+        <link>{{ site.url | xml_escape }}{{ podcast.url | append: 'index.html' | xml_escape }}</link>
         <enclosure url="{{ site.podcast.link }}{{ podcast.file }}" length="{{ podcast.size }}" type="audio/mpeg"/>
         <guid isPermaLink="true">{{ site.podcast.link }}{{ podcast.file }}</guid>
 
@@ -45,7 +57,6 @@ layout: none
         <itunes:summary>{{ podcast.description | xml_escape }}</itunes:summary>
         <itunes:author>{{ podcast.author | xml_escape }}</itunes:author>
 
-        <itunes:author>{{ site.author | xml_escape }}</itunes:author>
         <itunes:duration>{{ podcast.duration }}</itunes:duration>
         <itunes:episode>{{ podcast.episode }}</itunes:episode>
         <itunes:explicit>no</itunes:explicit>
