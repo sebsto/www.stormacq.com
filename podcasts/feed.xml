@@ -30,7 +30,6 @@ layout: none
       <item>
         <title>{{ podcast.title | xml_escape }}</title>
         <description>{{ podcast.description | xml_escape }}</description>
-        <!-- <content:encoded><![CDATA[{{ podcast.content }}]]></content:encoded> -->
         <content:encoded>{{ podcast.description | xml_escape }}</content:encoded>
         <author>{{ podcast.author | xml_escape }}</author>
         <pubDate>{{ podcast.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
