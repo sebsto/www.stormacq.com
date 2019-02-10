@@ -5,8 +5,8 @@ subtitle: "re:Invent re:Cap"
 description: "Un récapitulatif des principales nouveautés annoncées lors de la conférence re:Invent à Las Vegas."
 guest: "Stéphan Hadinger, Directeur Technique AWS France"
 episode: 1
-duration: "00:18:03"
-size: 34672976
+duration: "00:18:44"
+size: 35909299
 file: 001.mp3  
 date:   2019-01-20 12:00:00 +0100
 author: Sébastien Stormacq
