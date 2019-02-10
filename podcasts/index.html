@@ -40,7 +40,7 @@ pagination:
         <br/>
         <i>Durée:</i> {{ podcasts.duration }} 
         <br/>
-        <i>Lien:</i> <a href="{{ podcasts.link }}">{{ podcasts.linkName }}</a>
+        <i>Lien:</i> <a href="{{ site.podcast.link }}{{ podcasts.file }}">{{ podcasts.file }}</a>
       </p>
     <p class="post-meta">Posted by
       {% if podcasts.author %}
