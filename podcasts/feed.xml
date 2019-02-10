@@ -22,7 +22,7 @@ layout: none
       <itunes:category text="Tech News"/>
     </itunes:category>
     <itunes:explicit>no</itunes:explicit>
-    <itunes:image>{{ site.podcast.link | xml_escape }}{{ site.podcast.artwork | xml_escape }}</itunes:image>
+    <itunes:image href="{{ site.podcast.link | xml_escape }}{{ site.podcast.artwork | xml_escape }}"/>
     <itunes:owner>
       <itunes:email>stormacq@amazon.com</itunes:email>
       <itunes:name>Sébastien Stormacq</itunes:name>
