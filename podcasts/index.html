@@ -17,7 +17,7 @@ pagination:
 {% for podcasts in paginator.posts %}
 
   <article class="post-preview">
-      <a href="{{ podcasts.url | prepend: site.baseurl | replace: '//', '/' }}">
+      <a href="{{ site.url | xml_escape }}{{ podcasts.url | append: 'index.html' | xml_escape }}">
         <h2 class="post-title">{{ podcasts.title }}</h2>
         <!-- {% if podcasts.subtitle %}
         <h3 class="post-subtitle">{{ podcasts.subtitle }}</h3>
@@ -40,7 +40,9 @@ pagination:
         <br/>
         <i>Durée:</i> {{ podcasts.duration }} 
         <br/>
-        <i>Lien:</i> <a href="{{ site.podcast.link }}{{ podcasts.file }}">{{ podcasts.file }}</a>
+        <audio src="{{ site.podcast.link }}{{ podcasts.file }}" controls="">
+          <a href="{{ site.podcast.link }}{{ podcasts.file }}">Download episode »</a>
+        </audio>
       </p>
     <p class="post-meta">Posted by
       {% if podcasts.author %}
@@ -51,7 +53,7 @@ pagination:
       on {{ podcasts.date | date: '%B %d, %Y' }}</p>
   </article>
 
-  <hr>
+  <!-- <hr> -->
 
 {% endfor %}
 

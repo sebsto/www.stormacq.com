@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: podcast
 title:  "Episode #001"
 subtitle: "re:Invent re:Cap"
-description: "Un récapitulatif des principales nouveautés annoncées lors de la conférence re:Invent à Las Vegas."
+description: "Dans ce premier épisode, nous revenons sur les principales nouveautés annoncées lors de la conférence re:Invent à Las Vegas."
 guest: "Stéphan Hadinger, Directeur Technique AWS France"
 episode: 1
-duration: "00:18:44"
+duration: "00:18:42"
 size: 35909299
 file: 001.mp3  
 date:   2019-01-20 12:00:00 +0100
@@ -13,33 +13,6 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner.jpg'
 ---
-
-Dans ce premier épisode, Stéphane Hadinger, directeur technique de AWS France, revient sur les principales nouveautés annoncées lors de la conférence re:Invent à Las Vegas.
-
-## Invité 
-
-<li class="list-inline-item">
-Stéphane Hadinger, Directeur Technique, AWS France
-</li>
-<li class="list-inline-item">
-<a href="https://www.linkedin.com/in/shadinger/">
-<span class="fa-stack fa-sm">
-    <i class="fa fa-circle fa-stack-2x"></i>
-    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
-</span>
-</a>
-</li>
-
-<li class="list-inline-item">
-<a href="https://twitter.com/shadinger">
-<span class="fa-stack fa-sm">
-    <i class="fa fa-circle fa-stack-2x"></i>
-    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-</span>
-</a>
-</li>
-
-##  &nbsp;
 
 ## Liens
 
