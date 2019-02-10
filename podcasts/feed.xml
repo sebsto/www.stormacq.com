@@ -7,7 +7,6 @@ layout: none
     <title>{{ site.podcast.title | xml_escape }}</title>
     <description>{{ site.podcast.description | xml_escape }}</description>
     <copyright>&#x2117; &amp; &#xA9; 2019, {{ site.author | xml_escape }}</copyright>
-    <copyright>&#x2117; &amp; &#xA9; 2019, {{ site.author | xml_escape }}</copyright>
     <language>fr</language>
     <link href="{{ site.url }}/podcasts/feed.xml" rel="self" type="application/rss+xml" />
 
@@ -32,7 +31,7 @@ layout: none
 
         <itunes:title>{{ podcast.title | xml_escape }}</itunes:title>
         <itunes:subtitle>{{ podcast.subtitle | xml_escape }}</itunes:subtitle>
-        <itunes:summary>{{ podcast.description | xml_escape }}<itunes:summary>
+        <itunes:summary>{{ podcast.description | xml_escape }}</itunes:summary>
         <itunes:author>{{ podcast.author | xml_escape }}</itunes:author>
 
         <enclosure url="{{ site.podcast.link }}{{ podcast.file }}" length="{{ podcast.size }}" type="audio/mpeg"/>
