@@ -1,0 +1,52 @@
+---
+layout: none
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>{{ site.podcast.title | xml_escape }}</title>
+    <description>{{ site.podcast.description | xml_escape }}</description>
+    <copyright>&#x2117; &amp; &#xA9; 2019, {{ site.author | xml_escape }}</copyright>
+    <copyright>&#x2117; &amp; &#xA9; 2019, {{ site.author | xml_escape }}</copyright>
+    <language>fr</language>
+    <link href="{{ site.url }}/podcasts/feed.xml" rel="self" type="application/rss+xml" />
+
+    <itunes:subtitle>{{ site.podcast.subtitle | xml_escape }}</itunes:subtitle>
+    <itunes:summary>{{ site.podcast.description | xml_escape }}</itunes:summary>
+    <itunes:author>{{ site.podcast.author | xml_escape }}</itunes:author>
+    <itunes:type>episodic</itunes:type>
+    <itunes:category text="Tech News" />
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:image>{{ site.podcast.link | xml_escape }}{{ site.podcast.artwork | xml_escape }}</itunes:image>
+    <itunes:owner>
+      <itunes:email>stormacq@amazon.com</itunes:email>
+      <itunes:name>Sébastien Stormacq</itunes:name>
+    </itunes:owner>
+
+    {% assign sorted = site.podcasts | sort: 'date' | reverse %}
+    {% for podcast in sorted %}
+      <item>
+        <title>{{ podcast.title | xml_escape }}</title>
+        <description>{{ podcast.description | xml_escape }}</description>
+        <content:encoded><![CDATA[{{ podcast.content }}]]></content:encoded>
+
+        <itunes:title>{{ podcast.title | xml_escape }}</itunes:title>
+        <itunes:subtitle>{{ podcast.subtitle | xml_escape }}</itunes:subtitle>
+        <itunes:summary>{{ podcast.description | xml_escape }}<itunes:summary>
+        <itunes:author>{{ podcast.author | xml_escape }}</itunes:author>
+
+        <enclosure url="{{ site.podcast.link }}{{ podcast.file }}" length="{{ podcast.size }}" type="audio/mpeg"/>
+        <guid isPermaLink="true">{{ site.podcast.link }}{{ podcast.file }}</guid>
+        <itunes:author>{{ site.author | xml_escape }}</itunes:author>
+        <itunes:duration>{{ podcast.duration }}</itunes:duration>
+        <itunes:episode>{{ podcast.episode }}</itunes:episode>
+        <itunes:explicit>no</itunes:explicit>
+
+        <pubDate>{{ podcast.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+        <link>{{ site.url | xml_escape }}{{ podcast.url | xml_escape }}index.html</link>
+
+      </item>
+    {% endfor %}
+
+  </channel>
+</rss>

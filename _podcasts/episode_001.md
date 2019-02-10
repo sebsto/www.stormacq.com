@@ -1,0 +1,62 @@
+---
+layout: post
+title:  "Episode #001"
+subtitle: "re:Invent re:Cap"
+description: "Un récapitulatif des principales nouveautés annoncées lors de la conférence re:Invent à Las Vegas."
+guest: "Stéphan Hadinger, Directeur Technique AWS France"
+episode: 1
+duration: "00:18:03"
+size: 34672976
+file: 001.mp3  
+date:   2019-01-20 12:00:00 +0100
+author: Sébastien Stormacq
+category: podcasts
+background: '/img/podcast-banner.jpg'
+---
+
+Dans ce premier épisode, Stéphane Hadinger, directeur technique de AWS France, revient sur les principales nouveautés annoncées lors de la conférence re:Invent à Las Vegas.
+
+## Invité 
+
+<li class="list-inline-item">
+Stéphane Hadinger, Directeur Technique, AWS France
+</li>
+<li class="list-inline-item">
+<a href="https://www.linkedin.com/in/shadinger/">
+<span class="fa-stack fa-sm">
+    <i class="fa fa-circle fa-stack-2x"></i>
+    <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+</span>
+</a>
+</li>
+
+<li class="list-inline-item">
+<a href="https://twitter.com/shadinger">
+<span class="fa-stack fa-sm">
+    <i class="fa fa-circle fa-stack-2x"></i>
+    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+</span>
+</a>
+</li>
+
+##  &nbsp;
+
+## Liens
+
+Voici les liens vers les pages des services dont nous avons parlés.
+
+- 02'15" - [Nouveaux type d’instances](https://aws.amazon.com/ec2/instance-types/)
+- 02'51" - Processeurs ARM [AWS Graviton](https://aws.amazon.com/blogs/aws/new-ec2-instances-a1-powered-by-arm-based-aws-graviton-processors/
+)
+- 03'30" - [Firecracker](https://firecracker-microvm.github.io/)
+- 05'10" - AWS Lambda [Custom Runtime](https://aws.amazon.com/blogs/aws/new-for-aws-lambda-use-any-programming-language-and-share-common-components/)
+- 07'47" - Amazon API Gateway [Web Socket](https://aws.amazon.com/blogs/compute/announcing-websocket-apis-in-amazon-api-gateway/)
+- 08'30" - [Amazon Aurora](https://aws.amazon.com/rds/aurora/)
+- 09'15" - Amazon DynamoDB [on demand pricing](https://aws.amazon.com/blogs/aws/amazon-dynamodb-on-demand-no-capacity-planning-and-pay-per-request-pricing/)
+- 09'52" - [Amazon DocumentDB](https://aws.amazon.com/blogs/aws/new-amazon-documentdb-with-mongodb-compatibility-fast-scalable-and-highly-available/)
+- 10'30" - [Amazon TimeStream](https://aws.amazon.com/about-aws/whats-new/2018/11/announcing-amazon-timestream/)
+- 11'15" - [Amazon Quantum Ledger Database](https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-qldb/)
+- 12'50" - [Amazon Managed BlockChain](https://aws.amazon.com/about-aws/whats-new/2018/11/introducing-amazon-managed-blockchain/)
+- 13'20" - [Reinforcement Learning](https://aws.amazon.com/about-aws/whats-new/2018/11/amazon-sagemaker-announces-support-for-reinforcement-learning/)
+- 15'30" - [AWS Deep Racer](https://aws.amazon.com/blogs/aws/aws-deepracer-go-hands-on-with-reinforcement-learning-at-reinvent/)
+- 16'30" - [Conformité HDS](https://aws.amazon.com/blogs/security/aws-achieves-hds-certification/) 

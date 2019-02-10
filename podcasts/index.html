@@ -1,0 +1,74 @@
+---
+layout: post
+title: Podcast
+subtitle: Le podcast en 🇫🇷
+description: Here is the podcast list
+background: '/img/podcast-banner.jpg'
+pagination:
+  enabled: true
+  collection: podcasts
+---
+
+<!-- 
+  this file is in index.html because it is a requirement for pagination.
+  It is not working from files with different names
+  https://jekyllrb.com/docs/pagination/
+-->
+{% for podcasts in paginator.posts %}
+
+  <article class="post-preview">
+      <a href="{{ podcasts.url | prepend: site.baseurl | replace: '//', '/' }}">
+        <h2 class="post-title">{{ podcasts.title }}</h2>
+        <!-- {% if podcasts.subtitle %}
+        <h3 class="post-subtitle">{{ podcasts.subtitle }}</h3>
+        {% else %}
+        <h3 class="post-subtitle">{{ podcasts.excerpt | strip_html | truncatewords: 15 }}</h3>
+        {% endif %} -->
+        {% if podcasts.subtitle %}
+        <h3 class="post-subtitle">{{ podcasts.subtitle }}</h3>
+        {% endif %}
+        </a>
+      <p>
+        {{ podcasts.description }}
+        <br/><br/>
+        {% if podcasts.guest %}
+        <i>Invité</i> : {{ podcasts.guest }}
+        {% endif %}
+        {% if podcasts.guests %}
+        <i>Invités</i> : {{ podcasts.guests }}
+        {% endif %}
+        <br/>
+        <i>Durée:</i> {{ podcasts.duration }} 
+        <br/>
+        <i>Lien:</i> <a href="{{ podcasts.link }}">{{ podcasts.linkName }}</a>
+      </p>
+    <p class="post-meta">Posted by
+      {% if podcasts.author %}
+        {{ podcasts.author }}
+      {% else %}
+        {{ podcasts.author }}
+      {% endif %}
+      on {{ podcasts.date | date: '%B %d, %Y' }}</p>
+  </article>
+
+  <hr>
+
+{% endfor %}
+
+<!-- Pager -->
+{% if paginator.total_pages > 1 %}
+
+  <div class="clearfix">
+
+    {% if paginator.previous_page %}
+      <a class="btn btn-primary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer<span class="d-none d-md-inline"> Podcasts</span></a>
+    {% endif %}
+
+    {% if paginator.next_page %}
+      <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span class="d-none d-md-inline"> Podcasts</span> &rarr;</a>
+    {% endif %}
+
+
+  </div>
+
+{% endif %}
