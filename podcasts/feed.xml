@@ -36,14 +36,8 @@ layout: none
         <description>{{ podcast.description | xml_escape }}</description>
         <!-- <content:encoded>{{ podcast.description | xml_escape }}</content:encoded> -->
         <content:encoded><![CDATA[
-        {{ podcast.description }} 
+        {{ podcast.description }} Avec {{ podcast.guest }}
         <p/>
-        {% if podcast.guest %}
-        <i>Invité</i> : {{ podcast.guest }}
-        {% endif %}
-        {% if podcast.guests %}
-        <i>Invités</i> : {{ podcast.guests }}
-        {% endif %}
         {{ podcast.content }}
         ]]></content:encoded>
         <author>{{ podcast.author | xml_escape }}</author>
