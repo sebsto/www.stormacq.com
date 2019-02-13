@@ -14,6 +14,26 @@ pagination:
   It is not working from files with different names
   https://jekyllrb.com/docs/pagination/
 -->
+
+<div>  <!-- allows to apply style 'no underline' for links, by default for post preview but overriden in _global.scss-->
+  
+  <style>
+  li a {
+    text-decoration: none;
+  }
+  </style>
+
+Retrouvez-nous sur les plates-formes ci-dessous ou utilisez <a href="https://www.stormacq.com/podcasts/feed.xml">notre flux RSS</a>.
+
+<ul>
+<li><a href="https://itunes.apple.com/be/podcast/le-podcast-aws-en-fran%C3%A7ais/id1452118442" target="_blank">Apple iTunes</a></li>
+<li>Deezer (en cours de validation)</li>
+<li>Spotify (en cours de validation)</li>
+<li><a href="https://www.stitcher.com/podcast/sebastien-stormacq/le-podcast-aws-en-francais?refid=stpr" target="_blank">Stitch</a></li>
+<li>TuneIn (en cours de validation)</li>
+</ul>
+</div>
+
 {% for podcasts in paginator.posts %}
 
   <article class="post-preview">
