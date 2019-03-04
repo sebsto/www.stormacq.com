@@ -1,7 +1,7 @@
 ---
 layout: podcast
-title:  "Episode #001"
-subtitle: "re:Invent re:Cap"
+title:  "re:Invent re:Cap"
+subtitle: "Un récapitulatif de la conférence AWS re:Invent"
 description: "Dans ce premier épisode, nous revenons sur les principales nouveautés annoncées lors de la conférence re:Invent à Las Vegas."
 guest: "Stéphan Hadinger, Directeur Technique d'AWS France."
 episode: 1
