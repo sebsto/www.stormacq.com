@@ -18,7 +18,7 @@ Vous souhaitez créer un groupe d'utilisateur dans votre ville ?  [Contactez-moi
 
 ## Liens
 
-Voici les liens vers les pages des differents Meetups AWS
+Voici les liens vers les pages des différents Meetups AWS
 
 - [Page AWS des communautés en Europe](https://aws.amazon.com/developer/community/usergroups/europe/)
 - [Le groupe Slack](https://join.slack.com/t/aws-user-group/shared_invite/enQtMzQ0MjY1Nzc5OTQyLTdhMDRlYjU2ODM1MmVhOTg1YjQ4NjgyZjAxYTQ0NTE1YzA4NGZhMzM3YmQ4ZDgyMWUyYzAxYzc2NjBjNWVlMDM)
