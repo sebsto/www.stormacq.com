@@ -11,7 +11,7 @@ file: 003.mp3
 date:   2019-04-08 23:00:00 +0100
 author: Sébastien Stormacq
 category: podcasts
-background: '/img/podcast-banner.jpg'
+background: '/img/podcast-banner-transparent.png'
 ---
 
 Laissez-nous vos commentaires sur [Twitter](https://twitter.com/sebsto).

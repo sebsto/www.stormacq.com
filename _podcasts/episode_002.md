@@ -11,7 +11,7 @@ file: 002.mp3
 date:   2019-03-04 23:00:00 +0100
 author: Sébastien Stormacq
 category: podcasts
-background: '/img/podcast-banner.jpg'
+background: '/img/podcast-banner-transparent.png'
 ---
 
 Vous souhaitez créer un groupe d'utilisateur dans votre ville ?  [Contactez-moi](https://twitter.com/sebsto).
