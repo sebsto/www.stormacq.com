@@ -40,14 +40,14 @@ Retrouvez-nous sur les plates-formes ci-dessous ou utilisez <a href="https://www
 
   <article class="post-preview">
       <a href="{{ site.url | xml_escape }}{{ podcasts.url | append: 'index.html' | xml_escape }}">
-        <h2 class="post-title">#{{ podcasts.episode }} {{ podcasts.title }}</h2>
+        <h3 class="post-title">#{{ podcasts.episode }} {{ podcasts.title }}</h2>
         <!-- {% if podcasts.subtitle %}
         <h3 class="post-subtitle">{{ podcasts.subtitle }}</h3>
         {% else %}
         <h3 class="post-subtitle">{{ podcasts.excerpt | strip_html | truncatewords: 15 }}</h3>
         {% endif %} -->
         {% if podcasts.subtitle %}
-        <h3 class="post-subtitle">{{ podcasts.subtitle }}</h3>
+        <h4 class="post-subtitle">{{ podcasts.subtitle }}</h3>
         {% endif %}
         </a>
       <p>
