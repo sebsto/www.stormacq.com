@@ -36,8 +36,11 @@ Retrouvez-nous sur les plates-formes ci-dessous ou utilisez <a href="https://www
 
 </p>Cette page est une copie de <a href="https://aws.amazon.com/fr/blogs/france/podcast/" target="_blank">la page Podcast AWS en Français sur le site d'Amazon France</a>.
 
+{% capture now %}{{ 'now' | date: '%s' | plus: 0 }}{% endcapture %}
 {% for podcasts in paginator.posts %}
 
+  {% capture date %}{{ podcasts.date | date: '%s' | plus: 0 }}{% endcapture %}
+  {% if date < now %}
   <article class="post-preview">
       <a href="{{ site.url | xml_escape }}{{ podcasts.url | append: 'index.html' | xml_escape }}">
         <h3 class="post-title">#{{ podcasts.episode }} {{ podcasts.title }}</h2>
@@ -68,6 +71,7 @@ Retrouvez-nous sur les plates-formes ci-dessous ou utilisez <a href="https://www
   </article>
 
   <!-- <hr> -->
+  {% endif %} <!-- if date > now -->
 
 {% endfor %}
 
