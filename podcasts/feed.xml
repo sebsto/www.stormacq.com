@@ -29,8 +29,13 @@ layout: none
       <itunes:name>Sébastien Stormacq</itunes:name>
     </itunes:owner>
 
+    {% capture now %}{{ 'now' | date: '%s' | plus: 0 }}{% endcapture %}
     {% assign sorted = site.podcasts | sort: 'date' | reverse %}
     {% for podcast in sorted %}
+
+      {% capture date %}{{ podcast.date | date: '%s' | plus: 0 }}{% endcapture %}
+      {% if date < now %}
+
       <item>
         <title>{{ podcast.title | xml_escape }}</title>
         <description>{{ podcast.description | xml_escape }}</description>
@@ -57,6 +62,8 @@ layout: none
 
 
       </item>
+      {% endif %} <!-- if date > now -->
+
     {% endfor %}
 
   </channel>
