@@ -6,7 +6,7 @@ description: "La dernière génération des applications de 20 Minutes est enti�
 guest: "Aurélien Capdecomme, CTO, 20 Minutes."
 episode: 4
 duration: "00:16:03"
-size: 3122134
+size: 31222134
 file: 004.mp3  
 date: 2019-05-14 23:00:00 +0100
 author: Sébastien Stormacq
