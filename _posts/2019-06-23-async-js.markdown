@@ -1,0 +1,76 @@
+---
+layout: post
+title:  "How to make asynchronous API calls"
+subtitle: "Master asynchronous API calls in Javascript"
+description: "How can you correctly make asynchronous API call in your NodeJS code."
+date: 2019-06-23 00:00:00 +0100
+# categories: aws appsync
+tags: [nodejs, javascript, aws, lambda]
+author: Seb
+background: '/img/posts/2019-06-24-async.jpg'
+---
+
+I am often replying to Javascript [programming questions](https://stackoverflow.com/questions/55060415/connect-aws-mobile-backend-to-dynamodb?noredirect=1#comment96870590_55060415){:target="_blank"} about issues related to a lack of understanding of the asynchronous nature of most Javascript API and the proper way to write asynchronous code.  Some documentation or examples found through search engines are outdated and not reflecting 2019's language features and best practices.
+
+There are numerous good blog posts, [like this one](https://medium.com/@tkssharma/writing-neat-asynchronous-node-js-code-with-promises-async-await-fa8d8b0bcd7c){:target="_blank"}, to explain the concepts of asynchronous coding and even more to describe correct usage of the [Promise pattern](https://www.promisejs.org/patterns/){:target="_blank"}, I don't want to write a "me too" article, but rather just focus one three code sample : the good, the bad and the ugly.  Or should I say : the modern, the old and the antique ?
+
+So, using three simple code samples, let's see how you can refactor your code from a callback approach (the ugly), to a Promise approach with `.then()` constructs (the bad) to a modern Promise approach using `async`/`await` keywords (the correct way of writing modern code).
+
+The oldest and traditional approach was to pass callback function to your asynchronous function.  Upon termination, the asynchronous function would simply call your callback function.  Please do not do that anymore.
+
+![async 1 code example](/img/posts/2019-06-24-async1.png)
+
+{% highlight bash %}
+$ node async_demo_1.js
+Started
+Ended
+callback !
+{% endhighlight %}
+
+([code](https://gist.github.com/sebsto/14d230185dbead90adb6a29fc2f410e9){:target="_blank"})
+
+Notice `callback` is called after `Ended` because program execution continues while `asyncWorker()` is executed.
+
+To avoid having to manage callbacks hell, many programing languages are now proposing the concept of Promises.  Converting old callback-based code to Promises is easy :
+
+- immediately return a `new Promise()` object.
+- the Promise constructor takes one function argument : `(resolve, reject) => { ... }` 
+- whenever a result is available call `resolve(return_value)` or call `reject(reason)` in case of an error
+
+![async 2 code example](/img/posts/2019-06-24-async2.png)
+
+{% highlight bash %}
+$ node async_demo_2.js
+Started
+Ended
+callback !
+{% endhighlight %}
+
+([code](https://gist.github.com/sebsto/028d23a01c93b7d15aa349c81feba819){:target="_blank"})
+
+Notice `callback` is still called after `Ended`.  Also notice the asynchronous function immediately returns a `Promise` object.  
+
+This simplifies a lot writing asynchronous code, but you still end up with `.then().catch()` nightmare. So, to remove these `.then().catch()` the last transformation step is to migrate your code to `await` / `async` keywords, as shown below.
+
+![async 3 code example](/img/posts/2019-06-24-async3.png)
+
+{% highlight bash %}
+$ node async_demo_3.js
+Started
+callback !
+Ended
+{% endhighlight %}
+
+([code](https://gist.github.com/sebsto/382b0d41ee933ea5f512d1c2e1be2707){:target="_blank"})
+
+Notice the output is now in the logical order.  `await` blocks the execution until that function finishes.  Also notice that the only change made to the asynchronous function is the addition of the `async` keyword at the start of it.
+
+Let's finish by looking at how you can wrap AWS Services calls made with the [AWS SDK for Javascript](https://aws.amazon.com/sdk-for-node-js/){:target="_blank"} with `async` and `await`.  Here is a [DynamoDB](https://aws.amazon.com/dynamodb/getting-started/){:target="_blank"} [`update`](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB/DocumentClient.html#update-property){:target="_blank"} example.
+
+![async 4 code example](/img/posts/2019-06-24-async4.png)
+
+([code](https://gist.github.com/sebsto/96595219569f2335891d00415e2d1569){:target="_blank"})
+
+The idea is the same : the function immediately returns a `Promise`.  Then your function calls the AWS SDK, using a callback.  The successful callback eventually calls `resolve(<any data>)` to pass the result back to the caller.  In case of error, the error handling code calls `reject()`.
+
+To wrap up, going from callback to `async` / `await` is pretty straigthforward once you know how to do it.  Now that you read this short post, there is no reason to not do it :-). All [browser's recent versions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function#Browser_compatibility){:target="_blank"} do include support for these constructs, so does NodeJS since version 7.6.0.
