@@ -1,8 +1,8 @@
 ---
 layout: podcast
-title:  "L'apprentissage par réenforcement."
+title:  "L'apprentissage par renforcement."
 subtitle: "Comment AWS met l'apprentissage machine à la portée de tous les développeurs ?"
-description: "En novembre 2018, AWS annoncait le service AWS Deep Racer, des voitures miniatures autonomes, qui apprenent à évoluer sur un circuit à l'aide d'un algorithme d'apprentissage par réenforcement. Mais l'apprentissage par réenforcement, c'est quoi dont ?"
+description: "En novembre 2018, AWS annoncait le service AWS Deep Racer, des voitures miniatures autonomes, qui apprenent à évoluer sur un circuit à l'aide d'un algorithme d'apprentissage par renforcement. Mais l'apprentissage par reenforcement, c'est quoi dont ?"
 guest: "Olivier Bergeret, Manager Solution Architecure AWS France et Mathieu Rousseau et Arthur Pace, les deux vainqueurs de la première manche européenne de la Deep Racer league, la première course de voitures autonomes."
 episode: 6
 duration: "00:29:24"
