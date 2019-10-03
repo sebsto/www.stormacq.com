@@ -5,7 +5,7 @@ subtitle: "Limitez les droits des admins sur vos comptes d'Organisation."
 description: "Dans cet épisode, nous parlons d'une technique qui permet de donner un compte AWS à un département, un consultant, avec plein accès Administrateur, mais sans qu'il ne puisse détacher le compte de l'organisation ni altérer les autorisations du compte Maître sur ce compte.
 
 Nous allons parler de Amazon Identity & Access Management, politiques de sécurité et Service Control Policies (SCP)"
-guest: "<a href='https://www.linkedin.com/in/j%C3%A9r%C3%A9mie-rodon-b6656290/'>Jérémie Rondon</a>, multi-certifié AWS et Cloud Architect, <a href='https://www.d2si.io/'>D2SI</a>."
+guest: "<a href='https://www.linkedin.com/in/j%C3%A9r%C3%A9mie-rodon-b6656290/'>Jérémie Rodon</a>, multi-certifié AWS et Cloud Architect, <a href='https://www.d2si.io/'>D2SI</a>."
 episode: 8
 duration: "00:34:15"
 size: 65774156 
