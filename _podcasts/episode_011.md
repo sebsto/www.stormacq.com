@@ -5,10 +5,10 @@ subtitle: "Quelques nouveautés (partie 1)."
 description: "Dans cet épisode hors série, je passe en revue quelques annonces faites lors des deux premières journées à re:Invent."
 guest: "Il n'y a pas d'invité pour cet épisode"
 episode: 11
-duration: "00:21:20"
+duration: "00:21:19"
 size: 40949887 
 file: 011.mp3  
-date: 2019-12-03 22:00:00 +0100
+date: 2019-12-03 21:00:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
