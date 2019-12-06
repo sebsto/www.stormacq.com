@@ -3,7 +3,7 @@ layout: podcast
 title:  "AWS re:Invent 2019 re:Cap 4"
 subtitle: "Quelques nouveautés AI/ML (partie 4)."
 description: "Dans cet épisode hors série, je passe en revue quelques annonces faites en matière d'intelligence artificielle et d'apprentissage machine."
-guest: "Julien Simon, Principal Evangelist, AI/ML"
+guest: "<a href='https://www.linkedin.com/in/juliensimon/'>Julien Simon</a>, Principal Evangelist, AI/ML"
 episode: 14
 duration: "00:39:41"
 size: 76235675
