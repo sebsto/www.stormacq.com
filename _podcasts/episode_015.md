@@ -8,7 +8,7 @@ episode: 15
 duration: "00:23:23"
 size: 44897094
 file: 015.mp3  
-date: 2019-12-16 13:00:00 +0100
+date: 2019-12-16 10:00:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
