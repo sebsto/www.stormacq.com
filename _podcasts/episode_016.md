@@ -1,8 +1,8 @@
 ---
 layout: podcast
-title:  "Développer une Skill Amazon Alexa"
+title:  "Développer une Skill Amazon Alexa (partie 2/2)"
 subtitle: "Seconde partie : la programmation"
-description: "Dans cet épisode en deux parties, nous parlons du développement de skills pour Amazon Alexa."
+description: "Dans cette seconde partie, nous parlons de la programmation elle-même."
 guest: "<a href='https://www.linkedin.com/in/bnachawati/'>Benoit Nachawati</a>, Developer Evangelist, Amazon Alexa"
 episode: 16
 duration: "00:23:21"

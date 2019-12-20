@@ -1,8 +1,8 @@
 ---
 layout: podcast
-title:  "Développer une Skill Amazon Alexa"
+title:  "Développer une Skill Amazon Alexa (partie 1/2)"
 subtitle: "Première partie : le modèle d'interactions"
-description: "Dans cet épisode en deux parties, nous parlons du développement de skills pour Amazon Alexa."
+description: "Dans ce premier épisode, nous parlons de la création du modèle d'interactions."
 guest: "<a href='https://www.linkedin.com/in/bnachawati/'>Benoit Nachawati</a>, Developer Evangelist, Amazon Alexa"
 episode: 15
 duration: "00:23:23"
