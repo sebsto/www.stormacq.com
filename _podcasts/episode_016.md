@@ -8,7 +8,7 @@ episode: 16
 duration: "00:23:21"
 size: 45562485
 file: 016.mp3  
-date: 2019-12-20 13:00:00 +0100
+date: 2019-12-20 08:00:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
