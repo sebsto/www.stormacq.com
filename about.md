@@ -1,6 +1,6 @@
 ---
 layout: about
-title: Developer Advocate
+title: Developer 🥑 Advocate
 permalink: /about/
 description: Amazon Web Services
 background: '/img/bg-about.png'
