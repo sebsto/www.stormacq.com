@@ -9,7 +9,7 @@ regenerate: true
 
 Seb is writing code since he first touched a Commodore 64 in the mid-eighties. He is inspiring builders to unlock the value of the AWS cloud, using his secret blend of passion, enthusiasm, customer advocacy, curiosity and creativity. His interests are about software architectures, developer tools and mobile computing.
 
-Seb is a blogger on [AWS News Blog][newsblog] (aka Jeff's blog), a regular speaker at [conferences][youtube] and the host of the [AWS Podcast in french][podcast].
+Seb is a blogger on [AWS News Blog][newsblog] (aka Jeff's blog), a regular speaker at [conferences][youtube], the host of the offcial [AWS Podcast in french][podcast], and a regular contributor to [Les technos][technos] 🇧🇪 podcast (in french).
 
 Before joining the AWS Evangelist team, Seb built & lead the [AWS technical training][awstc] team in EMEA, and the [Alexa solution architecture][alexadev] team in UK, France, Italy and Spain.
 
@@ -24,3 +24,4 @@ Download high-resolution profile pictures : [head][picture_head] - [full][pictur
 [newsblog]: https://aws.amazon.com/blogs/aws/author/stormacq/
 [youtube]: https://www.youtube.com/playlist?list=PLZ_TUMnTqfu807CK1WZis4h89umhDapCE
 [podcast]: https://stormacq.com/podcasts/index.html
+[technos]: http://lestechnos.be/
