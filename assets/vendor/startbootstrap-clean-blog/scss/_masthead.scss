@@ -1,7 +1,7 @@
 // Styling for the masthead
 header.masthead {
   // TIP: Background images are set within the HTML using inline CSS!
-  height: 350px;
+  height: 300px;
   margin-bottom: 50px;
   background: no-repeat center center;
   background-color: $gray-600;
@@ -30,7 +30,7 @@ header.masthead {
   .site-heading {
     text-align: center;
     h1 {
-      font-size: 50px;
+      font-size: 35px;
       margin-top: 0;
     }
     .subheading {
@@ -43,7 +43,7 @@ header.masthead {
     }
     @media only screen and (min-width: 768px) {
       h1 {
-        font-size: 70px;
+        font-size: 50px;
       }
     }
   }
