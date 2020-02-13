@@ -21,4 +21,4 @@ Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto).
 Voici les liens vers les pages des services dont nous avons parlé dans l'épisode.
 
 - [Bonduelle](https://www.bonduelle.fr/).
-- [CloudFormation]("https://aws.amazon.com/cloudformation").
+- [CloudFormation](https://aws.amazon.com/cloudformation).
