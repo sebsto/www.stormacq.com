@@ -6,7 +6,7 @@ description: "Dans cet épisode, je montre comment se connecter à une instance 
 guest: "le complément en vidéo <a href='https://youtube.com/sebsto'>sur ma chaîne YouTube</a>"
 episode: 20
 duration: "00:11:28"
-size: 22 023 023 
+size: 22023023 
 file: 020.mp3  
 date: 2020-03-20 16:00:00 +0100
 author: Sébastien Stormacq
