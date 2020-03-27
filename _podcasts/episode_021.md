@@ -1,7 +1,7 @@
 ---
 layout: podcast
 title:  "Maîtriser vos coûts"
-subtitle: "6 trucs pour économiser sur votre facture"
+subtitle: "6 façons de réduire votre facture AWS"
 description: "Beaucoup de clients nous ont contacté cette semaine pour nous demander comment contrôler leurs coûts en période de variations brutales d'activités, soit à la hausse, soit à la baisse.  Découvrez 6 trucs et astuces activable en quelques minutes ou heures pour faire des économies sur votre prochaine facture AWS."
 guest: "<a href='https://www.linkedin.com/in/sébastien-duval-b59b3338/'>Sébastien Duval</a>, Solution Architect, AWS France."
 episode: 21
