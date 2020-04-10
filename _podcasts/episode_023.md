@@ -1,7 +1,7 @@
 ---
 layout: podcast
 title:  "FinOps"
-subtitle: "Optimisez votre emprunte financière dans le cloud"
+subtitle: "Optimisez votre empreinte financière dans le cloud"
 description: "FinOps est l'art et la pratique d'optimiser le coût d'une infrastructure cloud, sans ralentir l'innovation ou mettre des barrières aux développeurs.  Découvrez ce nouveau métier de l'informatique fait de technologie, d'ingénierie financière, et de connaissance du (des) métier(s)"
 guest: "<a href='https://www.linkedin.com/in/mynameisthomas/'>Francois Denis</a>, Consultant en Transformation Cloud, CloudReach"
 episode: 23
