@@ -32,5 +32,5 @@ Voici les liens vers les pages des services dont nous avons parlé dans l'épiso
 - AWS AutoScaling [update policies](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/aws-attribute-updatepolicy.html), avec AWS CloudFormation
 - [User Data](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/user-data.html), exécuter des commandes au lancement de vos instances Amazon EC2
 - [Cloud Init](https://cloud-init.io/)
-- [CFN Init](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-init.html) 
+- [CFN Init](https://docs.aws.amazon.com/AWSCloudFormation/latest/UserGuide/cfn-init.html)
 - Outils de gestion de configuration : [Chef](https://www.chef.io/), [Puppet](https://puppet.com/), [Ansible](https://www.ansible.com/), [SaltStack](https://docs.saltstack.com/en/latest/)
