@@ -8,7 +8,7 @@ episode: 23
 duration: "00:33:07"
 size: 50175083
 file: 023.mp3  
-date: 2020-04-10 09:00:00 +0100
+date: 2020-04-10 09:10:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
