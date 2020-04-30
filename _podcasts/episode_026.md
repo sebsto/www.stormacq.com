@@ -20,6 +20,6 @@ Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez 
 
 Voici les liens vers les pages des services dont nous avons parlé dans l'épisode.
 
-- Amazon Cloudwatch Synthetics - [la doc(https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Synthetics_Canaries.html)]
-- Les [scripts pour créer des canaris(https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Synthetics_Canaries_WritingCanary.html)]
+- Amazon Cloudwatch Synthetics - [la doc](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Synthetics_Canaries.html)]
+- Les [scripts pour créer des canaris](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Synthetics_Canaries_WritingCanary.html)]
 - Le [tuto video](https://www.youtube.com/watch?v=y52gBIY6gD4) de Amazon Cloudwatch Synthetics
