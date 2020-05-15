@@ -3,7 +3,7 @@ layout: podcast
 title:  "Smash transfère vos fichiers, en serverless"
 subtitle: "Stockage et distribution à grande échelle"
 description: "Smash est un service de transfer de fichiers pour professionnels et particuliers. 100% serverless, 100% service managés, découvrez l'infrastructure qui leur permet de stocker 340 Tb et distribuer 1Pb de contenu par mois."
-guest: "<a href='https://www.linkedin.com/in/timothée-fleury-ab3b4b57/'>Timothée Fleury</a>, co-foundateur et CTO."
+guest: "<a href='https://www.linkedin.com/in/timothée-fleury-ab3b4b57/'>Timothée Fleury</a>, co-fondateur et CTO."
 episode: 27
 duration: "00:30:25"
 size: 58402191 
