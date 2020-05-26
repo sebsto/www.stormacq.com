@@ -3,7 +3,7 @@ layout: podcast
 title:  "Sécurité de la chaîne CI/CD"
 subtitle: "... du et dans le pipeline"
 description: "Quand je parle DevOps, je parle souvent automatisation des builds et des déploiements. Les chaînes d'intégration continues et de déploiements continus doivent être sécurisées car elles peuvent déployer du code en production. Qui y a accès ? A quoi ont-elles accès ? Quelle est la qualité du code qui passe dedans ?  Dans cet épisode, nous discutons de la sécurité des chaînes de CI/CD."
-guest: "<a href='https://www.linkedin.com/in/christinegrassi/'>Catherine Grassi</a>, consultante sécurité cloud chez Devoteam Revolve."
+guest: "<a href='https://www.linkedin.com/in/christinegrassi/'>Christine Grassi</a>, consultante sécurité cloud chez Devoteam Revolve."
 episode: 28
 duration: "00:26:21"
 size: 50603073 bytes 
