@@ -8,7 +8,7 @@ episode: 30
 duration: "00:32:10"
 size: 61778466
 file: 030.mp3  
-date: 2020-06-12 08:10:00 +0100
+date: 2020-06-12 07:10:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
