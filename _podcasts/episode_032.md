@@ -20,6 +20,7 @@ Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez 
 
 Voici les liens vers les pages des services dont nous avons parlé dans l'épisode.
 
+- [Le Plan Copenhague](https://leanpub.com/6cloud), Comment nous avons migré la plateforme 6play vers Le Cloud, sur AWS et Kubernetes.
 - [BedRock](https://www.bedrockstreaming.com)
-- [M6Play](https://www.6play.fr)
+- [6Play](https://www.6play.fr)
 - Le <a href="https://www.youtube.com/watch?v=JrVF6sVuBt8&t=4m00s">talk de Pascal</a> au AWS User Group sur la résilience.
