@@ -2,7 +2,7 @@
 layout: podcast
 title:  "AWS Outposts"
 subtitle: "Un petit peu de cloud dans vos centres de données"
-description: "Dans cet épisode, nous découvrons AWS Outposts, ces racks d'équippement qui permettent d'étendre le cloud dans vos centres de données. Nous détaillons les cas d'utilisation, les procédures de contrôle et de gestion, les APIs que vous pouvez utiliser pour utiliser l'infrastructure AWS au sein de vos équippements actuels."
+description: "Dans cet épisode, nous découvrons AWS Outposts, ces racks d'équipement qui permettent d'étendre le cloud dans vos centres de données. Nous détaillons les cas d'utilisation, les procédures de contrôle et de gestion, les APIs que vous pouvez utiliser pour utiliser l'infrastructure AWS au sein de vos équippements actuels."
 guest: "<a href='https://www.linkedin.com/in/ismael-toure-☁-0a135a19/'>Ismael Toure</a>, Senior Manager Solution Architecture, AWS."
 episode: 19
 duration: "00:26:58"
