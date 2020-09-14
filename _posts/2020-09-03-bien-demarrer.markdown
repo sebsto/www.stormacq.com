@@ -142,7 +142,7 @@ N'hésitez pas à chercher via des mots clés sur cette page.
 #### Amazon Relational Database Service (RDS)
 
 - [Comment créer une base de données relationelle sur AWS](https://www.youtube.com/watch?v=adB--KhJ95w&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=47){:target="_blank"} ?
-- [Comment connectez mes applcations à une base de données relationnelle sous Amazon RDS](https://zhemdde84g.execute-api.eu-central-1.amazonaws.com/Prod/epoch){:target="_blank"} ?
+- [Comment connectez mes applcations à une base de données relationnelle sous Amazon RDS](https://www.youtube.com/watch?v=48SW96Obb-M&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=49){:target="_blank"} ?
 - [Comment gèrer vos bases de données relationelles](https://www.youtube.com/watch?v=LRBkGdKyH_4&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=48){:target="_blank"} ?
 - [Comment gèrer vos copies de sauvegarde de vos bases de données](https://www.youtube.com/watch?v=ltfO923DYAA&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=46){:target="_blank"} ?
 - [Comment créer une base de donnée copie en mode mirroir](https://www.youtube.com/watch?v=zdUvPD8Xu1o&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=45){:target="_blank"} ?
