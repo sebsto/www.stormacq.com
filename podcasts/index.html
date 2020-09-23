@@ -86,11 +86,11 @@ Retrouvez-nous sur les plates-formes ci-dessous ou utilisez <a href="https://www
   <div class="clearfix">
 
     {% if paginator.previous_page %}
-      <a class="btn btn-primary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer<span class="d-none d-md-inline"> Podcasts</span></a>
+      <a class="btn btn-primary float-left" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}index.html">&larr; Newer<span class="d-none d-md-inline"> Podcasts</span></a>
     {% endif %}
 
     {% if paginator.next_page %}
-      <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older<span class="d-none d-md-inline"> Podcasts</span> &rarr;</a>
+      <a class="btn btn-primary float-right" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}index.html">Older<span class="d-none d-md-inline"> Podcasts</span> &rarr;</a>
     {% endif %}
 
 
