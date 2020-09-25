@@ -15,6 +15,8 @@ Votre question n'a pas de réponse dans la liste ci-dessous ? [Dites-le moi](mai
 
 N'hésitez pas à chercher via des mots clés sur cette page.
 
+https://youtu.be/_iBuMSUPZNk
+
 --- 
 
 | [Infrastructure Globale](#infrastructure-globale) | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [Compte et facturation](#compte-et-facturation) 
