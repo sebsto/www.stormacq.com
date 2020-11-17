@@ -29,10 +29,10 @@ layout: default
     <div class="col-lg-8 col-md-10 mx-auto">
 
       <h2>Episode #{{ page.episode }}</h2>
-      <audio src="{{ site.podcast.link }}{{ page.file }}" controls="">
+      <!-- <audio src="{{ site.podcast.link }}{{ page.file }}" controls="">
         <a href="{{ site.podcast.link }}{{ page.file }}">Download episode »</a>
-      </audio>      
-
+      </audio>       -->
+      <iframe src="https://embed.podcasts.apple.com/fr/podcast/cloud-act/{{ site.podcast.applePodcastId  }}?i={{ podcasts.appleEpisodeId }}&amp;itsct=podcast_box&amp;itscg=30200" height="175px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent;"></iframe>
       <p>
       {{ page.description }}
       </p>

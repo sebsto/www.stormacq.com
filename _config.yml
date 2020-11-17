@@ -71,6 +71,7 @@ podcast:
   artworklink: https://download.stormacq.com/aws/podcast/
   artwork: podcast-artwork.png
   author: Amazon Web Services France
+  applePodcastId: id1452118442
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

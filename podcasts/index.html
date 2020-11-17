@@ -34,7 +34,34 @@ Retrouvez-nous sur les plates-formes ci-dessous ou utilisez <a href="https://www
 <li><a href="https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cuc3Rvcm1hY3EuY29tL3BvZGNhc3RzL2ZlZWQueG1s" target="blank">Google Podcast</a></li>
 <li><a href="/podcasts/feed.xml" target="_blank">Feed RSS pour ajouter manuellement dans vos applications</a></li>
 </ul>
+
 </div>
+
+<div style="margin: 50px;">
+<a href="https://podcasts.apple.com/us/podcast/le-podcast-aws-en-fran%C3%A7ais/id1452118442?itsct=podcast_box&amp;itscg=30200"
+>
+  <img src="https://tools.applemediaservices.com/api/badges/listen-on-apple-podcasts/standard-black/fr-FR?size=250x83&amp;releaseDate=1604640600&h=c5d308d9b330dbd28e209ba317f4d660"
+  alt="Ecouter sur Apple Podcasts" 
+  style="border: 1px solid #8F969C; padding: 10px; border-radius: 13px; width: 250px; height: 75px;"
+  >
+</a>
+
+<a href="" 
+>
+<img src="{{ site.url | xml_escape }}/img/FR_Google_Podcasts_Badge_2x.png"
+  alt="Ecouter Sur Google Podcasts"
+  style="border-radius: 13px; width: 300px; height: 76px;"
+>
+</a>
+</div>
+
+<iframe 
+src="https://embed.podcasts.apple.com/us/podcast/le-podcast-aws-en-fran%C3%A7ais/id1452118442?itsct=podcast_box&amp;itscg=30200" 
+height="450px" frameborder="0" 
+sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" 
+allow="autoplay *; encrypted-media *;"
+style="margin:50px; width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent;">
+</iframe>
 
 </p>Cette page est une copie de <a href="https://aws.amazon.com/fr/blogs/france/podcast/" target="_blank">la page Podcast AWS en Français sur le site d'Amazon Web Services France</a>.
 
@@ -62,9 +89,10 @@ Retrouvez-nous sur les plates-formes ci-dessous ou utilisez <a href="https://www
         Avec {{ podcasts.guest }}
       </p>
       <p>
-        <audio src="{{ site.podcast.link }}{{ podcasts.file }}" controls="">
+        <!-- <audio src="{{ site.podcast.link }}{{ podcasts.file }}" controls="">
           <a href="{{ site.podcast.link }}{{ podcasts.file }}">Download episode »</a>
-        </audio>
+        </audio> -->
+        <iframe src="https://embed.podcasts.apple.com/fr/podcast/cloud-act/{{ site.podcast.applePodcastId  }}?i={{ podcasts.appleEpisodeId }}&amp;itsct=podcast_box&amp;itscg=30200" height="175px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent;"></iframe>
       </p>
     <p class="post-meta">Posted by
       {% if podcasts.author %}
