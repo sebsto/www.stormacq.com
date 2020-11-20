@@ -12,7 +12,7 @@ date: 2020-11-20 09:30:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-#appleEpisodeId: https://tools.applemediaservices.com/podcast/1452118442?country=us
+appleEpisodeId: 1000499555459
 ---
 
 Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)
