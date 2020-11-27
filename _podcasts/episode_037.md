@@ -1,8 +1,8 @@
 ---
 layout: podcast
-title:  "Reduisez votre facture cloud"
+title:  "Réduisez votre facture cloud"
 subtitle: "Discussion avec Mr FinOps de Veolia"
-description: "Dans cet épisode, nous parlons de ce nouveau métier qu'est le FinOps et comment un grande organisation, comme Veolia, insufle des bonnes pratiques et des règles pour économiser sur leur facture cloud, au travers de leurs collaborateurs, leurs processus et leurs outils. Un discussion ouverte "
+description: "Dans cet épisode, nous parlons de ce nouveau métier qu'est le FinOps et comment un grande organisation, comme Veolia, insufle des bonnes pratiques et des règles pour économiser sur leur facture cloud, au travers de leurs collaborateurs, leurs processus et leurs outils. Une discussion ouverte ..."
 guest: "<a href='https://www.linkedin.com/in/michel-poulalion-77323234/'>Michel Poulalion</a>, FinOps chez Veolia Water Information Systems"
 episode: 37
 duration: "00:29:34"
