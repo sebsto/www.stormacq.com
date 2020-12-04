@@ -2,7 +2,7 @@
 layout: podcast
 title:  "AWS re:Invent 2020 #1"
 subtitle: "Les annonces faites pendant re:Invent"
-description: "Dans cet épisode, nous résumons les annonces faites pendant la première kynote, présentée par Andy Jassy, le mardi 1/12 5pm CET. Cette année, re:Invent est en ligne et gratuit. Inscrivez-vous sur https://reinvent.awsevents.com/"
+description: "Dans cet épisode, nous résumons les annonces faites pendant la première keynote, présentée par Andy Jassy, le mardi 1/12 5pm CET. Cette année, re:Invent est en ligne et gratuit. Inscrivez-vous sur https://reinvent.awsevents.com/"
 guest: "Il n'y a pas d'invité pour cet épisode"
 episode: 38
 duration: "00:27:25"
@@ -12,7 +12,7 @@ date: 2020-12-03 19:30:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-# appleEpisodeId: 1000500448680
+appleEpisodeId: 1000501249276
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
@@ -31,10 +31,10 @@ Voici les liens vers les pages des services dont nous avons parlé dans l'épiso
 - Lambda - [support d'images de containeurs](https://aws.amazon.com/blogs/aws/new-for-aws-lambda-container-image-support)
 - Containeurs - [distribution EKS](https://aws.amazon.com/blogs/aws/amazon-eks-distro-the-kubernetes-distribution-used-by-amazon-eks/)
 - Containers - [Amazon ECR Public](https://aws.amazon.com/blogs/aws/amazon-ecr-public-a-new-public-container-registry), un repo public de images docker
-- Containers - [AWS Proton](https://aws.amazon.com/blogs/aws/preview-aws-proton-automated-management-for-container-and-serverless-deployments), automatiser le déploiement de containeurs
+- Containers - [AWS Proton](https://aws.amazon.com/blogs/aws/preview-aws-proton-automated-management-for-container-and-serverless-deployments), automatiser le déploiement de containers
 - Amazon Connect - [5 nouvelles possibilités](https://aws.amazon.com/blogs/aws/amazon-connect-smarter-and-more-integrated)
 - Stockage - [io2 Block Express pour EBS](https://aws.amazon.com/blogs/aws/now-in-preview-larger-faster-io2-ebs-volumes-with-higher-throughput/)
-- Stockage - [gp3 EBS](https://aws.amazon.com/blogs/aws/new-amazon-ebs-gp3-volume-lets-you-provision-performance-separate-from-capacity-and-offers-20-lower-price/), provisionez la performance et la capacité séparement
+- Stockage - [gp3 EBS](https://aws.amazon.com/blogs/aws/new-amazon-ebs-gp3-volume-lets-you-provision-performance-separate-from-capacity-and-offers-20-lower-price/), provisionnez la performance et la capacité séparément
 - Front-end - [AWS Amplify Admin UI](https://aws.amazon.com/blogs/aws/aws-amplify-admin-ui-helps-you-develop-app-backends-no-cloud-experience-required/)
 - Amazon S3 - [Replication vers plusieurs destinations](https://aws.amazon.com/blogs/aws/new-amazon-s3-replication-adds-support-for-multiple-destination-buckets/)
 - Amazon S3 - [Consistence "read after write"](https://aws.amazon.com/blogs/aws/amazon-s3-update-strong-read-after-write-consistency/)
