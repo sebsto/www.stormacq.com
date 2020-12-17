@@ -2,8 +2,8 @@
 layout: podcast
 title:  "AWS re:Invent 2020 #3"
 subtitle: "Les annonces infrastructure et développeurs"
-description: "Dans cet épisode, nous résumons les annonces faites par Peter DeSantis, VP Infrastructure de AWS et Werner Vogels, CTO Amazon.com. Nous parlons énergie renouvable, chaos engineering, un coquillage dans la console, de Prometheus et Grafana et d'un nouveau service Amazon Location Service pour ne pas perdre le nord"
-guest: Il n'y a pas d'invité dans cet épisode
+description: "Dans cet épisode, nous résumons les annonces faites par Peter DeSantis, VP Infrastructure de AWS et Werner Vogels, CTO Amazon.com. Nous parlons énergie renouvelable, chaos engineering, un coquillage dans la console, de Prometheus et Grafana et d'un nouveau service Amazon Location Service pour ne pas perdre le nord."
+guest: "Il n'y a pas d'invité dans cet épisode"
 episode: 40
 duration: "00:25:01"
 size: 48035967  
@@ -12,7 +12,7 @@ date: 2020-12-17 &8:30:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-# appleEpisodeId: 1000502037265
+appleEpisodeId: 1000502722425
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
@@ -24,7 +24,7 @@ Voici les liens vers les pages des services dont nous avons parlé dans l'épiso
 
 - La [keynote](https://virtual.awsevents.com/media/1_3n0np29g) de Peter DeSantis
 - 26 nouveaux projets de production d'énergie renouvable ([press release](https://press.aboutamazon.com/news-releases/news-release-details/amazon-becomes-worlds-largest-corporate-purchaser-renewable))
-- Amazon achète 650MW d'énergie renouvable à Engie ([press release(https://www.engie.com/en/journalists/press-releases/engie-announces-650-mw-of-renewable-energy-offtake-contracts-with-amazon)])
+- Amazon achète 650MW d'énergie renouvelable à Engie ([press release](https://www.engie.com/en/journalists/press-releases/engie-announces-650-mw-of-renewable-energy-offtake-contracts-with-amazon))
 - La [keynote](https://virtual.awsevents.com/media/1_mmnm0tla) de Werner Vogels
 - [AWS CloudShell](https://aws.amazon.com/blogs/aws/aws-cloudshell-command-line-access-to-aws-resources/)
 - AWS [Fault Injection Simulator](https://aws.amazon.com/fis/) 
