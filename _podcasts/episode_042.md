@@ -3,7 +3,7 @@ layout: podcast
 title:  "Terraform de Hashicorp"
 subtitle: "Votre infrastructure via du code"
 description: "Dans cet épisode, nous parlons d'infrastructure as code. Plus précisement de l'un des premiers outils à avoir offert cette possibilité : Terraform de HashiCorp."
-guest: "<a href='https://www.linkedin.com/in/nicolas-ehrman-629b8910/'>Nicolas Ehrman</a>, Staff Solution Enginner, HashiCorp"
+guest: "<a href='https://www.linkedin.com/in/nicolas-ehrman-629b8910/'>Nicolas Ehrman</a>, Staff Solution Engineer, HashiCorp"
 episode: 42
 duration: "00:31:41"
 size: 60828027  
