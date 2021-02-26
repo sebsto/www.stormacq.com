@@ -1,8 +1,8 @@
 ---
 layout: podcast
-title:  "L'apprentissage machine et les jeux en ligne"
+title:  "L'apprentissage machine et les jeux mobiles"
 subtitle: "La personalisation as a service, en temps-réel."
-description: "Pourquoi les concepteurs de jeux cherchent-ils à personaliser, en temps réel, votre expérience en ligne ? Comment l'apprentissage automatique peut-il aider à personaliser vos jeux ? Les réponses sont dans cette discussion avec Dominique et Jonathan de askblu.ai, un service de personalisation en temps réel pour les concepteurs de jeux en ligne."
+description: "Pourquoi les concepteurs de jeux cherchent-ils à personaliser, en temps réel, votre expérience ? Comment l'apprentissage automatique peut-il aider à personaliser vos jeux ? Les réponses sont dans cette discussion avec Dominique et Jonathan de askblu.ai, un service de personalisation en temps réel pour les concepteurs de jeux mobiles."
 guest: "<a href='https://www.linkedin.com/in/dominiquebusso/'>Dominique Busso</a>, Founder, askblu.ai et <a href='https://www.linkedin.com/in/jonathan-dixon-a339562/'>Jonathan Dixon</a>, CTO & COO, askblu.ai"
 episode: 45
 duration: "00:24:52"
