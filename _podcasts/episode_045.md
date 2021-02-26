@@ -2,7 +2,7 @@
 layout: podcast
 title:  "L'apprentissage machine et les jeux en ligne"
 subtitle: "La personalisation as a service, en temps-réel."
-description: "Pourquoi les concepteurs de jeux cherchent-ils à personaliser, en temps réel, votre expérience en ligne ? Comment l'apprentissage automatique peut-il aider à personaliser vos jeux ? Les réponses sont dans cette discussion avec askblu.ai, un service de personalisation en temps réel pour les concepteurs de jeux en ligne."
+description: "Pourquoi les concepteurs de jeux cherchent-ils à personaliser, en temps réel, votre expérience en ligne ? Comment l'apprentissage automatique peut-il aider à personaliser vos jeux ? Les réponses sont dans cette discussion avec Dominique et Jonathan de askblu.ai, un service de personalisation en temps réel pour les concepteurs de jeux en ligne."
 guest: "<a href='https://www.linkedin.com/in/dominiquebusso/'>Dominique Busso</a>, Founder, askblu.ai et <a href='https://www.linkedin.com/in/jonathan-dixon-a339562/'>Jonathan Dixon</a>, CTO & COO, askblu.ai"
 episode: 45
 duration: "00:24:52"
@@ -12,7 +12,7 @@ date: 2021-02-26 06:30:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-# appleEpisodeId: 1000508705859
+appleEpisodeId: 1000510751254
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
