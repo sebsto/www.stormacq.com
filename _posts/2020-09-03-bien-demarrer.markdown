@@ -82,7 +82,7 @@ https://youtu.be/_iBuMSUPZNk
 
 #### Amazon Elastic Compute Cloud (EC2)
 
-- [Comment lancer une machine cirtuelle Linux](https://www.youtube.com/watch?v=ZbGDmznG0iw&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=22){:target="_blank"} ?}
+- [Comment lancer une machine virtuelle Linux](https://www.youtube.com/watch?v=ZbGDmznG0iw&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=22){:target="_blank"} ?}
 - [Comment lancer une machine virtuelle Windows](https://www.youtube.com/watch?v=aARcLxcGJaU&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=21){:target="_blank"} ?
 - [Comment conserver la même adresse IP après un reboot](https://www.youtube.com/watch?v=oSMEQlQDohM&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=12){:target="_blank"} ?
 - [Comment arrêter sa machine virtuelle](https://www.youtube.com/watch?v=Vd6X4DlxghQ&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=20){:target="_blank"} ?
