@@ -25,6 +25,7 @@ https://youtu.be/_iBuMSUPZNk
 | [Amazon EBS](#amazon-elastic-block-storage-ebs) | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [Amazon CloudFront](#amazon-cloudfront) 
 | [Elastic Load Balancer](#elastic-load-balancing-elb) | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  [Amazon RDS](#amazon-relational-database-service-rds)
 | [AWS Lambda](#aws-lambda) | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [Amazon S3](#amazon-simples-torage-service-s3) 
+| [**New:** Migration and Backup](#migration-and-backup) | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [**New:** Desktop Computing](#desktop-computing) 
 
 --- 
 
@@ -91,6 +92,10 @@ https://youtu.be/_iBuMSUPZNk
 - [Comment configurer vos machines virtuelles automatiquement quand elles démarent](https://www.youtube.com/watch?v=iivacbYmQ-0&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=40){:target="_blank"} ?
 - [Comment redémarrer automatiquement vos machines virtuelles en cas de panne](https://www.youtube.com/watch?v=f7WMawmVz6k&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=41){:target="_blank"} ?
 - [Comment configurer AutoScaling pour redimensionner votre infrastructure automatiquement](https://www.youtube.com/watch?v=NuYTRLt4dMA&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=42){:target="_blank"} ?
+- **NEW** [Comment démarrer son Active Directory géré ?](https://www.youtube.com/watch?v=uBHkHKWE5jk&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=4){:target="_blank"}
+- **NEW** [Comment configurer une instance EC2 Windows pour rejoindre un domaine manuellement ?](https://www.youtube.com/watch?v=YPN7nZeuzK0&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=2){:target="_blank"}
+- **NEW** [Comment configurer une instance EC2 Windows pour rejoindre un domaine automatiquement ?
+](https://www.youtube.com/watch?v=kPiMFHqF8bg&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=3)
 
 
 <p/>
@@ -155,3 +160,23 @@ https://youtu.be/_iBuMSUPZNk
 #### Amazon CloudFront
 
 - [Comment distribuer son contenu sur AWS](https://www.youtube.com/watch?v=5AbIzH7Q3ZA&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=7){:target="_blank"} ?
+
+<p/>
+&nbsp;
+
+#### Migration and Backup
+
+- [Comment faire des copies de sauvegarde de vos instances Amazon EC2 avec AWS Backup ?](https://www.youtube.com/watch?v=axyMcPYUeVs&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=5){:target="_blank"}
+- [Comment mettre en place un Disaster Recovery avec CloudEndure ?](https://www.youtube.com/watch?v=x5QIXpwgKCo&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=6){:target="_blank"}
+- [Comment mettre son centre d'appel dans le cloud ?](https://www.youtube.com/watch?v=5dxq6i6wvnY&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=7){:target="_blank"}
+
+<p/>
+&nbsp;
+
+#### Desktop Computing
+
+- [Diffuser vos apps depuis le cloud avec AppStream, partie 1/3](https://www.youtube.com/watch?v=uP1aCH5euU8&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=10)
+- [Diffuser vos apps depuis le cloud avec AppStream, partie 2/3](https://www.youtube.com/watch?v=3MvP1Gh8XCY&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=9)
+- [Diffuser vos apps depuis le cloud avec AppStream, partie 3/3](https://www.youtube.com/watch?v=ySs40HH6x7I&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=8)
+- [Héberger vos desktops dans le cloud, partie 1/2](https://www.youtube.com/watch?v=U_OC2Zbknac&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=12)
+- [éberger vos desktops dans le cloud, partie 2/2](https://www.youtube.com/watch?v=5RR3v6SiHVE&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=11)
