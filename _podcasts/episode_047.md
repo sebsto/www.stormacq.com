@@ -1,7 +1,7 @@
 ---
 layout: podcast
 title:  "Le drift d'infrastructure"
-subtitle: "Qui empêche tout le monde de dormir"
+subtitle: "Ce qui empêche tout le monde de dormir"
 description: "Toute votre infra est déployée selon les règles de l'infrastructure as code. Vous pouvez dormir tranquille. Etes-vous sûr ? Comment s'assurer que ce qui est déployé reste aligné avec ce qui est décrit dans votre code ? Avez-vous déjà fait un petit changement rapide dans la console pour corriger un problème un samedi soir ? Avez-vous reporté ce changement dans votre code ? driftctl est un outil open-source qui vérifie la réalité de ce qui est déployé par rapport à la définition faite par Terraform."
 guest: "<a href='https://www.linkedin.com/in/stephanejourdan/'>Stéphane Jourdan</a>, foundateur et CEO"
 episode: 47
@@ -12,7 +12,7 @@ date: 2021-03-26 06:30:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-# appleEpisodeId: 1000512655632
+appleEpisodeId: 1000515257488
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
