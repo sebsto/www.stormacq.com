@@ -2,17 +2,17 @@
 layout: podcast
 title:  "JSII, plongée au coeur du CDK"
 subtitle: "La librairie polyglotte"
-description: "JSII est une librairie qui permet d'intéragir avec des classes Javascript depuis n'importe quel language. C'est la technologie qui permet au Cloud Development Kit (CDK) de proposer des librairies pour plusieurs languages, à partir d'un seul code. Par exemple le support de GO vient d'être annoncé le 7 avril. Une plongée dans le JSII et la gouvernance de projets open-source chez AWS."
-guest: "<a href='https://www.linkedin.com/in/romainmuller/'>Romain Marcadier</a>, Senior Software Development Enginer, AWS"
+description: "JSII est une librairie qui permet d'interagir avec des classes Javascript depuis n'importe quel language. C'est la technologie qui permet au Cloud Development Kit (CDK) de proposer des librairies pour plusieurs languages, à partir d'un seul code. Par exemple le support de GO vient d'être annoncé le 7 avril. Une plongée dans le JSII et la gouvernance de projets open-source chez AWS."
+guest: "<a href='https://www.linkedin.com/in/romainmuller/'>Romain Marcadier</a>, Senior Software Development Engineer, AWS"
 episode: 48
 duration: "00:33:49"
 size: 64917339
 file: 048.mp3
-date: 2021-04-09 23:30:00 +0100
+date: 2021-04-09 22:30:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-# appleEpisodeId: 1000515257488
+appleEpisodeId: 1000516655441
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
