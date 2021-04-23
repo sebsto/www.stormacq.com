@@ -2,7 +2,7 @@
 layout: podcast
 title:  "Botify, le SEO pour vos sites webs"
 subtitle: "Avec Amazon EC2 Spot et Amazon Simple Workflow Service"
-description: "Botify optimise l'indexation de vos sites webs par les engins de recherche. En crawlant votre site et appliquant des traitements sur la donnée, le but est de rendre votre site à gros traffic visible de Google.  Savez-vous que Google n'indexe que 30-40% de votre site ? Botify s'assure que les parties relevantes de votre site soient correctement indexés.  FNAC, GitHub, GlassDoor, Expedia font partie des sites qui utilisent cette technologie. Comment ca marche ? Comment utilisent-ils les technologies AWS à cette fin ? On parle de Amazon EC2 spot instances et de Amazon Simple Workflow Service, entre autres."
+description: "Botify optimise l'indexation de vos sites webs par les engins de recherche. En crawlant votre site et appliquant des traitements sur la donnée, le but est de rendre votre site à gros traffic visible de Google.  Savez-vous que Google n'indexe que 30-40% de votre site ? Botify s'assure que les parties relevantes de votre site soient correctement indexées.  FNAC, GitHub, GlassDoor, Expedia font partie des sites qui utilisent cette technologie. Comment ca marche ? Comment Botify utilise les technologies AWS à cette fin ? On parle de Amazon EC2 spot instances et de Amazon Simple Workflow Service, entre autres."
 guest: "<a href='https://www.linkedin.com/in/pierrecouzy/'>Pierre Couzy</a>, CTO, Botify, et <a href='https://www.linkedin.com/in/guillaumedauvin/'>Guillaume Dauvin</a>, Sr Infrastructure Engineer, Botify"
 episode: 49
 duration: "00:33:08"
