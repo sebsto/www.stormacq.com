@@ -1,7 +1,7 @@
 ---
 layout: podcast
 title:  "Migrez avant de partir en vacances"
-subtitle: "Comment l'UCPA a réussi sa transformation digitale vers le cloud"
+subtitle: "Comment l'UCPA a réussi sa transformation digitale"
 description: "Des dizaines d'applications en silos, une saisonalité importante et un besoin d'innovation ont poussé l'UCPA à adopter le cloud. Dans cet épisode, nous parlons de migration du run, de refactoring du build, de gains de coûts de 1 à 10, et de nouveaux services basés sur l'apprentissage machine."
 guest: "<a href='https://www.linkedin.com/in/huguesgendre/?locale=fr_FR'>Hugues Gendre</a>, Directeur des Systèmes d'Information, UCPA"
 episode: 51
