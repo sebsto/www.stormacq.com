@@ -8,7 +8,7 @@ episode: 51
 duration: "00:43:10"
 size: 82607880
 file: 051.mp3
-date: 2021-05-07 10:30:00 +0200
+date: 2021-05-07 09:30:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
