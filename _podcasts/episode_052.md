@@ -3,7 +3,7 @@ layout: podcast
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 14 mai 2021"
 description: "Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons de Amazon FinSpace, un service pour faciliter la vie des analystes financiers, d'un nouveau volet ajouté à AWS Systems Manager, de la possibilité de déployer des minis fonctions sur les edges de Amazon CloudFront, d'un nouveau SDK en version Alpha pour les développeurs Rust et d'un cours en ligne et gratuit sur Amazon DynamoDB."
-guest: (pas d'invité dans cet épisode)
+guest:
 episode: 52
 duration: "00:15:48"
 size: 30345426

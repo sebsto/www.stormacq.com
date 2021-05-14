@@ -41,7 +41,7 @@ layout: none
         <description>{{ podcast.description | xml_escape }}</description>
         <!-- <content:encoded>{{ podcast.description | xml_escape }}</content:encoded> -->
         <content:encoded><![CDATA[
-        {{ podcast.description }} Avec {{ podcast.guest }}
+        {{ podcast.description }} {% if podcasts.guest  %}Avec {{ podcast.guest }}{% endif  %}
         <p/>
         {{ podcast.content }}
         ]]></content:encoded>

@@ -3,7 +3,7 @@ layout: podcast
 title:  "AWS re:Invent 2020 #1"
 subtitle: "Les annonces faites pendant re:Invent"
 description: "Dans cet épisode, nous résumons les annonces faites pendant la première keynote, présentée par Andy Jassy, le mardi 1/12 5pm CET. Cette année, re:Invent est en ligne et gratuit. Inscrivez-vous sur https://reinvent.awsevents.com/"
-guest: "Il n'y a pas d'invité pour cet épisode"
+guest:
 episode: 38
 duration: "00:27:25"
 size: 52648565 

@@ -3,7 +3,7 @@ layout: podcast
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 30 avril 2021"
 description: "A partir de cette semaine, un épisode sur deux du podcast sera consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons de stockage et analyse de données avec AQUA pour Amazon Redshift, de Amazon Fsx Gateway, du changement de vos volumes EBS root sans arrêter vos instances, du contrôle du traffic en provenance des Bots et d'un nouveau service pour les studio de vidéo : Amazon Nimble Studio"
-guest: (pas d'invité dans cet épisode)
+guest:
 episode: 50
 duration: "00:15:38"
 size: 30012731
