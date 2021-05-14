@@ -14,7 +14,10 @@ pagination:
   It is not working from files with different names
   https://jekyllrb.com/docs/pagination/
 -->
-
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 mx-auto">
+      
 <div>  <!-- allows to apply style 'no underline' for links, by default for post preview but overriden in _global.scss-->
   
   <style>
@@ -73,7 +76,6 @@ style="margin:0px; width: 100%; max-width: 660px; overflow: hidden; border-radiu
 
 </p>Cette page est une copie de <a href="https://aws.amazon.com/fr/blogs/france/podcasts/" target="_blank">la page Podcast AWS en Français sur le site d'Amazon Web Services France</a>.
 
-</div>
 
 {% capture now %}{{ 'now' | date: '%s' | plus: 0 }}{% endcapture %}
 {% for podcasts in paginator.posts %}
@@ -95,9 +97,11 @@ style="margin:0px; width: 100%; max-width: 660px; overflow: hidden; border-radiu
       <p>
         {{ podcasts.description }}
       </p>
+      {% if podcasts.guest  %}
       <p>
         Avec {{ podcasts.guest }}
       </p>
+      {% endif %}
       <p>
         {% if podcasts.appleEpisodeId  %}
         <iframe src="https://embed.podcasts.apple.com/fr/podcast/{{ site.podcast.applePodcastId  }}?i={{ podcasts.appleEpisodeId  }}&amp;itsct=podcast_box&amp;itscg=30200" height="175px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent;"></iframe>
@@ -121,6 +125,9 @@ style="margin:0px; width: 100%; max-width: 660px; overflow: hidden; border-radiu
 
 {% endfor %}
 
+</div>
+</div>
+</div>
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}
 
