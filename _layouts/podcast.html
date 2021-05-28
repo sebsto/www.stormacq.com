@@ -39,7 +39,9 @@ layout: default
       <p>
       {{ page.description }}
       </p>
+      {% if podcasts.guest  %}
       <p>Avec {{ page.guest }}</p>
+      {% endif %}
       <p>
       {{ content }}
       </p>
