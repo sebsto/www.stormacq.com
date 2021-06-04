@@ -1,8 +1,8 @@
 ---
 layout: podcast
 title:  "PacketAI"
-subtitle: "Observabilité et monitoring"
-description: "Comment feriez-vous pour analyser 2Tb de logs par heure ? A cette échelle, plus question de regexp et de mots clés, on sort la théorie des graphes, de l'apprentissage machine et même un peu de deep learning.  Découvrez la première solution de monitoring autonome, taillée pour le cloud. Dans cet épisode, nous découvrons comment ca marche pour vous, et nous levons le voile sur l'architecture mise en place pour offrir ce service.
+subtitle: "Observabilité et monitoring à grande échelle"
+description: "Comment feriez-vous pour analyser 2Tb de logs par heure ? A cette échelle, plus question de regexp et de mots clés, on sort la théorie des graphes, de l'apprentissage machine et même un peu de deep learning.  Découvrez la première solution de monitoring autonome, taillée pour le cloud : PacketAI. Dans cet épisode, nous découvrons comment ca marche pour vous, et nous levons le voile sur l'architecture mise en place pour offrir ce service."
 guest: "<a href='https://www.linkedin.com/in/thakkarhardik/'>Hardik Thakkar</a>, co-fondateur et CEO &amp; <a href='https://www.linkedin.com/in/abdelhadi-azzouni-a4218748/'>Hadi Azzouni</a>, co-fondateur et CTO,  PacketAI."
 episode: 55
 duration: "00:34:15"
