@@ -8,7 +8,7 @@ episode: 59
 duration: "00:34:05"
 size: 65440624
 file: 059.mp3
-date: 2021-07-01 08:00:00 +0200
+date: 2021-07-02 08:00:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
