@@ -24,6 +24,7 @@ Voici les liens vers les pages des services dont nous avons parlé dans l'épiso
 
 - La [conformité du cloud AWS](https://aws.amazon.com/fr/compliance/?nc1=h_ls).
 - Le [CLOUD ACT expliqué](https://aws.amazon.com/fr/compliance/cloud-act/?nc1=h_ls) en français.
+- L'[addendum du contrat qui couvre le transfert des données AWS](https://aws.amazon.com/fr/blogs/security/aws-and-eu-data-transfers-strengthened-commitments-to-protect-customer-data/?nc1=h_ls)
 - L'[audition d'Amazon Web Service auprès de la commission d'enquête "souveraineté numérique" du Sénat](http://www.senat.fr/compte-rendu-commissions/20190902/ce_souverainete.html#toc7) : le compte-rendu.
 - L'[audition d'Amazon Web Service auprès de la commission d'enquête "souveraineté numérique" du Sénat](http://videos.senat.fr/video.1287174_5d6c4586f4107.commission-d-enquete-souverainete-numerique) : la vidéo.
 - [Amazon EKS](https://aws.amazon.com/fr/eks/?whats-new-cards.sort-by=item.additionalFields.postDateTime&whats-new-cards.sort-order=desc&eks-blogs.sort-by=item.additionalFields.createdDate&eks-blogs.sort-order=desc)
