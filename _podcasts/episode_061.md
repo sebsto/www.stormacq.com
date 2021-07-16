@@ -22,7 +22,7 @@ Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez 
 
 Voici les liens vers les pages des services dont nous avons parlé dans l'épisode.
 
-- Le [M5 Stick C](https://shop.m5stack.com/products/stick-c) (le controlleur qui collecte les données)
+- Le [M5 Stick C Plus](https://shop.m5stack.com/collections/m5-core/products/m5stickc-plus-esp32-pico-mini-iot-development-kit?variant=35275856609444) (le controlleur qui collecte les données)
 - Le [capteur de température infra-rouge](https://shop.m5stack.com/products/m5stickc-ncir-hatmlx90614) 
 - [UI Flow](https://flow.m5stack.com), l'éditeur de code visuel du M5 Stick
 - [AWS IoT Core](https://aws.amazon.com/fr/iot-core/?nc=sn&loc=2&dn=3)
