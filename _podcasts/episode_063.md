@@ -1,6 +1,6 @@
 ---
 layout: podcast
-title:  "Inteligence et AIML"
+title:  "Intelligence et AIML"
 subtitle: "L'apprentissage machine pour les données de renseignements"
 description: "Preligens développe des solutions d'apprentissage machine pour identifer des données suceptibles d'intéresser des agences de renseignements, militaires ou civiles. Dans cet épisode, nous parlons de l'acquisition et le stockage de données, d'apprentissage machine et de confidentialité des données, avec un approche pragmatique quant aux aspects de souverainté et sécurité."
 guest: "<a href='https://www.linkedin.com/in/renaud-allioux-2101704a/'>Renaud Allioux</a>, co-fondateur et CTO, Preligens"
