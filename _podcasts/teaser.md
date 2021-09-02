@@ -2,10 +2,9 @@
 layout: podcast
 title:  "Teaser"
 subtitle: ""
-description: "Abonnez-vous dans vos applications de podcast favorites:<br>Apple 👉  https://buff.ly/316qh5h<br>
-Google 👉 https://buff.ly/30dIL4y<br>Spotify 👉 https://buff.ly/3g1XfMD"
+description: "Abonnez-vous dans vos applications de podcast favorites:<p/><a href='https://buff.ly/316qh5h'>Apple</a><br><a href='https://buff.ly/30dIL4y'>Google</a><br><a href='https://buff.ly/3g1XfMD'>Spotify</a>"
 guest: 
-episode: 0
+episode: 
 duration: "00:00:27"
 size: 861749
 file: teaser.mp3
