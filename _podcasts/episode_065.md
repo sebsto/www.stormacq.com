@@ -2,17 +2,17 @@
 layout: podcast
 title:  "La protection de vos données avec Privowny"
 subtitle: "Services managés et automatisation pour vos données personelles"
-description: "Privowny développe une suite logicielle pour vous aider, entre autres, à gérer vos mots de passe et protéger votre identitée via l'utilisation d'alias emails uniques et anonymes. L'implémentation de ces services repose, en partie, sur le cloud AWS. Dans cet épisode, découvrez comment Privowny prend avantage de la sécurité et de la conformité du cloud pour implémenter ses services. Découvrez aussi comment l'infrastructure globale de AWS aide cette startup française à se développer sur de nouveaux marchés internationaux. 'Nous déployons nos workloads dans une nouvelle région en 30 minutes' et pourquoi Privowny se repose sur l'infrastructure gérée AWS pour se concentrer sur leur métier."
-guest: "<a href='https://www.linkedin.com/in/hervelejouan/'>Herve le Jouan</a>, CEO et foundateur, & <a href='https://www.linkedin.com/in/earzur/'>Erwan Arzur</a>, CTO et fondateur, Privowny"
+description: "Suite au rachat de Privowny par le groupe Assurant, ce podcast n'est plus disponible pour le moment."
+guest: 
 episode: 65
-duration: "00:30:38"
-size: 58830182
-file: 065.mp3
+duration: "00:00:00"
+size: 0
+file: 999.mp3
 date: 2021-08-13 07:00:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-appleEpisodeId: 1000531897873
+# appleEpisodeId: 1000531897873
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
