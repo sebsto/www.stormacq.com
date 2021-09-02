@@ -57,7 +57,10 @@ layout: none
         <itunes:author>{{ podcast.author | xml_escape }}</itunes:author>
 
         <itunes:duration>{{ podcast.duration }}</itunes:duration>
+        {% if page.episode %}
         <itunes:episode>{{ podcast.episode }}</itunes:episode>
+        {% endif %}
+
         <itunes:explicit>no</itunes:explicit>
 
 
