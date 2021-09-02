@@ -4,7 +4,7 @@ title:  "Teaser"
 subtitle: ""
 description: "Abonnez-vous dans vos applications de podcast favorites:<br>Apple 👉  https://buff.ly/316qh5h<br>
 Google 👉 https://buff.ly/30dIL4y<br>Spotify 👉 https://buff.ly/3g1XfMD"
-guest: ""
+guest: 
 episode: 0
 duration: "00:00:27"
 size: 861749

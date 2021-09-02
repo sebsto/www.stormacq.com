@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<!-- This is the lqyout to rendre an individual podcast.  Podcast list is at podcast/index.html -->
+
 <!-- Page Header -->
 {% if page.background %}
 <header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
@@ -28,7 +30,10 @@ layout: default
   <div class="row">
     <div class="col-lg-8 col-md-10 mx-auto">
 
+      {% unless page.episode == 0 %}
       <h2>Episode #{{ page.episode }}</h2>
+      {% endif %}
+
       {% if page.appleEpisodeId %}
       <iframe src="https://embed.podcasts.apple.com/fr/podcast/{{ site.podcast.applePodcastId  }}?i={{ page.appleEpisodeId }}&amp;itsct=podcast_box&amp;itscg=30200" height="175px" frameborder="0" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" allow="autoplay *; encrypted-media *;" style="width: 100%; max-width: 660px; overflow: hidden; border-radius: 10px; background: transparent;"></iframe>
       {% else %}
