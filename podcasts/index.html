@@ -84,10 +84,10 @@ style="margin:0px; width: 100%; max-width: 660px; overflow: hidden; border-radiu
   {% if date < now %}
   <article class="post-preview">
       <a href="{{ site.url | xml_escape }}{{ podcasts.url | append: 'index.html' | xml_escape }}">
-        {% if page.episode == 0 %}
-        <h3 class="post-title">{{ podcasts.title }}</h2>
-        {% else %}
+        {% if page.episode %}
         <h3 class="post-title">#{{ podcasts.episode }} {{ podcasts.title }}</h2>
+        {% else %}
+        <h3 class="post-title">{{ podcasts.title }}</h2>
         {% endif %}
         <!-- {% if podcasts.subtitle %}
         <h3 class="post-subtitle">{{ podcasts.subtitle }}</h3>
