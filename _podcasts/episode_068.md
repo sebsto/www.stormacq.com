@@ -2,7 +2,7 @@
 layout: podcast
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 3 septembre 2021"
-description: "Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous fêtons un anniversaire, nous parlons de stockage avec S3 et une nouvelle base de donnée, Grafana managé est maintenant disponible pour toutes et tous, nous parlons d'une réduction de prix et de nouvelles possibilités offertes par Amazon VPC et AWS CloudFormation."
+description: "Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous fêtons un anniversaire, nous parlons de stockage avec S3 et d'une nouvelle base de données, Grafana managé est maintenant disponible pour toutes et tous, nous parlons d'une réduction de prix et de nouvelles possibilités offertes par Amazon VPC et AWS CloudFormation."
 guest:
 episode: 68
 duration: "00:15:30"
@@ -22,8 +22,11 @@ Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez 
 
 Voici les liens vers les pages des services dont nous avons parlé dans l'épisode.
 
-- [Python 3.9 sur AWS Lambda](https://aws.amazon.com/es/blogs/compute/python-3-9-runtime-now-available-in-aws-lambda/).
-- Fin du support de [Internet Explorer 11](https://aws.amazon.com/blogs/aws/heads-up-aws-support-for-internet-explorer-11-is-ending/).
-- Amazon Athena peut maintenant [exporter de l'AVRO, du parquet, ORC et JSON](https://aws.amazon.com/about-aws/whats-new/2021/08/athena-can-write-query-results-parquet-avro-orc-json-formats/?nc1=h_ls).
-- [Partage de données Amazon Redshift](https://aws.amazon.com/blogs/aws/cross-account-data-sharing-for-amazon-redshift/) entre comptes AWS.
-- Les [instances Amazon EC2 M6i](https://aws.amazon.com/blogs/aws/new-amazon-ec2-m6i-instances-powered-by-the-latest-generation-intel-xeon-scalable-processors/), avec processeurs Intel Xeon Scalable.
+- [Amazon MemoryDB](https://aws.amazon.com/es/blogs/aws/introducing-amazon-memorydb-for-redis-a-redis-compatible-durable-in-memory-database-service/)
+- [Amazon EC2 fête ses 15 ans](https://aws.amazon.com/es/blogs/aws/happy-15th-birthday-amazon-ec2/)
+- [AWS Backup Audit Manager](https://aws.amazon.com/es/blogs/aws/monitor-evaluate-and-demonstrate-backup-compliance-with-aws-backup-audit-manager/)
+- [Amazon texttract baisse les prix](https://aws.amazon.com/es/blogs/aws/amazon-textract-updates-up-to-32-price-reduction-in-8-aws-regions-and-up-to-50-reduction-in-asynchronous-job-processing-times/)
+- [AWS Cloudformation reprend là où il s'est arrêté](https://aws.amazon.com/es/blogs/aws/new-for-aws-cloudformation-quickly-retry-stack-operations-from-the-point-of-failure/)
+- [Amazon VPC améliore le routage](https://aws.amazon.com/es/blogs/aws/inspect-subnet-to-subnet-traffic-with-amazon-vpc-more-specific-routing/) pour permettre l'inspection du traffic entre deux subnets
+- [Amazon Managed Grafana](https://aws.amazon.com/es/blogs/aws/amazon-managed-grafana-is-now-generally-available-with-many-new-features/) est maintenant disponible pour toutes et tous.
+- [Amazon S3 ajoute des points d'accès multi-régions](https://aws.amazon.com/es/blogs/aws/s3-multi-region-access-points-accelerate-performance-availability/)
