@@ -1,7 +1,7 @@
 ---
 layout: podcast
 title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 1 octobre 2021"
+subtitle: "Les nouveautés AWS au 15 octobre 2021"
 description: "Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, c'est le calme avant la tempête, la conférence AWS re:Invent qui se tiendra à Las Vegas en présenciel. Cette semaine nou sparlons de VMWare Cloud et Outposts, de Elastic BeansTalk et ses bases de données, du Cloud Development Kit (CDK), d'une réduction de prix (encore) et de la disponibilité des instances Amazon EC2 pour macOS"
 guest:
 episode: 74
@@ -12,7 +12,7 @@ date: 2021-10-15 07:00:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-# appleEpisodeId: 1000537159839
+appleEpisodeId: 1000538664526
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
