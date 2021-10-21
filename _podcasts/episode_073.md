@@ -3,7 +3,7 @@ layout: podcast
 title:  "Cosmian"
 subtitle: "Collaboration sans partage"
 description: "Cosmian vous permet de mettre en place une solution de collaboration sur les données, sans partager celles-ci.  Ils créent des environnements logiciels - CipherCompute - pour que les artisants de la data puissent lancer des calculs collaboratifs sur différents silos de données, sans jamais dévoiler les données en clair aux participants du calcul. On parle de techniques de cryptographie, de zero trust et de collaboration sur les données"
-guest: "<a href='https://www.linkedin.com/in//'>Sandrine Murcia</a>, co-fondatrice, et directrice générale de Cosmian"
+guest: "<a href='https://fr.linkedin.com/in/sandrinemurcia'>Sandrine Murcia</a>, co-fondatrice, et directrice générale de Cosmian"
 episode: 73
 duration: "00:33:29"
 size: 64299596
