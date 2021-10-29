@@ -1,18 +1,18 @@
 ---
 layout: podcast
-title:  "La gestion des documents à grande échelle"
-subtitle: "Comment Canon Business Service a migré vers le cloud"
-description: "Canon Business Service propose à ses clients de traiter leurs documents : les recevoir, les analyser, en extraire les données et retourner les données structurées et les documents numérisés à leurs clients. Dans cet épisode, nous découvrons ce métier de traitements des documents papiers et des contraintes qu'il impose aux infrastructures informatiques. Nous parlons de la migration vers le cloud de la plate-forme on-premises, basée sur VMWare de Canon, tout en renforcant leur posture de sécurité et de conformité."
-guest: "<a href='https://www.linkedin.com/in/antoine-toupet-a3b399a5/'>Antoine Toupet</a>, Responsable de la sécurité des systèmes d’information, Canon France Business Services"
+title:  "Quoi de neuf ?"
+subtitle: "Les nouveautés AWS au 29 octobre 2021"
+description: "Un épisode sur deux du podcast est consacré à une brève revue des principales nouveautés AWS.  Cette semaine, nous parlons de preuve formelle de programmes pour S3, de vision assistée par ordinateur, de recommandations automatiques pour vous aider à migrer vos applications, de nouveaux types d'instances pour l'apprentissage machine et de deux nouveautés en matière de base de données, une qui concerne Oracle et l'autre MS SQL Server et Postgres.s"
+guest:
 episode: 76
-duration: "00:35:18"
-size: 67771165
+duration: "00:22:18"
+size: 42804790
 file: 076.mp3
-date: 2021-11-05 07:00:00 +0200
+date: 2021-10-29 07:00:00 +0200  
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
-# appleEpisodeId: 1000529049390
+# appleEpisodeId: 1000538664526
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
@@ -20,14 +20,22 @@ Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez 
 
 ## Liens
 
-Voici les liens vers les pages des services dont nous avons parlé dans l'épisode.
+Voici les liens vers les services dont nous avons parlé dans l'épisode.
 
-- [Canon Business Service](https://www.canon.fr/business/services/document-process-outsourcing-services/), externalisation de processus documentaires.
-- [Gekko](https://www.gekko.fr/en/16014-2/), part of Accenture
-- [VMWare ESX](https://www.vmware.com/products/esxi-and-esx.html)
-- [VMWare Cloud](https://aws.amazon.com/vmware/)
-- AWS [Landing Zone](https://aws.amazon.com/solutions/implementations/aws-landing-zone/)
-- [Print Nightmare](https://msrc.microsoft.com/update-guide/vulnerability/CVE-2021-34527)
-- [Qualys Cloud Platform](https://www.qualys.com/cloud-platform/)
-- [Amazon Textract](https://aws.amazon.com/textract/)
+- [AWS Data Exchange pour Redshift](https://aws.amazon.com/blogs/aws/new-aws-data-exchange-for-amazon-redshift/)
 
+- [AWS Panorama appliance](https://aws.amazon.com/blogs/aws/computer-vision-at-the-edge-with-aws-panorama/) La vision assistée par ordinateur sur le edge
+
+- [AWS Migration Hub Strategy Recommandation](https://aws.amazon.com/blogs/aws/new-strategy-recommendations-service-helps-streamline-aws-cloud-migration-and-modernization/)
+
+- [Amazon RDS Custom pour Oracle](https://aws.amazon.com/blogs/aws/amazon-rds-custom-for-oracle-new-control-capabilities-in-database-environment/)
+
+- [Trois nouvelles Local Zones](https://aws.amazon.com/blogs/aws/aws-local-zones-are-now-open-in-las-vegas-new-york-city-and-portland/) à Portalnd, New York City (dans le New Jersey) et Las Vegas 
+
+- [EC2 famille dl1](https://aws.amazon.com/blogs/aws/new-ec2-instances-powered-by-gaudi-accelerators-for-training-deep-learning-models/) avec les chipset Gaudi pour l'apprentissage machine 
+
+- [Selection via des attributs](https://aws.amazon.com/blogs/aws/new-attribute-based-instance-type-selection-for-ec2-auto-scaling-and-ec2-fleet/) pour EC2 AUto-Scaling et EC2 Fleet.
+
+- [Preuve formelle de validité pour Amazon S3](https://aws.amazon.com/es/blogs/storage/how-automated-reasoning-helps-us-innovate-at-s3-scale/)
+
+- [Fault Injection Service simule les interruptions Spot](https://aws.amazon.com/about-aws/whats-new/2021/10/aws-fault-injection-simulator-spot-interruptions/?nc1=h_ls)
