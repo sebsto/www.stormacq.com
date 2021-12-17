@@ -28,11 +28,15 @@
   <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
   <meta content="{{ site.url }}/about/" property="article:author">
 {% endif %}
-{% if page.background %}
-  <meta content="{{ site.url }}{{ page.background }}" property="og:image">
+{% if page.social-background %}
+<meta content="{{ site.url }}{{ page.social-background }}" property="og:image">
 {% else %}
-  <meta content="/img/bg-post.png" property="og:image">
-{% endif %}
+  {% if page.background %}
+    <meta content="{{ site.url }}{{ page.background }}" property="og:image">
+  {% else %}
+    <meta content="/img/bg-post.png" property="og:image">
+  {% endif %}
+{% endif %}  
 {% if page.categories %}
   {% for category in page.categories limit:1 %}
   <meta content="{{ category }}" property="article:section">
