@@ -12,6 +12,7 @@ date: 2021-11-26 06:00:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
+social-background: '/img/podcast-banner.jpg'
 appleEpisodeId: 1000543112297
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
