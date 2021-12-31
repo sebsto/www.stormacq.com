@@ -8,7 +8,7 @@ episode: 86
 duration: "00:14:22"
 size: 27587732 
 file: 086.mp3
-date: 2021-12-17 07:00:00 -0100  
+date: 2021-12-17 07:00:00 +0100  
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
