@@ -8,7 +8,7 @@ episode: 88
 duration: "00:10:17"
 size: 19740966
 file: 088.mp3
-date: 2021-12-31 07:00:00 -0100  
+date: 2021-12-31 07:00:00 +0100  
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
