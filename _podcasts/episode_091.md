@@ -8,7 +8,7 @@ episode: 91
 duration: "00:38:41"
 size: 74285477
 file: 091.mp3
-date: 2022-01-21 06:30:00 +0100   
+date: 2022-01-21 06:00:00 +0100   
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
