@@ -2,7 +2,7 @@
 layout: podcast
 title:  "Radio France"
 subtitle: "L'infrastructure de diffusion radio"
-description: "Nous parlons de l'infrastructure de diffusion digitale des radios de Radio France : les sites web, les serveurs de flux, les assistants personels comme Google Home ou Alexa,... Tous ces services sont hébergés dans le cloud. On parle aussi de CDN (et pas que celui de AWS), de Kubernetes, de scaling et d'autres sujets."
+description: "Nous parlons de l'infrastructure de diffusion numérique des radios de Radio France : les sites web, les serveurs de flux, les assistants personels comme Google Home ou Alexa,... Tous ces services sont hébergés dans le cloud. On parle aussi de CDN (et pas que celui de AWS), de Kubernetes, de scaling et d'autres sujets."
 guest: "<a href='https://www.linkedin.com/in/julienvey/'>Julien Vey</a>, Responsable du pôle infrastructure, Radio France"
 episode: 91
 duration: "00:38:41"
@@ -13,7 +13,7 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: 1000547859429
+appleEpisodeId: 1000548554200
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
