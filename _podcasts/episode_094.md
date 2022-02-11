@@ -8,7 +8,7 @@ episode: 94
 duration: "00:18:06"
 size: 34768271
 file: 094.mp3
-date: 2022-04-11 07:00:00 +0100   
+date: 2022-02-11 07:00:00 +0100   
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
