@@ -1,6 +1,6 @@
 ---
 layout: podcast
-title:  "Amplitude, HumanKind, le cloud"
+title:  "Amplitude Studios, HumanKind, le cloud"
 subtitle: "Comment des devs gèrent la prod"
 description: "Amplitude Studios est le studio français qui développe, entre autres, HumanKind, le jeu édité par Sega. Dans cette épisode, nous découvrons comment une équipe de devs gère aussi la prod avec des services managés dans le cloud. On parle containeurs et scalabilité, alarmes et usine logicielle pour leurs déploiements continus."
 guest: "<a href='https://www.linkedin.com/in/sylvain-h-petit/'>Sylvain Petit</a>, Head of online services, Amplitude Studios."
