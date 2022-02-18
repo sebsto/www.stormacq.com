@@ -8,7 +8,7 @@ episode: 93
 duration: "00:34:09"
 size: 65583566
 file: 093.mp3
-date: 2022-02-04 08:00:00 +0100   
+date: 2022-02-04 08:00:01 +0100   
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
