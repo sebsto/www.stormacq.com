@@ -15,8 +15,9 @@ Before joining the AWS Evangelist team, Seb built & lead the [AWS technical trai
 
 If you want to sell him something, be sure it has an API.
 
-Download high-resolution profile pictures : [head][picture_head] - [full][picture]
+Download high-resolution profile pictures : [2022 set](picture_2022)
 
+[picture_2022](https://download.stormacq.com/seb/2022.zip)
 [picture_head]: https://s3-eu-west-1.amazonaws.com/public-sst/photos/seb+2016+a+head.png
 [picture]: https://s3-eu-west-1.amazonaws.com/public-sst/photos/seb+2016+a.jpg
 [awstc]: https://aws.amazon.com/training/ 
