@@ -2,7 +2,7 @@
 layout: podcast
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 25 mars 2022"
-description: "C'est le 100ème épisode du podcast AWS français et nous parlons encore des nouveautés AWS des deux dernières semaines ? Un nouveau moyen de répartir les charges de votre facture - le AWS Billing Conductor, de Correto 18, d'une petite nouveauté sympa pour Lambda et des instances Aurora avec Graviton2 qui arrivent à Paris."
+description: "C'est le 100ème épisode du podcast AWS français et nous parlons encore des nouveautés AWS des deux dernières semaines.  Un nouveau moyen de répartir les charges de votre facture - le AWS Billing Conductor, de Correto 18, d'une petite nouveauté sympa pour Lambda et des instances Aurora avec Graviton2 qui arrivent à Paris."
 guest:
 episode: 100
 duration: "00:11:19"
@@ -13,7 +13,7 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: 1000553696450
+appleEpisodeId: 1000555188601
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
