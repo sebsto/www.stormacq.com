@@ -8,7 +8,7 @@ episode: 101
 duration: "00:43:34"
 size: 83654450
 file: 101.mp3
-date: 2022-04-01 07:00:00 +0100   
+date: 2022-04-01 06:00:00 +0200   
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
