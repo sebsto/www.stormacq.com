@@ -2,7 +2,7 @@
 layout: podcast
 title:  "Databricks"
 subtitle: "La donnée et l'IA dans le cloud"
-description: "Databrick puise son orgine dans Spark et offre des solutions open sources, déployables dans le cloud pour traiter vos données à grande échelle.  Dans cet épisode, nous parlons de Spark et des différentes méthode de programmation (Scala, Python, SQL). Quels sont les cas de figure où ca peut vous être utile? Quels sont les outils ? Si vous êtes Data SCientist ou Data Engineer ou aspirez à le devenir, cet épisode est pour vous."
+description: "Databrick puise son orgine dans Spark et offre des solutions open sources, déployables dans le cloud pour traiter vos données à grande échelle.  Dans cet épisode, nous parlons de Spark et des différentes méthodes de programmation (Scala, Python, SQL). Quels sont les cas de figure où ca peut vous être utile? Quels sont les outils ? Si vous êtes Data SCientist ou Data Engineer ou aspirez à le devenir, cet épisode est pour vous."
 guest: "<a href='https://www.linkedin.com/in/fbrosse/'>Florent Brosse</a>, Solution Architect, Databricks"
 episode: 101
 duration: "00:43:34"
@@ -13,7 +13,7 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: 1000554450803
+appleEpisodeId: 1000555907567
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
