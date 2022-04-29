@@ -2,7 +2,7 @@
 layout: podcast
 title:  "Le commerce de détail, le cloud et Amazon"
 subtitle: "Comment le commerce de détail innove grâce à AWS et Amazon"
-description: "J'étais à Londres cette semaine pour le Summit AWS et j'ai croisé un Solution Architect AWS, spécialiste du monde du commerce de détail. Comment le cloud AWS aide les commercants, en ligne et traditionnels, à innover ? Dans cet épisode, après avoir parlé des challenges traditionnels de disponibilité, de passage à l'échelle ou déploiement international, nous parlons de technologies AIML de personalisation ou de prévision. Nous parlons aussi de Just Walk Out, cette technologie créée et vendue par Amazon pour permettre de supprimer le passage à la caisse dans les magasins physiques.  Nous terminons avec les services Edge, tels que AWS Outpots, pour mettre un bout du cloud dans votre magasin."
+description: "J'étais à Londres cette semaine pour le Summit AWS et j'ai croisé un Solution Architect AWS, spécialiste du monde du commerce de détail. Comment le cloud AWS aide les commercants, en ligne et traditionnels, à innover ? Dans cet épisode, après avoir parlé des challenges traditionnels de disponibilité, de passage à l'échelle ou déploiement international, nous parlons de technologies AIML de personalisation ou de prévision. Nous parlons aussi de Just Walk Out, cette technologie créée et vendue par Amazon pour permettre de supprimer le passage à la caisse dans les magasins physiques.  Nous terminons avec les services Edge, tels que AWS Outposts, pour mettre un bout du cloud dans votre magasin."
 guest: "<a href='https://www.linkedin.com/in/bastienleblanc/'>Bastien Leblanc</a>, Solution Architect, Spécialiste Retail, AWS."
 episode: 105
 duration: "00:46:01"
