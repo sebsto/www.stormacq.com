@@ -8,7 +8,7 @@ episode: 105
 duration: "00:46:01"
 size: 88362343
 file: 105.mp3
-date: 2022-04-22 07:00:00 +0200   
+date: 2022-04-29 07:00:00 +0200   
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
