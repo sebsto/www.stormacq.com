@@ -8,7 +8,7 @@ episode: 119
 duration: "00:36:54"
 size: 70862391
 file: 119.mp3
-date: 2022-08-05 07:00:00 +0200   
+date: 2022-08-05 06:00:00 +0200   
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
