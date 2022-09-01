@@ -25,10 +25,10 @@ Voici les liens vers les services dont nous avons parlé dans l'épisode.
 
 - [Smart Territory Framework - le code source](https://github.com/aws-samples/aws-stf)
 - [Smart Territory Framework Core avec NEC Scorpio broker](https://github.com/aws-samples/aws-stf-core-scorpio)
-- [Smart Territory Framework - une vidéo de présentation en français (30 min)](https://www.youtube.com/watch?v=0qJBpr_60E4)
+- [Smart Territory Framework - une vidéo de présentation (30 min)](https://www.youtube.com/watch?v=4MRZiC1VvKQ)
 - [Smart Territory Framework - le cas d'utilisation de la ville d'Heidelberg (en anglais)](https://www.youtube.com/watch?v=Q_fADZFZqSE)
 - [Le cas d'utilisation IoT de la ville de Drancy](https://stormacq.com/podcasts/episode_099/index.html) (le podcast AWS en français)
 - [Smart Territory Framework et FIWARE](https://www.fiware.org/2022/07/04/how-the-smart-territory-framework-helps-territories-create-smart-and-sustainable-services-for-their-residents/)
-- [NGSI-LD](https://fr.wikipedia.org/wiki/NGSI-LD)
+- [NGSI-LD](https://www.etsi.org/technologies/internet-of-things) et [le wikipedia](https://fr.wikipedia.org/wiki/NGSI-LD)
 - [AWS IoT TwinMaker](https://docs.aws.amazon.com/iot-twinmaker/latest/guide/what-is-twinmaker.html)
 - [Comment SERFIM innove pour les randonneurs](https://www.youtube.com/watch?v=zJ8DKRuQSps)
