@@ -2,7 +2,7 @@
 layout: podcast
 title:  "Migration d'un SaaS médical"
 subtitle: "Comment Juxta migre son infrastructure vers le cloud"
-description: "Juxta est un éditeur de logiciel médical. Dans cet épisode, ils expliquent pourquoi et comment ils ont migré leur infrastructure vers le cloud AWS. On y parle de la certification HDS, de base de données Oracle, de FinOps. Une migration lift & refactoring pour éviter les mauvaises surprises à la première facture. L'histoire d'une migration pendant les heures de bureaux. On parle d'un nouveau rôle aussi, celui de BDOps. "
+description: "Juxta est un éditeur de logiciel médical. Dans cet épisode, ils expliquent pourquoi et comment ils ont migré leur infrastructure vers le cloud AWS. On y parle de la certification HDS, de base de données Oracle, de FinOps. Une migration lift & refactoring pour éviter les mauvaises surprises à la première facture. L'histoire d'une migration pendant les heures de bureaux. On parle d'un nouveau rôle aussi, celui de BDOps."
 guest: "<a href='https://www.linkedin.com/in/legerromain/'>Romain Leger</a>, Directeur Général, Juxta et <a href='https://www.linkedin.com/in/damien-bomont-270888170/'>Damien Bomont, Responsable des développements, Juxta</a>"
 episode: 125
 duration: "00:41:34"
