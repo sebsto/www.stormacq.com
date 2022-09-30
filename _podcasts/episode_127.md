@@ -23,8 +23,8 @@ Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez 
 
 Voici les liens vers les pages des services dont nous avons parlé dans l'épisode.
 
-- [Le Bon Coin](https://www.leboncoin.fr)
-- [AWS Tower](https://github.com/leboncoin/aws-tower) Un outil open-source, développé par Le Bon Coin pour auditer la posture de sécurités de ses comptes AWS.
+- [leboncoin.fr](https://www.leboncoin.fr)
+- [AWS Tower](https://github.com/leboncoin/aws-tower) Un outil open-source, développé par leboncoin pour auditer la posture de sécurités de ses comptes AWS.
 - [Boto 3](https://github.com/boto/boto3) Le SDK AWS pour Python
 
 
