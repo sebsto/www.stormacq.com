@@ -1,9 +1,9 @@
 ---
 layout: podcast
 title:  "Audit de sécurité de comptes AWS"
-subtitle: "Comment Le Bon Coin audite ses comptes AWS à l'échelle"
-description: "On ne présente plus le bon coin en France, nous y sommes tous passés pour y déposer ou regarder des petites annonces. Avec 2000 serveurs, 10000 pods et 2Gbs de bande passante sortante, l'infrastructure cloud se décline sur plusieurs comptes AWS. Comment auditer ces comptes et s'assurer qu'ils ne dévient pas de la configuration initiale ? Le Bon Coin à développé AWS Tower, un outil open source pour auditer la posture de sécurité de comptes AWS."
-guest: "<a href='https://www.linkedin.com/in/nicolasbeguier/'>Nicolas Beguier</a>, Architecte Sécurité, LeBonCoin.fr"
+subtitle: "Comment leboncoin audite ses comptes AWS à l'échelle"
+description: "On ne présente plus leboncoin en France, nous y sommes tous passés pour y déposer ou regarder des petites annonces. Avec 2000 serveurs, 10000 pods et 2Gbs de bande passante sortante, l'infrastructure cloud se décline sur plusieurs comptes AWS. Comment auditer ces comptes et s'assurer qu'ils ne dévient pas de la configuration initiale ? Leboncoin a développé AWS Tower, un outil open source pour auditer la posture de sécurité de comptes AWS."
+guest: "<a href='https://www.linkedin.com/in/nicolasbeguier/'>Nicolas Beguier</a>, Architecte Sécurité, leboncoin.fr"
 episode: 127
 duration: "00:35:16"
 size: 67723518
