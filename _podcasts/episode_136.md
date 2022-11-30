@@ -13,7 +13,7 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: 1000587446376
+appleEpisodeId: 1000588050504
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
@@ -23,6 +23,7 @@ Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez 
 
 Voici les liens vers les pages des services dont nous avons parlé dans l'épisode.
 
+- Le [même épisode du podcast en vidéo](https://www.youtube.com/watch?v=_VQR4Bl-9xk)
 - [AWS Lambda SnapStart](https://aws.amazon.com/blogs/aws/new-accelerate-your-lambda-functions-with-lambda-snapstart/)
 - [RDS blue / green deployment](https://aws.amazon.com/blogs/aws/new-fully-managed-blue-green-deployments-in-amazon-aurora-and-amazon-rds/)
 - [RDS lectures et écritures optimisées](https://aws.amazon.com/blogs/aws/new-amazon-rds-optimized-reads-and-optimized-writes/)
