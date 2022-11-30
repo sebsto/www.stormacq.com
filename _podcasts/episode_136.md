@@ -3,7 +3,7 @@ layout: podcast
 title:  "AWS re:Invent"
 subtitle: "re:Cap - jour 1"
 description: "La conférence AWS re:Invent se tient tous les ans à Las Vegas. Cette année plus de 50000 clients et partenaires sont réunis pour apprendre et échanger leurs expériences dans le cloud AWS. Dans ce podcast, je reviens avec mes invités sur le sprincipales annonces faites pendant les deux premières journées de conférence. On y parle du cold start des fonctions Lambda, de déployement blue/green pour des bases de données, de ENA express pour donner 25Gbs de bande passante réseau et d'autres choses encore."
-guest: "<a href='https://www.linkedin.com/in/olivierleplus/'>Olivier Leplus</a>, Developer Advocate, AWS ; "<a href='https://www.linkedin.com/in/j%C3%A9r%C3%A9mie-rodon-b6656290/'>Jérémie Rodon</a>, Cloud Architect Devoteam / Revolve et "<a href='https://www.linkedin.com/in/alexismarcou/'>Alexis Marcou</a>, Solution Architect, AWS"
+guest: "<a href='https://www.linkedin.com/in/olivierleplus/'>Olivier Leplus</a>, Developer Advocate, AWS ; <a href='https://www.linkedin.com/in/j%C3%A9r%C3%A9mie-rodon-b6656290/'>Jérémie Rodon</a>, Cloud Architect Devoteam / Revolve et <a href='https://www.linkedin.com/in/alexismarcou/'>Alexis Marcou</a>, Solution Architect, AWS"
 episode: 136
 duration: “00:22:16"
 size: 42757143
