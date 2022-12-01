@@ -3,7 +3,7 @@ layout: podcast
 title:  "AWS re:Invent 3/3"
 subtitle: "re:Cap - jour 3"
 description: "La conférence AWS re:Invent se tient tous les ans à Las Vegas. Cette année plus de 50000 clients et partenaires sont réunis pour apprendre et échanger leurs expériences dans le cloud AWS. Dans ce podcast, je reviens avec mes invités sur les principales annonces faites pendant les trois premières journées de conférence. On y parle d'apprentissage machine, de préparation et de découverte de la donnée. On termine en parlant de Amazon CodeWhisperer qui génère du code pour simplifier la vie des développeurs."
-guest: "<a href='https://www.linkedin.com/in/virginie-mathivet/'>Virginie Mathivet</a>, Modern Data Manager, TeamWork et <a href='https://www.linkedin.com/in/francoisbouteruche/'>François Bouteruche</a>, Developer Advocate .Net"
+guest: "<a href='https://www.linkedin.com/in/virginie-mathivet/'>Virginie Mathivet</a>, Modern Data Manager, TeamWork et <a href='https://www.linkedin.com/in/francoisbouteruche/'>François Bouteruche</a>, Developer Advocate .Net, AWS"
 episode: 138
 duration: “00:31:38"
 size: 60732732
@@ -13,7 +13,7 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: 1000588253138
+appleEpisodeId: 1000588393224
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
@@ -23,7 +23,7 @@ Laissez-moi vos commentaires sur [Twitter](https://twitter.com/sebsto), abonnez 
 
 Voici les liens vers les pages des services dont nous avons parlé dans l'épisode.
 
-- Le [même épisode du podcast en vidéo]()
+- Le [même épisode du podcast en vidéo](https://www.youtube.com/watch?v=JFiDb6M3yIw)
 - [Le replay des keynotes](https://reinvent.awsevents.com/on-demand/)
 - [Data Zone](https://aws.amazon.com/datazone/) 
 - [Sagemaker Studio](https://aws.amazon.com/blogs/aws/new-redesigned-ui-for-amazon-sagemaker-studio/)
