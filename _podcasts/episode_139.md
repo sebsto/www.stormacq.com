@@ -8,12 +8,12 @@ episode: 139
 duration: “00:43:46"
 size: 84034793
 file: 139.mp3
-date: 2022-12-09 07:00:00 +0100
+date: 2022-12-09 07:00:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: 1000588393224
+appleEpisodeId: 1000589568544
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
