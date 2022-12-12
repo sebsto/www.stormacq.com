@@ -6,7 +6,7 @@ description: "Tout le monde en France connait le PMU, les paris sportifs. Aujour
 guest: "<a href='https://www.linkedin.com/in/amine-chaghal-a9753254/'>Amine Chaghal</a>, Architect Infrastructure - Lead DevOps, PMU et <a href='https://www.linkedin.com/in/anthonyhyvert/'>Anthony Hyvert</a>, Lead Architect, PMU"
 episode: 139
 duration: “00:43:46"
-size: 84034793
+size: 63027117
 file: 139.mp3
 date: 2022-12-09 07:00:00 +0200
 author: Sébastien Stormacq
