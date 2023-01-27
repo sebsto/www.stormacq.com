@@ -13,7 +13,7 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: 1000594204435
+appleEpisodeId: 1000596869935
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
@@ -25,11 +25,11 @@ Voici les liens vers les pages des services dont nous avons parlé dans l'épiso
 
 - [Les zones locales](https://aws.amazon.com/about-aws/global-infrastructure/localzones/locations/?nc=sn&loc=3)
 - [Une nouvelle région à Melbourne](https://aws.amazon.com/blogs/aws/now-open-aws-asia-pacific-melbourne-region-in-australia/)
-- [Amazon CloudWatch stream depuis plusieurs comptes](https://aws.amazon.com/blogs/aws/now-open-aws-asia-pacific-melbourne-region-in-australia/
+- [Amazon CloudWatch stream depuis plusieurs comptes](https://aws.amazon.com/blogs/aws/now-open-aws-asia-pacific-melbourne-region-in-australia/)
 - [Validez vos templates SAM avec le linter de CloudFormation](https://aws.amazon.com/about-aws/whats-new/2023/01/validate-aws-serverless-application-model-templates-cloudformation-linter/)
 - [Un livre sur les fondamentaux AWS](https://awsfundamentals.com/)
 - [Choisir son service pour déployer des containers](https://docs.aws.amazon.com/prescriptive-guidance/latest/build-first-containers/choose-container-service.html)
 - [Comment Lambda crée une service resilient](https://aws.amazon.com/blogs/compute/aws-lambda-resilience-under-the-hood/)
-- [Amazon CloudWatch Synthetic et les canaris](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Synthetics_Canaries.html
+- [Amazon CloudWatch Synthetic et les canaris](https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch_Synthetics_Canaries.html)
 - [Evacuation de zones avec Route53 Application recovery Controller](https://docs.aws.amazon.com/r53recovery/latest/dg/arc-zonal-shift.html)
 - [Route53 Application recovery Controller](https://aws.amazon.com/blogs/aws/amazon-route-53-application-recovery-controller/)
