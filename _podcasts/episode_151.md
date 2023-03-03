@@ -1,7 +1,7 @@
 ---
 layout: podcast
 title:  Bouygues Telecom Go To Cloud
-subtitle: Les audit de sécurité continus avec Wiz
+subtitle: Les audits de sécurité continu avec Wiz
 description: "L'opérateur Bouygues Telecom a une stratégie cloud native first pour toutes les nouvelles applications et a migré plus de la moitié de ses applications traditionnelles. Bouygues est un opérateur d'importance vitale, soumis à différentes obligations légales. Dans cet épisode, nous parlons des méthodes et outils utilisés pour répondre à ces obligations, notamment les outils de Wiz et AWS GuardDuty, pour une analyse en continu de leur chaîne de déploiement et une analyse en continu des déploiements et détecter d'éventuelle déviations. Environ 800 personnes ont été formées et sensibilisées aux techniques de sécurité continue."
 guest: "<a href='https://www.linkedin.com/in/maelwork/'>Mael Louvet</a>, Responsable du pôle expertise Cloud chez Bouyges Telecom et <a href='https://www.linkedin.com/in/nicolas-ehrman-629b8910/'>Nicolas Ehrman</a>, Product Marketing Manager, Wiz"
 episode: 151
@@ -13,7 +13,7 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-banner.jpg'
-# appleEpisodeId: 1000600104148
+appleEpisodeId: 1000602595312
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
