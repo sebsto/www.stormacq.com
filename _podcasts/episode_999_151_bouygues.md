@@ -8,7 +8,7 @@ episode: 151
 duration: “00:45:49"
 size: 87982000
 file: 151.mp3
-date: 2023-03-03 07:00:00 +0200
+date: 9999-03-03 07:00:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
