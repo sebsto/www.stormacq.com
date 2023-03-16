@@ -30,4 +30,4 @@ Voici les liens vers les pages des services dont nous avons parlé dans l'épiso
 - [Control Tower Progress Tracker](https://aws.amazon.com/about-aws/whats-new/2023/03/aws-control-tower-progress-tracker-landing-zone-setup-upgrades/)
 - [Lambda Powertools for .Net](https://aws.amazon.com/about-aws/whats-new/2023/02/aws-lambda-powertools-net-generally-available/)
 - [AWS SAM CLI annonce le support préliminaire de Rust](https://aws.amazon.com/about-aws/whats-new/2023/02/aws-sam-cli-preview-rust-build-support/)
-- Blog de la semaine : [Le choix d'un language de programmation pour réduire votre emprunte carbonne](https://aws.amazon.com/blogs/opensource/sustainability-with-rust/)
+- Blog de la semaine : [Le choix d'un language de programmation pour réduire votre empreinte carbonne](https://aws.amazon.com/blogs/opensource/sustainability-with-rust/)
