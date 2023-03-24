@@ -2,7 +2,7 @@
 layout: podcast
 title:  "Quoi de neuf ?"
 subtitle: "Les nouveautés AWS au 24 mars"
-description: "AWS a annoncé 71 nouveautés ces 15 derniers jours. Je vais en abordé 4 cette semaine avec vous, je parlerai aussi du Summit Paris le 4 avril prochain, puis je vous ferai découvrir une newsletter en français, très complémentaire à ce podcast et une blog post de novembre dernier qui explique comment utiliser de la reconnaissance d'images pour détecter les malwares et autres virus informatiques."
+description: "AWS a annoncé 71 nouveautés ces 15 derniers jours. Je vais en aborder 4 cette semaine avec vous, je parlerai aussi du Summit Paris le 4 avril prochain, puis je vous ferai découvrir une newsletter en français, très complémentaire à ce podcast et une blog post de novembre dernier qui explique comment utiliser de la reconnaissance d'images pour détecter les malwares et autres virus informatiques."
 guest: 
 episode: 154
 duration: "00:24:54"
