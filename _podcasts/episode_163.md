@@ -1,12 +1,12 @@
 ---
 layout: podcast
-title:  "Zadig&Voltaire"
-subtitle: "Migration Kube et Green IT"
-description: "Dans cet épisode nous parlons de l'architecture mise en place pour les canaux de ventes numériques chez Zadig&Voltaire, une marque que les amateurs de mode et de \"effortless luxury\" connaissent bien. On parle de leur migration d'un cluster Kube vers AWS, de leur experience en matière de autoscaling avec des pics de charge jusqu'à 20x la normale. On y parle aussi de leur utilisation de Graviton et des instances EC2 Spot. Enfin, nous évoquons leur utilisation de CloudFront, de Lambda et de leur évolution vers le serverless."
-guest: "<a href='https://www.linkedin.com/in/jonathanattali/'>Jonathan Attali</a>, Chief Marketing & Digital Officer et <a href='https://www.linkedin.com/in/michaelbouvy/'>Michael Bouvy</a>, CTO Digital, tous deux chez Zadig&Voltaire"
+title:  "UFO Drive"
+subtitle: "Bien plus que de la location de voiture"
+description: "Dans cet épisode nous parlons de l'architecture cloud de UFO Drive. UFO Drive loue des véhicules électriques à partir d'une app uniquement, sans bureaux pour réserver, prendre en charge ou restituer le véhicule. Quelle infrastructure cloud est nécessaire pour supporter ce business ? Quelles technologies sont utilisées pour enregistrer les utilisateurs et leur livrer le contrat et la clé du véhicule? Quelles technologies sont utilisées lors du retour du véhicule sur son emplacement de parking ? Spoiler alert, on parle de GraphQL, d'apprentissage machine et de IoT."
+guest: "<a href='https://www.linkedin.com/in/stanyblanvalet/'>Stany Blanvalet</a>, CTO et <a href='https://www.linkedin.com/in/paul-schmitt-955b36138/'>Paul Schmitt</a>, Resp. Architecture, tous deux chez UFO Drive."
 episode: 163
-duration: "00:48:00"
-size: 92166607
+duration: "00:48:05"
+size: 92308713
 file: 163.mp3
 date: 2023-05-26 07:00:00 +0200
 author: Sébastien Stormacq
@@ -23,6 +23,11 @@ Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastie
 
 Voici les liens vers les pages des services dont nous avons parlé dans l'épisode.
 
-- [Zadig et Voltaire](https://zadig-et-voltaire.com/)
+- [UFO Drive](https://www.ufodrive.com)
+- [Postgraphile](https://www.graphile.org/postgraphile/) Un librairie qui expose votre DB comme une API GraphQL.
+- [Amazon Rekognition](https://aws.amazon.com/rekognition/)
+- [Amazon Elasticache](https://aws.amazon.com/elasticache/)
+- [AWS IoT Greengrass](https://aws.amazon.com/greengrass/)
+- [AWS Device Farm](https://aws.amazon.com/device-farm/)
 
 
