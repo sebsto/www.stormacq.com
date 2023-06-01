@@ -17,7 +17,7 @@ appleEpisodeId: 1000614559560
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
-Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)
+Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastienstormacq/), [Twitter](https://twitter.com/sebsto), [Blue Sky](https://bsky.app/profile/sebsto.bsky.social), [Mastodon](https://awscommunity.social/@sebsto) ou abonnez-vous sur ma chaîne [YouTube](https://www.youtube.com/sebsto) ou [Twitch.tv](https://www.twitch.tv/sebAWS)
 
 ## Liens
 
