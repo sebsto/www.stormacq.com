@@ -8,12 +8,12 @@ episode: 180
 duration: "00:17:44" 
 size: 34054396
 file: 180.mp3
-date: 2023-09-15 07:00:00 +0200
+date: 2023-09-22 07:00:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-# appleEpisodeId: 1000625635072
+appleEpisodeId: 1000628834491
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
