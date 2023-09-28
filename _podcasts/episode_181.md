@@ -2,7 +2,7 @@
 layout: podcast
 title:  "Serverless framework"
 subtitle: "Le framework pour créer des applis serverless"
-description: "Serverless framework est un des premiers frameworks et ligne de commande qui a permi et qui permet toujours de simplifier la création de fonctions sur Lambda. Dans cet épisode, nous epxliquons pourquoi utiliser Serverless framework et comment bien débuter dans le monde sans serveurs. Pour aller plus loin, découvrez les plugins de la ligne de commande qui permettent de réaliser des actions complémentaires lors du développement, test, ou déploiements de vos vos fonctions. On y parle aussi de Lift, ce plugin qui permet de marrier du code CDK et le projet serverless. "
+description: "Dans cet épisode, nous plongeons dans l'univers du Serverless Framework, l'un des premiers frameworks et lignes de commande qui a révolutionné et continue de simplifier la création de fonctions Lambda. Dans cet épisode, nous epxliquons pourquoi utiliser Serverless framework et comment bien débuter dans le monde sans serveurs. Pour aller plus loin, découvrez les plugins de la ligne de commande qui permettent de réaliser des actions complémentaires lors du développement, test, ou déploiements de vos vos fonctions. On y parle aussi de Lift, ce plugin qui permet de marrier du code CDK et le projet serverless."
 guest: "<a href='https://www.linkedin.com/in/matthieunapoli/'>Matthieu Napoli</a>, créateur de Bref, consultant et <a href='https://aws.amazon.com/developer/community/heroes/matthieu-napoli/'>AWS Hero</a>."
 episode: 181
 duration: "00:44:17"
