@@ -8,7 +8,7 @@ episode: 186
 duration: "00:17:26" 
 size: 33484300
 file: 186.mp3
-date: 2023-11-04 07:00:00 +0200
+date: 2023-11-03 07:00:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
