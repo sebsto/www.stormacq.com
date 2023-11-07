@@ -1,12 +1,12 @@
 ---
 layout: podcast
-title:  "La pub personalisée"
-subtitle: "Avec Altice Media"
-description: "Altice Media est le groupe audiovisuel qui gère les chaînes de TV de BFM et de RMC entre-autres. Découvrez comment les encarts publicitaires proposés sur vos box, vos téléphones, tablettes ou ordinateurs sont personalisés. Envoyer des publicités ciblées en fonction des programmes que vous regardez nécessite une infrastructure informatique hautement disponible et scalable pour pouvoir servir les demandes de publicités en très peu de temps. Dans cet épisode du podcast 🎙 AWS ☁️ en 🇫🇷, on parle de serverless avec AWS Lambda, SQS et DynamoDB. On parle aussi d'économie de coûts et d'agilité en matière de développement."
-guest: "<a href='https://www.linkedin.com/in/nassim-/'>Nassim Ait Boufrad</a>, Head of Infrastructure & Cloud Architect @ Altice Media"
+title:  "Le sport dans le cloud"
+subtitle: "Comment RMC ingère les résultats sportifs"
+description: "RMC TV, radio et web font parties du groupe Altice Media. Pour pouvoir distribuer les résultats sportifs en externe sur le web et les applications mobiles et en interne vers les différentes rédactions. L'infrastructure pour recevoir, analyser et distribuer les données doit être capable de monter en charge en fonction des évennements sportifs et doit être hautement disponible pour vous fournir les résultats que vous attendez en quasi temps réel. Dans cet épisode, on parle de l'architecture de l'ingestion et distribution des données sportives."
+guest: "<a href='https://www.linkedin.com/in/aldobattaglia/'>Aldo Battaglia</a>, Tech Manager chez Altice Media."
 episode: 187
-duration: "00:43:25"
-size: 83368566
+duration: "00:37:15"
+size: 71480135
 file: 187.mp3
 date: 2023-11-10 07:00:00 +0200
 author: Sébastien Stormacq
@@ -24,8 +24,11 @@ Laissez-moi vos commentaires sur [LinkedIn](https://www.linkedin.com/in/sebastie
 Voici les liens vers les pages des services dont nous avons parlé dans l'épisode.
 
 - [Altice Media](https://alticefrance.com/media)
+- [Opta - fournisseur de données sportives](https://www.statsperform.com/opta/)
 - [AWS Lambda](https://docs.aws.amazon.com/lambda/latest/dg/getting-started.html)
-- [Amazon SQS](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html)
 - [Amazon DynamoDB](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Introduction.html)
-- [AWS Elemental Media Tailor](https://aws.amazon.com/mediatailor/)
-
+- [Amazon SQS](https://docs.aws.amazon.com/AWSSimpleQueueService/latest/SQSDeveloperGuide/welcome.html)
+- [AWS Steps Function](https://docs.aws.amazon.com/step-functions/latest/dg/welcome.html)
+- [DynamoDB local](https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html)
+- [Serverless framework](https://www.serverless.com/)
+- [AWS Code Pipeline](https://docs.aws.amazon.com/codepipeline/latest/userguide/welcome.html)
