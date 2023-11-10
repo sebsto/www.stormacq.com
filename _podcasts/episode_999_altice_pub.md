@@ -8,7 +8,7 @@ episode: 187
 duration: "00:43:25"
 size: 83368566
 file: 187.mp3
-date: 2023-11-10 07:00:00 +0200
+date: 2100-11-10 07:00:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
