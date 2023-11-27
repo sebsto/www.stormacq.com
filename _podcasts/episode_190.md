@@ -3,7 +3,7 @@ layout: podcast
 title:  "AWS re:Invent re:Cap - Lundi"
 subtitle: ""
 description: "Un petit résumé quotiden des principales annonces faites à re:Invent 2023. Enregistré à Las Vegas."
-guest:  "<a href='https://www.linkedin.com/in/chrystellel/'>Chryss Le Gall</a>, Lead Cloud Solutions Architect chez Ateme"
+guest:  "<a href='https://www.linkedin.com/in/chrystellel/'>Chrys Le Gall</a>, Lead Cloud Solutions Architect chez Ateme"
 episode: 190
 duration: "00:18:41" 
 size: 35861652
