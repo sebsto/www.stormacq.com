@@ -5,10 +5,10 @@ subtitle: ""
 description: "Un petit résumé quotiden des principales annonces faites à re:Invent 2023. Enregistré à Las Vegas."
 guest:  "<a href='https://www.linkedin.com/in/chrystellel/'>Chryss Le Gall</a>, Lead Cloud Solutions Architect chez Ateme"
 episode: 190
-duration: "00:17:50" 
-size: 34244986
+duration: "00:18:41" 
+size: 35861652
 file: 190.mp3
-date: 2023-11-27 23:00:00 +0200
+date: 2023-11-27 22:30:00 +0200
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
