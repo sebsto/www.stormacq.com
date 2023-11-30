@@ -13,7 +13,7 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-# appleEpisodeId: 1000636848162
+appleEpisodeId: 1000636973130
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
@@ -27,7 +27,7 @@ Voici les liens vers les pages des services dont nous avons parlé dans l'épiso
 - Amazon Redshift : [génération de SQL à partir de requêtes en language naturel](https://aws.amazon.com/blogs/aws/amazon-redshift-adds-new-ai-capabilities-to-boost-efficiency-and-productivity/)
 - Zero ETL : [DynamoDB et S3](https://aws.amazon.com/blogs/aws/amazon-opensearch-service-zero-etl-integration-with-amazon-s3-preview/)
 - Zero ETL : [DynamoDB et OpenSearch](https://aws.amazon.com/blogs/aws/
-- [Neptune Analytics](https://aws.amazon.com/blogs/aws/introducing-amazon-neptune-analytics-a-high-performance-graph-analytics/)
+- [Neptune Analytics](https://aws.amazon.com/blogs/aws/)introducing-amazon-neptune-analytics-a-high-performance-graph-analytics/)
 - [Des vecteurs dans Amazon DocumentDB](https://aws.amazon.com/blogs/aws/vector-search-for-amazon-documentdb-with-mongodb-compatibility-is-now-generally-available/)
 - [Des vecteurs dans OpenSearch serverless](https://aws.amazon.com/blogs/aws/vector-engine-for-amazon-opensearch-serverless-is-now-generally-available/)
 - Amazon Bedrock : [Amazon Titan Image Generator, Titan Embeddings, et Text Model](https://aws.amazon.com/blogs/aws/amazon-titan-image-generator-multimodal-embeddings-and-text-models-are-now-available-in-amazon-bedrock/)
