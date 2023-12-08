@@ -8,7 +8,7 @@ episode: 195
 duration: "00:46:12" 
 size: 88710085
 file: 195.mp3
-date: 2023-12-08 07:00:00 +0100
+date: 2023-12-08 06:00:00 +0100
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
