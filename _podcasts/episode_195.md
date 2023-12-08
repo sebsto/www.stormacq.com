@@ -1,9 +1,9 @@
 ---
 layout: podcast
-title:  "France Télévision"
+title:  "France Télévisions"
 subtitle: "Ajout de publicités côté serveur"
-description: "France Télévision utilise le cloud AWS pour distribuer les flux vidéos à destinations des plateformes numériques (Box fournisseurs, ordinateurs, tablettes et téléphones). Découvrez le parcours du flux vidéo depuis sa sortie de régie jusqu'à votre écran. On parle d'encodage et de traitement de vidéos, d'inclusion de publicités personalisées côté serveur et de synchronisation de pistes audios. Entrez dans le monde de la diffusion vidéo en numérique et découvrez comment le cloud permet de manipuler des flux vidéos en temps réels."
-guest:  "<a href='https://www.linkedin.com/in/gpostaire/'>Guillaume Postaire</a>, directeur Media Factory et <a href='https://www.linkedin.com/in/yoann-guennegues-022a1a8/'>Yoann Guennegues</a>, Lead Expert Video/ Video streaming architect, tous deux chez France Télévision"
+description: "France Télévisions utilise le cloud AWS pour distribuer les flux vidéos à destinations des plateformes numériques (Box fournisseurs, ordinateurs, tablettes et téléphones). Découvrez le parcours du flux vidéo depuis sa sortie de régie jusqu'à votre écran. On parle d'encodage et de traitement de vidéos, d'inclusion de publicités personalisées côté serveur et de synchronisation de pistes audios. Entrez dans le monde de la diffusion vidéo en numérique et découvrez comment le cloud permet de manipuler des flux vidéos en temps réels."
+guest:  "<a href='https://www.linkedin.com/in/gpostaire/'>Guillaume Postaire</a>, directeur Media Factory et <a href='https://www.linkedin.com/in/yoann-guennegues-022a1a8/'>Yoann Guennegues</a>, Lead Expert Video/ Video streaming architect, tous deux chez France Télévisions"
 episode: 195
 duration: "00:46:12" 
 size: 88710085
