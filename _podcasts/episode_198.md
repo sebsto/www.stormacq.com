@@ -1,7 +1,7 @@
 ---
 layout: podcast
 title:  "Quoi de neuf ?"
-subtitle: "Les nouveautés AWS au 22 décembre"
+subtitle: "Les nouveautés AWS au 29 décembre"
 description: "J'ai compté 96 nouveautés depuis le 15 décembre. J'en ai retenu 8 pour cette dernière semaine de l'année. Huit qui sont d'intérêts pour les développeurs, les builders que vous êtes. Dans cet épisode, nous parlons de Clouwatch et Lambda, de Cognito, de Code Catalyst, de replication de système de fichiers ZFS, de la console mobile sur iPhone. Nous terminerons avec du DNS sur HTTPS et d'une nouvelle région au Canada."
 guest:
 episode: 198
@@ -13,7 +13,7 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/podcast-artwork.png'
-# appleEpisodeId: 1000638644351
+appleEpisodeId: 1000640093312
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
