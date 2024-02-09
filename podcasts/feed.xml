@@ -39,7 +39,6 @@ layout: none
       <item>
         <title>{{ podcast.title | xml_escape }}</title>
         <description>{{ podcast.description | xml_escape }}</description>
-        <!-- <content:encoded>{{ podcast.description | xml_escape }}</content:encoded> -->
         <content:encoded><![CDATA[
         {{ podcast.description }} {% if podcasts.guest  %}Avec {{ podcast.guest }}{% endif  %}
         <p/>
@@ -55,6 +54,7 @@ layout: none
         <itunes:subtitle>{{ podcast.subtitle | xml_escape }}</itunes:subtitle>
         <itunes:summary>{{ podcast.description | xml_escape }}</itunes:summary>
         <itunes:author>{{ podcast.author | xml_escape }}</itunes:author>
+        <itunes:image href="{{ site.podcast.artworklink | xml_escape }}{{ podcast.social-background | xml_escape }}"></itunes:image>
 
         <itunes:duration>{{ podcast.duration }}</itunes:duration>
         {% if page.episode %}

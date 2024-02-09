@@ -68,8 +68,8 @@ podcast:
   subtitle: "L'actualité est des retours d'expérience sur AWS"
   description:  "Nous parlons d'Amazon Web Services en français.  Découvrez les nouveaux services ou fonctions, des interviews avec des partenaires ou des clients d'AWS.  Découvrez des cas d'utilisation, des retours d'expérience racontés par les clients d'AWS eux-mêmes."
   link: https://chtbl.com/track/G9B194/dts.podtrac.com/redirect.mp3/download.stormacq.com/aws/podcast/
-  artworklink: https://download.stormacq.com/aws/podcast/
-  artwork: podcast-artwork.png
+  artworklink: https://download.stormacq.com/aws/podcast
+  artwork: /img/podcast-artwork.png
   author: Amazon Web Services France
   applePodcastId: id1452118442
 
