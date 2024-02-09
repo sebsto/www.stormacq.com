@@ -11,8 +11,8 @@ file: 205.mp3
 date: 2024-02-16 05:00:00 +0000
 author: Sébastien Stormacq
 category: podcasts
-background: '/img/podcast-banner-transparent.png'
-social-background: 205.png
+background: /img/podcast-banner-transparent.png
+social-background: /img/205.png
 # appleEpisodeId: 1000644717726
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
