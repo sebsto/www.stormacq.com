@@ -25,7 +25,7 @@ Voici les liens vers les pages des services dont nous avons parlé dans l'épiso
 
 - [Le podcast 🎙 AWS ☁️ en 🇫🇷 est maintenant disponible sur YouTube](https://www.youtube.com/watch?v=FoiENh1_kjU&list=PLZ_TUMnTqfu9lG7nh_3VHJ1iM2q9grWvd&pp=gAQBiAQB)
 - [Les clients légers Amazon Workspaces sont disponibles à l'achat en France](https://aws.amazon.com/about-aws/whats-new/2024/02/amazon-workspaces-thin-client-inventory-france-germany-italy-spain/)
-- [Ens avoir plus sur les clients légers Amazon Workspaces](https://aws.amazon.com/blogs/aws/new-amazon-workspaces-thin-client/)
+- [En savoir plus sur les clients légers Amazon Workspaces](https://aws.amazon.com/blogs/aws/new-amazon-workspaces-thin-client/)
 - [Amazon Location Services SDK supporte le rendu avec Metal sur iOS](https://aws.amazon.com/about-aws/whats-new/2024/02/amazon-location-service-maps-sdk-metal-rendering-ios/)
 - [API Gateway](https://aws.amazon.com/fr/about-aws/whats-new/2024/02/api-gateway-tls-1-3/) et [OpenSearch serverless](https://aws.amazon.com/about-aws/whats-new/2024/02/amazon-opensearch-serverless-tls-1-3-perfect-forward-secrecy/) supportent TLS 1.3
 - [Apportez vos certificats TLS sur Amplify Hosting](https://aws.amazon.com/blogs/mobile/custom-ssl-amplify-hosting/)
