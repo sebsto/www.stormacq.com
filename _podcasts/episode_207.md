@@ -1,7 +1,7 @@
 ---
 layout: podcast
-title:  "EKS chez HK Tech"
-subtitle: "10 leçons pour gérer vos clusters Kubernetes"
+title:  "10 leçons sur Kubernetes"
+subtitle: "EKS chez HK-Tech"
 description: "Dans cet épisode nous listons dix leçons apprises pendant plus de trois années à gérer des clusters kubernetes à grande échelle."
 guest: "<a href='https://www.linkedin.com/in/herv%C3%A9-ga%C3%ABl-kouamo-157633197/'>Hervé-Gaël Kouamo</a>, Responsable technique chez HK Tech"
 episode: 207
