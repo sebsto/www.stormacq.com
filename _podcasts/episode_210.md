@@ -3,7 +3,7 @@ layout: podcast
 title:  "Women in Tech"
 subtitle: "Inclusion, diversité et équité"
 description: "Aujourd'hui, nous inaugurons une nouveauté dans le podcast 🎙 AWS ☁️ en 🇫🇷. Après 5 ans d'existence, une fois par mois, nous parlerons d'inclusion, de diversité et d'équité. Ce sera le dernier mercredi de chaque mois, en plus des épisodes tech du vendredi qui eux ne changent pas (sauf aujourd'hui 😇). Nous discuterons avec une femme qui travaille dans la tech et mettrons en avant son parcours, ses défis et son expérience, dans l'espoir d'en inspirer de nombreuses autres."
-guest: "<a href='https://www.linkedin.com/in/agnesgerbaudseuret/'>Agnes Seuret</a>, AWS France Specialist Leader"
+guest: "<a href='https://www.linkedin.com/in/agnesgerbaudseuret/'>Agnes Seuret</a>, France Specialist Sales Leader, AWS"
 episode: 210
 duration: "00:42:55" 
 size: 82418127
