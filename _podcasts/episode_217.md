@@ -6,14 +6,14 @@ description: "Je n'ai pas compté les nouveautés des deux dernières semaines c
 guest:
 episode: 217
 duration: "00:18:23" 
-size: 35291556
+size: 35289644
 file: 217.mp3
 date: 2024-05-03 05:00:00 +0000
 author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/217.png'
-# appleEpisodeId: 1000652938368
+appleEpisodeId: 1000654414953
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
