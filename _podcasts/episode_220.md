@@ -2,7 +2,7 @@
 layout: podcast
 title:  "Les nouveautés AWS au 17 mai"
 subtitle: "Quoi de neuf ?"
-description: "Il y a eu 64 nouveautés ces deux dernières semaines, j'en ai retenu trois qui me semblent importantes pour les builders, les développeurs/euses. Dans cet épisode je parlerais d'une nouvelle façon vraiment cool d'accèder à Amazon Bedrock, des instances EC2 Flex, d'un changement important de la facturation de Amazon S3 et d'un article de blog au sujet de l'envoi d'email en masse avec le service SES"
+description: "Il y a eu 64 nouveautés ces deux dernières semaines, j'en ai retenu trois qui me semblent importantes pour les builders, les développeurs/euses. Dans cet épisode je parle d'une nouvelle façon vraiment cool d'accèder à Amazon Bedrock, des instances EC2 Flex, d'un changement important de la facturation de Amazon S3 et d'un article de blog au sujet de l'envoi d'email en masse avec le service SES"
 guest:
 episode: 220
 duration: "00:13:22" 
@@ -13,7 +13,7 @@ author: Sébastien Stormacq
 category: podcasts
 background: '/img/podcast-banner-transparent.png'
 social-background: '/img/220.png'
-# appleEpisodeId: 1000654414953
+appleEpisodeId: 1000655879317
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
