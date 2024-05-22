@@ -2,7 +2,7 @@
 layout: podcast
 title:  "Fatiha Bouabache"
 subtitle: "Solution Architect chez AWS France"
-description: "Dans cet épisode \"Women in Tech\", nous découvrons le parcours inspirant de Fatiha, la première femme architecte de solution chez AWS. Nous revenons sur son parcours inspirant et ses expériences professionelles. J'ai retenu deux leçons de cette conversation : quand vous voulez quelque chose, concentrez-vous sur vos objectifs et éliminez les distractions extérieures. Et puis évaluez les personnes sur leurs connaissances et de leurs compétences uniquement et non de leur sexe, de leur genre, de leur couleur de peau, de leur origine sociale ou de leur religion."
+description: "Dans cet épisode \"Women in Tech\", nous découvrons le parcours inspirant de Fatiha, la première femme architecte de solution chez AWS. Nous revenons sur son parcours inspirant et ses expériences professionnelles. J'ai retenu deux leçons de cette conversation : quand vous voulez quelque chose, concentrez-vous sur vos objectifs et éliminez les distractions extérieures. Et puis évaluez les personnes sur leurs connaissances et de leurs compétences uniquement et non de leur sexe, de leur genre, de leur couleur de peau, de leur origine sociale ou de leur religion."
 guest: "<a href='https://www.linkedin.com/in/fatiha-bouabache-1672236/'>Fatiha Bouabache</a>, Senior Solution Architect, AWS France"
 episode: 221
 duration: "00:27:38" 
