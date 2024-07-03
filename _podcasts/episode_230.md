@@ -1,7 +1,7 @@
 ---
 layout: podcast
-title:  "Woman in Tech"
-subtitle: "Virgine Mathivet"
+title:  "Virgine Mathivet"
+subtitle: "Les parcours professionnels variés"
 description: "Dans cet épisode de Woman in Tech, on s'attaque au manque de diversité dans la tech, un problème causé en partie par des préjugés inconscients, présents  dans les données informatiques comme dans la vie de tous les jours.
 
 On y discute des avantages pour les entreprises de recruter des profils atypiques ou minoritaires, comme les femmes et les personnes neurodiverses, et de l'impact positif sur les clients.
@@ -23,7 +23,7 @@ author: Sébastien Stormacq
 category: podcasts
 background: /img/podcast-banner-transparent.png
 social-background: /img/230.png
-# appleEpisodeId: 1000659474490
+appleEpisodeId: 1000660987533
 # appleEpisodeId: https://podcasts.apple.com/fr/podcast/le-podcast-aws-en-français/id1452118442
 ---
 
