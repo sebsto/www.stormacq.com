@@ -6,3 +6,5 @@ amplify
 vendor
 Gemfile.lock
 .DS_Store
+venv
+__pycache__
