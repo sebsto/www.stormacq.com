@@ -23,7 +23,7 @@ phases:
       - bundle config set --local path 'vendor/bundle'
       - bundle install
       - bundle --version
-      
+
       - ruby --version
       - gem --version
       - gem list --local
@@ -48,4 +48,4 @@ artifacts:
 
 cache:
   paths:
-    - 'vendor/**/*''
+    - 'vendor/**/*'
