@@ -1,0 +1,18 @@
+info@LADEN.nl				REJECT
+info@GUY.com				REJECT
+info@PEARLITE.nl			REJECT	
+info@INCOMPREHENSION.com	REJECT
+info@MAGI.nl				REJECT
+info@FETUS.nl				REJECT
+info@IMPOTENT.nl			REJECT
+info@SANDMAN.com			REJECT
+info@MAN.com				REJECT
+info@ONYX.com				REJECT
+info@WALLY.com				REJECT
+info@INFLUENZA.com			REJECT
+info@LUNACY.nl				REJECT
+info@HOSE.nl				REJECT
+info@HARDBOILED.com			REJECT
+info@IMPURE.com				REJECT
+
+
