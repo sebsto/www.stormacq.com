@@ -5,7 +5,8 @@ subtitle:  How to connect Xcode 26.3 coding agent to Claude models hosted on Ama
 date: 2026-02-20 00:00:00 +0100
 tags: [aws, bedrock, xcode, openrouter, swift]
 author: Seb
-background: '/img/posts/20200901/bien-demarrer.jpg'
+background: /img/posts/20260220/banner.png
+published: false
 ---
 
 Xcode 26.3 RC ships with a built-in coding agent. Out of the box, it supports OpenAI Codex and Anthropic Claude. You pick your provider, enter your API key, and you're good to go. That's great for getting started quickly.
@@ -50,7 +51,7 @@ Head to the Amazon Bedrock console, make sure you are in a region where the Clau
 
 For the full details on how Bedrock API keys work, check the [official documentation](https://docs.aws.amazon.com/bedrock/latest/userguide/api-keys.html).
 
-placeholder-iam-bedrock-key.png
+![Create API Keys on Amazon Bedrock](/img/posts/20260220/bedrock-create-api-key.png)
 
 #### Step 2 - Create an Account on OpenRouter
 
