@@ -15,7 +15,7 @@ But here is the thing. When you use Claude directly through Anthropic's API, you
 
 I want the Xcode coding agent to use Claude models, but hosted on Amazon Bedrock, inside my AWS account. I don't want to multiply billing accounts and manage yet another vendor relationship. I already have an AWS account, I already have consolidated billing, I already have guardrails and IAM policies in place. Bedrock lets me access Claude Opus and Claude Sonnet models while keeping all that infrastructure under one roof.
 
-The problem is that Xcode doesn't speak the Bedrock API. Xcode sends requests using the Anthropic Messages API format, and Bedrock expects its own request format. You can't just point Xcode at your Bedrock endpoint and call it a day.
+The problem is that Xcode doesn't speak the Bedrock API. Xcode sends requests using the [OpenAI Chat Completions API](https://developers.openai.com/api/reference/chat-completions/overview), and Bedrock expects its own request format. You can't just point Xcode at your Bedrock endpoint and call it a day.
 
 So I need a proxy. Something that sits between Xcode and Bedrock, translates the API calls on the fly, and forwards them to the right place.
 
