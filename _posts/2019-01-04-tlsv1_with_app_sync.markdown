@@ -7,7 +7,7 @@ date: 2019-01-04 00:00:00 +0100
 # categories: aws appsync
 tags: [mobile, appsync, aws, android, tls, ssl]
 author: Seb
-background: '/img/posts/2019-01-04-security.jpg'
+background: '/img/posts/20190104/security.jpg'
 ---
 
 When developing mobile applications, supporting older devices is a common requirement, in particular for Android mobiles where the market is much more fragmented than on iOS.  [According to Apple][iOS adoption]{:target="_blank"}, 72% of the devices sold in the last 4 years are running iOS 12, while [according to Google][android adoption]{:target="_blank"}, only 21% of devices are running Android 8.x (Oreo).  On Android, you will need to support all versions back to Android 5.x (Lollipop) to reach 90% of the active devices.

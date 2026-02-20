@@ -6,7 +6,7 @@ date:   2018-03-13 12:15:49 +0100
 # categories: alexa i18n
 tags: [alexa, french, france, i18n]
 author: Seb
-background: '/img/posts/2018-03-13-develop-skills-french.png'
+background: '/img/posts/20180313/develop-skills-french.png'
 ---
 
 Today, we’re excited to announce that developers can start building voice experiences for customers in France using the Alexa Skills Kit.  

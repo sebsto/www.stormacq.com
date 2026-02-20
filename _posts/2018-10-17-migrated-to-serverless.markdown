@@ -6,7 +6,7 @@ date:   2018-10-17 19:15:49 +0100
 # categories: serverless
 tags: [serverless, migration, s3, jekyll]
 author: Seb
-background: '/img/posts/2018-10-17-migrated-to-serverless.jpg'
+background: '/img/posts/20181017/migrated-to-serverless.jpg'
 ---
 
 This week I migrated my 13 years old [Wordpress][wordpress.org] blog to a serverless architecture.  Here is why.  

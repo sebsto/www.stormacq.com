@@ -7,7 +7,7 @@ date: 2019-06-23 00:00:00 +0100
 # categories: aws appsync
 tags: [nodejs, javascript, aws, lambda]
 author: Seb
-background: '/img/posts/2019-06-24-async.jpg'
+background: '/img/posts/20190624/async.jpg'
 ---
 
 I am often replying to Javascript [programming questions](https://stackoverflow.com/questions/55060415/connect-aws-mobile-backend-to-dynamodb?noredirect=1#comment96870590_55060415){:target="_blank"} about issues related to a lack of understanding of the asynchronous nature of most Javascript API and the proper way to write asynchronous code.  Some documentation or examples found through search engines are outdated and not reflecting 2019's language features and best practices.
@@ -18,7 +18,7 @@ So, using three simple code samples, let's see how you can refactor your code fr
 
 The oldest and traditional approach was to pass callback function to your asynchronous function.  Upon termination, the asynchronous function would simply call your callback function.  Please do not do that anymore.
 
-![async 1 code example](/img/posts/2019-06-24-async1.png)
+![async 1 code example](/img/posts/20190624/async1.png)
 
 {% highlight bash %}
 $ node async_demo_1.js
@@ -37,7 +37,7 @@ To avoid having to manage callbacks hell, many programing languages are now prop
 - the Promise constructor takes one function argument : `(resolve, reject) => { ... }` 
 - whenever a result is available call `resolve(return_value)` or call `reject(reason)` in case of an error
 
-![async 2 code example](/img/posts/2019-06-24-async2.png)
+![async 2 code example](/img/posts/20190624/async2.png)
 
 {% highlight bash %}
 $ node async_demo_2.js
@@ -52,7 +52,7 @@ Notice `callback` is still called after `Ended`.  Also notice the asynchronous f
 
 This simplifies a lot writing asynchronous code, but you still end up with `.then().catch()` nightmare. So, to remove these `.then().catch()` the last transformation step is to migrate your code to `await` / `async` keywords, as shown below.
 
-![async 3 code example](/img/posts/2019-06-24-async3.png)
+![async 3 code example](/img/posts/20190624/async3.png)
 
 {% highlight bash %}
 $ node async_demo_3.js
@@ -67,7 +67,7 @@ Notice the output is now in the logical order.  `await` blocks the execution unt
 
 Let's finish by looking at how you can wrap AWS Services calls made with the [AWS SDK for Javascript](https://aws.amazon.com/sdk-for-node-js/){:target="_blank"} with `async` and `await`.  Here is a [DynamoDB](https://aws.amazon.com/dynamodb/getting-started/){:target="_blank"} [`update`](https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/DynamoDB/DocumentClient.html#update-property){:target="_blank"} example.
 
-![async 4 code example](/img/posts/2019-06-24-async4.png)
+![async 4 code example](/img/posts/20190624/async4.png)
 
 ([code](https://gist.github.com/sebsto/96595219569f2335891d00415e2d1569){:target="_blank"})
 

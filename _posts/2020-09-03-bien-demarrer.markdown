@@ -6,7 +6,7 @@ date: 2020-09-01 00:00:00 +0100
 # categories: aws appsync
 tags: [ec2, s3, aws, lambda]
 author: Seb
-background: '/img/posts/2020-09-01-bien-demarrer.jpg'
+background: '/img/posts/20200901/bien-demarrer.jpg'
 ---
 
 Vous trouverez ici un ensemble de mini vidéos, la plupart sous la barre des 5 minutes, pour répondre aux questions les plus fréquement posées sur AWS.
@@ -29,7 +29,7 @@ https://youtu.be/_iBuMSUPZNk
 
 --- 
 
-![video0](/img/posts/2020-09-03_video0.jpg)&nbsp;![video1](/img/posts/2020-09-03_video1.png)&nbsp;![video2](/img/posts/2020-09-03_video2.png)&nbsp;![video3](/img/posts/2020-09-03_video3.png)
+![video0](/img/posts/20200903/video0.jpg)&nbsp;![video1](/img/posts/20200903/video1.png)&nbsp;![video2](/img/posts/20200903/video2.png)&nbsp;![video3](/img/posts/20200903/video3.png)
 
 
 <p/>

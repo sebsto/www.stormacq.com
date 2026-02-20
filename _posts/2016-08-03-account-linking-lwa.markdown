@@ -13,6 +13,6 @@ A new blog post has just been published on Alexa Developer's blog.
 
 "[Alexa Account Linking: 5 Steps to Seamlessly Link Your Alexa Skill with Login with Amazon][al_lwa_5steps]" has all the details.
 
-![Here is the architecture:](/img/posts/2016-08-03-account-linking-lwa.jpg)
+![Here is the architecture:](/img/posts/20160803/account-linking-lwa.jpg)
 
 [al_lwa_5steps]: https://developer.amazon.com/blogs/post/Tx3CX1ETRZZ2NPC/Alexa-Account-Linking-5-Steps-to-Seamlessly-Link-Your-Alexa-Skill-with-Login-wit#

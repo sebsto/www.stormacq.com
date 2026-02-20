@@ -6,7 +6,7 @@ description: "AWS re:Invent 2018 - re:Cap Tour in France"
 date:   2018-12-21 12:00:00 +0100
 # categories: aws
 author: Seb
-background: '/img/posts/2018-12-21-reinvent.jpg'
+background: '/img/posts/20181221/reinvent.jpg'
 ---
 
 December started with another edition of the re:Invent conference in Las Vegas.  My colleagues and I have started a tour around dozens of cities around the world to offer a re:Invent re:Cap, check your [local AWS User Group on Meetup][meetupAWS]{:target="_blank"} for details.
