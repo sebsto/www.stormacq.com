@@ -13,4 +13,5 @@ container run \
   -p 4000:4000 \
   --rm \
   --volume="$PWD:/srv/jekyll" \
-  -it $IMAGE_NAME
+  -it $IMAGE_NAME \
+  bundle exec jekyll serve -H 0.0.0.0 -P 4000 --watch --force_polling --livereload
