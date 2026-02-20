@@ -79,3 +79,9 @@ img::-moz-selection {
   color: $white;
   background: transparent;
 }
+
+// Constrain images in post content to the column width
+.col-lg-8 img {
+  max-width: 100%;
+  height: auto;
+}
