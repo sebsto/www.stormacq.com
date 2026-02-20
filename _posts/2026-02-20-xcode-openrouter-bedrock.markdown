@@ -29,8 +29,8 @@ Here is the architecture.
 
 ```mermaid
 flowchart LR
-    A["Xcode 26.3\nCoding Agent"] -->|"OpenRouter API Key"| B["OpenRouter\n(Proxy)"]
-    B -->|"Bedrock API Key"| C["Amazon Bedrock\n(Claude Model)"]
+    A["🖥️ Xcode 26.3 Coding Agent"] -->|"OpenRouter API Key"| B["🔀 OpenRouter (Proxy)"]
+    B -->|"Bedrock API Key"| C["☁️ Amazon Bedrock (Claude Model)"]
     C -->|"Response"| B
     B -->|"Response"| A
 ```
