@@ -127,9 +127,16 @@ layout: default
   
       </div>
 
-      <!-- embedded twitter -->
+      <!-- embedded bluesky -->
       <div class="col-lg-4 col-md-2 mx-auto">
-          <a class="twitter-timeline" data-width="400" data-height="800" data-dnt="true" data-theme="light" href="https://twitter.com/sebsto?ref_src=twsrc%5Etfw">Tweets by sebsto</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+          <script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
+          <bsky-embed
+            username="sebsto.bsky.social"
+            limit="5"
+            link-target="_blank"
+            load-more="true"
+            custom-styles="* { font-size: 0.95em; }"
+          ></bsky-embed>
       </div>
 
     <!-- end row-->
