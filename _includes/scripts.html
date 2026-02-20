@@ -71,6 +71,21 @@ yt_url2embed();
 
 </script>
 
+<!-- Mermaid diagram rendering -->
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: false });
+  // kramdown wraps ```mermaid blocks in <pre><code class="language-mermaid">
+  document.querySelectorAll('code.language-mermaid').forEach(function(el) {
+    var pre = el.parentElement;
+    var div = document.createElement('div');
+    div.className = 'mermaid';
+    div.textContent = el.textContent;
+    pre.parentElement.replaceChild(div, pre);
+  });
+  mermaid.run();
+</script>
+
 {% if site.google_analytics %}
 {% include google_analytics.html %}
 {% endif %}
