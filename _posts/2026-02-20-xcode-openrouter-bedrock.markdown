@@ -6,7 +6,7 @@ date: 2026-02-20 00:00:00 +0100
 tags: [aws, bedrock, xcode, openrouter, swift]
 author: Seb
 background: /img/posts/20260220/banner.png
-published: false
+published: true
 ---
 
 Xcode 26.3 RC ships with a built-in coding agent. Out of the box, it supports OpenAI Codex and Anthropic Claude. You pick your provider, enter your API key, and you're good to go. That's great for getting started quickly.
@@ -57,7 +57,7 @@ For the full details on how Bedrock API keys work, check the [official documenta
 
 Go to https://openrouter.ai/ and sign up. Nothing special here, a standard account creation. You can sign in with Google or GitHub if you want to keep things simple.
 
-placeholder-openrouter-signup.png
+![Create an account on OpenRouter](/img/posts/20260220/openrouter-signup.png)
 
 #### Step 3 - Create an API Key on OpenRouter
 
@@ -65,7 +65,7 @@ Once you're logged in, head to the API Keys section in your OpenRouter dashboard
 
 Copy that key and keep it somewhere safe. You'll need it in a minute.
 
-placeholder-openrouter-apikey.png
+![Create an API Key for OpenRouter](/img/posts/20260220/openrouter-configure-api-key.png)
 
 #### Step 4 - Configure BYOK on OpenRouter to Use Bedrock
 
@@ -73,25 +73,25 @@ This is where the magic happens. OpenRouter has a "Bring Your Own Key" (BYOK) fe
 
 Enter your Bedrock API Key and the region where you enabled Bedrock (for example us-east-1 or eu-west-3). OpenRouter will use these credentials to forward your requests to Bedrock instead of routing them through its own default providers.
 
-placeholder-openrouter-byok.png
+![Configure Bedrock pass-through for OpenRouter](/img/posts/20260220/openrouter-configure-bedrock.png)
 
 #### Step 5 - Configure Xcode to Use the OpenRouter Endpoint
 
 Open Xcode 26.3, go to Settings > Intelligence > Coding Agent. You'll see the built-in options for Codex and Claude. Ignore those. Instead, select the custom endpoint option.
 
-Enter the OpenRouter endpoint URL. At the time of writing, it's https://openrouter.ai/api.
+Enter the OpenRouter endpoint URL. At the time of writing, it's https://openrouter.ai/api (don't add the `/v1` at the end, Xcode does it for you).
 
 Enter `Authorization` as API Key Header.
 
 Enter `Bearer <your open router API key>` as API Key. This is the API key you created in step 3, prefixed with `Bearer` and a space character as Xcode doesn't add it automatically.
 
-placeholder-xcode-endpoint.png
+![Configure Xcode to use for OpenRouter](/img/posts/20260220/xcode-configure-openrouter.png)
 
 #### Step 6 - Select Your Model
 
 Now open the Xcode chat pane. At the top left, there is a dropdown menu. Select the OpenRouter entry. Xcode pulls the list of available models from OpenRouter, and since you configured Bedrock as your backend, you'll see dozens of models available through Bedrock listed there. Pick the one you want. I went with Claude Opus 4.5.
 
-placeholder-xcode-model.png
+![Select the modle to use with Xcode](/img/posts/20260220/xcode-select-model.png)
 
 ### Does It Actually Work?
 
