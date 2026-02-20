@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using Amazon Bedrock as Backend for Xcode 26 Coding Agent
-subtitle:  How to connect Xcode 26.3 coding agent to Claude models hosted on Amazon Bedrock. A step-by-step guide using OpenRouter as a proxy to translate API calls on the fly
+subtitle: How to connect Xcode 26.3 coding agent to Claude models hosted on Amazon Bedrock. A step-by-step guide using OpenRouter as a proxy to translate API calls on the fly
 date: 2026-02-20 00:00:00 +0100
 tags: [aws, bedrock, xcode, openrouter, swift]
 author: Seb
@@ -98,6 +98,8 @@ Now open the Xcode chat pane. At the top left, there is a dropdown menu. Select 
 Yes. Once everything is wired up, the Xcode coding agent works exactly as it would with a direct Claude connection. You ask it to refactor a function, write tests, explain a piece of code, and it just works. The proxy is transparent. The only difference is that under the hood, model inference happens on Bedrock, inside your AWS account. Your data does transit through OpenRouter, so again, this approach is for personal projects and demos where that's acceptable.
 
 The latency is slightly higher because of the extra hop through OpenRouter. In practice, I barely notice it. The coding agent isn't latency-sensitive in the way a real-time chat would be. You send a request, you wait a couple of seconds, you get your answer.
+
+![A chats ession with Claude Opus inside Xcode](/img/posts/20260220/xcode-chat.png)
 
 ### A Note on Cost
 
