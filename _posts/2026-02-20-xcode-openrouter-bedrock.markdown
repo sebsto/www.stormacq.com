@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Using Amazon Bedrock as Backend for Xcode 26 Coding Agent
+title: Using Amazon Bedrock as Backend for Xcode 26 Coding Agent - Part 1
 subtitle: How to connect Xcode 26.3 coding agent to Claude models hosted on Amazon Bedrock. A step-by-step guide using OpenRouter as a proxy to translate API calls on the fly
 date: 2026-02-20 00:00:00 +0100
 tags: [aws, bedrock, xcode, openrouter, swift]
