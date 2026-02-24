@@ -1,0 +1,32 @@
+{{ define "main" }}
+<!-- Page Header -->
+{{ with .Params.background }}
+<header class="masthead" style="background-image: url('{{ . }}')">
+{{ else }}
+<header class="masthead">
+{{ end }}
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="page-heading">
+          <h1>{{ .Title }}</h1>
+          {{ with .Params.description }}
+            <span class="subheading">{{ . }}</span>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+
+      {{ .Content }}
+
+    </div>
+  </div>
+</div>
+{{ end }}

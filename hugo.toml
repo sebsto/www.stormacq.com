@@ -1,0 +1,41 @@
+baseURL = "https://stormacq.com"
+languageCode = "en-us"
+title = "Seb in the ☁️"
+theme = "clean-blog"
+
+[params]
+  author = "Sébastien Stormacq"
+  email = "sebastien.stormacq@gmail.com"
+  description = "Developer Advocate @ AWS. This blog is about AWS Cloud, Swift &amp; Mobile (opinions are my own)"
+  twitter_username = "sebsto"
+  github_username = "sebsto"
+  linkedin_username = "sebastienstormacq"
+  google_analytics = "UA-5360703-2"
+  defaultBackground = "/img/bg-post.png"
+
+[permalinks]
+  [permalinks.page]
+    posts = "/:year/:month/:day/:slug/"
+
+[pagination]
+  pagerSize = 5
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[outputFormats.RSS]
+  mediaType = "application/rss+xml"
+  baseName = "feed"
+
+[markup]
+  [markup.highlight]
+    noClasses = true
+    style = "monokai"
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      # Required: existing blog content uses inline HTML (links with target="_blank",
+      # embedded videos, styled elements). Disabling this would break rendered posts.
+      # Content is author-controlled (single-author blog), not user-generated.
+      unsafe = true
+
+ignoreFiles = ["buildspec\\.yaml", "publish\\.sh", "docker/.*", "scripts/.*"]

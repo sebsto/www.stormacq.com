@@ -1,0 +1,85 @@
+{{/* Project-level override: custom scripts not provided by the theme.
+     Contains Mermaid diagram rendering, YouTube URL-to-embed conversion,
+     parallax scroll effect, and video wrapper CSS.
+     This file overrides themes/clean-blog/layouts/partials/extend-scripts.html */}}
+
+<!-- Video wrapper responsive CSS -->
+<style>
+  .videoWrapper {position: relative; padding-bottom: 56.333%; height: 0;}
+  .videoWrapper iframe {position: absolute; top: 0; left: 0; width: 100%; height: 100%;}
+</style>
+
+<script>
+(function ($) {
+  "use strict";
+  $(document).ready(function(){
+
+    // Parallax scroll effect on masthead background images
+    var $window = $(window),
+    $image = $('.masthead');
+
+      $window.on('scroll', function() {
+        var top = $window.scrollTop();
+
+        if (top < 0 || top > 1500) { return; }
+        $image
+          .css('transform', 'translate3d(0px, '+top/5+'px, 0px)')
+          .css('opacity', 1-Math.max(top/350, 0));
+      });
+      $window.trigger('scroll');
+
+  });
+}(jQuery));
+
+// YouTube URL-to-embed conversion
+// https://stackoverflow.com/questions/10529859/how-to-include-video-in-jekyll-markdown-blog
+
+function getId(url) {
+    var regExp = /^.*(youtu.be\/|v\/|u\/\w\/|embed\/|watch\?v=|\&v=)([^#\&\?]*).*/;
+    var match = url.match(regExp);
+    if (match && match[2].length == 11) {
+        return match[2];
+    } else {
+        return 'error';
+    }
+}
+function yt_url2embed() {
+    var p = document.getElementsByTagName('p');
+    for(var i = 0; i < p.length; i++) {
+        var pattern = /^((http|https):\/\/)/;
+        if(pattern.test(p[i].textContent.trim())) {
+            var myId = getId(p[i].textContent.trim());
+            if (myId === 'error') continue;
+            // Build DOM nodes instead of innerHTML to prevent XSS
+            var wrapper = document.createElement('div');
+            wrapper.className = 'videoWrapper';
+            var iframe = document.createElement('iframe');
+            iframe.width = '720';
+            iframe.height = '420';
+            iframe.src = 'https://www.youtube.com/embed/' + encodeURIComponent(myId) + '?rel=0&showinfo=0';
+            iframe.frameBorder = '0';
+            iframe.allowFullscreen = true;
+            wrapper.appendChild(iframe);
+            p[i].textContent = '';
+            p[i].appendChild(wrapper);
+        }
+    }
+}
+yt_url2embed();
+
+</script>
+
+<!-- Mermaid diagram rendering -->
+<script type="module">
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11.12.3/dist/mermaid.esm.min.mjs';
+  mermaid.initialize({ startOnLoad: false });
+  // Hugo's Goldmark wraps ```mermaid blocks in <pre><code class="language-mermaid">
+  document.querySelectorAll('code.language-mermaid').forEach(function(el) {
+    var pre = el.parentElement;
+    var div = document.createElement('div');
+    div.className = 'mermaid';
+    div.textContent = el.textContent;
+    pre.parentElement.replaceChild(div, pre);
+  });
+  mermaid.run();
+</script>

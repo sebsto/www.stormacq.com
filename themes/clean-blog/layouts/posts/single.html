@@ -1,0 +1,43 @@
+{{ define "main" }}
+<!-- Page Header -->
+{{ with .Params.background }}
+<header class="masthead" style="background-image: url('{{ . }}')">
+{{ else }}
+<header class="masthead">
+{{ end }}
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="post-heading">
+          <h1>{{ .Title }}</h1>
+          <span class="meta">{{ .Date.Format "January 02, 2006" }}</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+
+      {{ .Content }}
+
+      <hr>
+
+      <div class="clearfix">
+
+        {{ with .PrevInSection }}
+        <a class="btn btn-primary float-left" href="{{ .RelPermalink }}" data-toggle="tooltip" data-placement="top" title="{{ .Title }}">&larr; Previous<span class="d-none d-md-inline"> Post</span></a>
+        {{ end }}
+        {{ with .NextInSection }}
+        <a class="btn btn-primary float-right" href="{{ .RelPermalink }}" data-toggle="tooltip" data-placement="top" title="{{ .Title }}">Next<span class="d-none d-md-inline"> Post</span> &rarr;</a>
+        {{ end }}
+
+      </div>
+
+    </div>
+  </div>
+</div>
+{{ end }}
