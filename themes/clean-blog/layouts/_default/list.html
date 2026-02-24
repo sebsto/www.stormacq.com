@@ -1,0 +1,81 @@
+{{ define "main" }}
+<!-- Page Header -->
+{{ $bg := .Params.background | default .Site.Params.defaultBackground }}
+{{ with $bg }}
+<header class="masthead" style="background-image: url('{{ . }}')">
+{{ else }}
+<header class="masthead">
+{{ end }}
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <div class="page-heading">
+          <h1>{{ .Title }}</h1>
+          {{ with .Params.description }}
+            <span class="subheading">{{ . }}</span>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-md-10 mx-auto">
+
+      {{ $paginator := .Paginate .Pages }}
+      {{ range $paginator.Pages }}
+
+        <article class="post-preview">
+          <a href="{{ .RelPermalink }}">
+            <h2 class="post-title">{{ .Title }}</h2>
+            {{ with .Params.subtitle }}
+              <h3 class="post-subtitle">{{ . }}</h3>
+            {{ else }}
+              <h3 class="post-subtitle">{{ .Summary | plainify | truncate 100 }}</h3>
+            {{ end }}
+          </a>
+          <p class="post-meta">Posted by
+            {{ with .Params.author }}
+              {{ . }}
+            {{ else }}
+              {{ $.Site.Params.author }}
+            {{ end }}
+            on {{ .Date.Format "January 02, 2006" }}</p>
+        </article>
+
+        <hr>
+
+      {{ end }}
+
+      {{ if not $paginator.HasNext }}
+      <article class="post-preview">
+        <a href="/old/index.html">
+          <h2 class="post-title">Older posts migrated from Wordpress</h2>
+          <h3 class="post-subtitle">Posts between 2005 and 2018</h3>
+        </a>
+      </article>
+      <hr>
+      {{ end }}
+
+      <!-- Pager -->
+      {{ if gt $paginator.TotalPages 1 }}
+      <div class="clearfix">
+
+        {{ with $paginator.Prev }}
+          <a class="btn btn-primary float-left" href="{{ .URL }}">&larr; Newer<span class="d-none d-md-inline"> Posts</span></a>
+        {{ end }}
+
+        {{ with $paginator.Next }}
+          <a class="btn btn-primary float-right" href="{{ .URL }}">Older<span class="d-none d-md-inline"> Posts</span> &rarr;</a>
+        {{ end }}
+
+      </div>
+      {{ end }}
+
+    </div>
+  </div>
+</div>
+{{ end }}

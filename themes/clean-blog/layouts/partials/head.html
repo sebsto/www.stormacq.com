@@ -1,0 +1,72 @@
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Open Graph Tags for Social Media -->
+  <!-- http://davidensinger.com/2013/04/adding-open-graph-tags-to-jekyll/ -->
+  <meta content="{{ .Site.Title }}" property="og:site_name">
+  {{ if .Title }}
+    <meta content="{{ .Title }}" property="og:title">
+  {{ else }}
+    <meta content="{{ .Site.Title }}" property="og:title">
+  {{ end }}
+  {{ if .Title }}
+    <meta content="article" property="og:type">
+  {{ else }}
+    <meta content="website" property="og:type">
+  {{ end }}
+  {{ if .Params.description }}
+    <meta content="{{ .Params.description }}" property="og:description">
+  {{ else }}
+    <meta content="{{ .Site.Params.description }}" property="og:description">
+  {{ end }}
+  {{ if .Permalink }}
+    <meta content="{{ .Permalink }}" property="og:url">
+  {{ end }}
+  {{ if not .Date.IsZero }}
+    <meta content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" property="article:published_time">
+    <meta content="{{ .Site.BaseURL }}about/" property="article:author">
+  {{ end }}
+  {{ if .Params.background }}
+    <meta content="{{ .Site.BaseURL }}{{ strings.TrimPrefix "/" .Params.background }}" property="og:image">
+  {{ else }}
+    <meta content="{{ .Site.Params.defaultBackground }}" property="og:image">
+  {{ end }}
+  {{ with .Params.categories }}
+    {{ range first 1 . }}
+      <meta content="{{ . }}" property="article:section">
+    {{ end }}
+  {{ end }}
+  {{ if .Params.tags }}
+    {{ range .Params.tags }}
+      <meta content="{{ . }}" property="article:tag">
+    {{ end }}
+  {{ end }}
+
+  <title>
+    {{ if .Title }}{{ .Title }} - {{ .Site.Title }}
+    {{ else }}{{ .Site.Title }}{{ end }}
+  </title>
+
+  <meta name="description" content="{{ with .Params.description }}{{ . | plainify | truncate 160 }}{{ else }}{{ $.Site.Params.description | plainify | truncate 160 }}{{ end }}">
+
+<!--
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+-->
+
+  <link href='/fonts/webfontkit-20181018-085525/stylesheet.css' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="{{ "assets/vendor/bootstrap/css/bootstrap.min.css" | relURL }}">
+
+  <link rel="stylesheet" href="{{ "assets/vendor/font-awesome/css/font-awesome.min.css" | relURL }}">
+
+  {{ $scss := resources.Get "scss/main.scss" }}
+  {{ $css := $scss | toCSS }}
+  <link rel="stylesheet" href="{{ $css.Permalink }}">
+
+  <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" href="{{ "feed.xml" | relURL }}">
+
+</head>

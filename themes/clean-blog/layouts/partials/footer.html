@@ -1,0 +1,55 @@
+<!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          {{ with .Site.Params.twitter_username }}
+          <li class="list-inline-item">
+            <a href="https://www.twitter.com/{{ . }}" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {{ end }}
+          {{ with .Site.Params.facebook_username }}
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/{{ . }}" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {{ end }}
+          {{ with .Site.Params.github_username }}
+          <li class="list-inline-item">
+            <a href="https://github.com/{{ . }}" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {{ end }}
+          {{ with .Site.Params.linkedin_username }}
+          <li class="list-inline-item">
+            <a href="https://linkedin.com/in/{{ . }}" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          {{ end }}
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; {{ .Site.Params.author }} {{ now.Format "2006" }} - <a href="/privacy.html">Privacy Policy</a></p>
+      </div>
+    </div>
+  </div>
+</footer>

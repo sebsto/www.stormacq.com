@@ -1,0 +1,15 @@
+# Theme metadata for Clean Blog Hugo theme
+# Migrated from Jekyll Clean Blog theme
+
+name = "Clean Blog"
+license = "MIT"
+licenselink = "https://github.com/StartBootstrap/startbootstrap-clean-blog/blob/master/LICENSE"
+description = "A clean, Bootstrap-based blog theme adapted from Start Bootstrap's Clean Blog"
+homepage = "https://github.com/StartBootstrap/startbootstrap-clean-blog"
+tags = ["blog", "bootstrap", "clean", "responsive"]
+features = ["blog", "responsive", "bootstrap4", "fontawesome", "scss"]
+min_version = "0.112.0"
+
+[author]
+  name = "Sébastien Stormacq"
+  homepage = "https://stormacq.com"
