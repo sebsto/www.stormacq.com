@@ -24,10 +24,8 @@ OAC_ID=$(aws --profile "$AWS_PROFILE" cloudfront create-origin-access-control \
 echo "    OAC ID: $OAC_ID"
 
 echo "==> Creating CloudFront Function for index.html rewriting..."
-FUNC_ARN=$(aws --profile "$AWS_PROFILE" cloudfront create-function \
-  --name staging-index-rewrite \
-  --function-config '{"Comment":"Append index.html to directory requests","Runtime":"cloudfront-js-2.0"}' \
-  --function-code 'function handler(event) {
+cat > /tmp/cf-index-rewrite.js << 'ENDOFFUNCTION'
+function handler(event) {
   var request = event.request;
   var uri = request.uri;
   if (uri.endsWith("/")) {
@@ -36,12 +34,20 @@ FUNC_ARN=$(aws --profile "$AWS_PROFILE" cloudfront create-function \
     request.uri += "/index.html";
   }
   return request;
-}' --query 'FunctionSummary.FunctionMetadata.FunctionARN' --output text)
+}
+ENDOFFUNCTION
+
+FUNC_ARN=$(aws --profile "$AWS_PROFILE" cloudfront create-function \
+  --name staging-index-rewrite \
+  --function-config '{"Comment":"Append index.html to directory requests","Runtime":"cloudfront-js-2.0"}' \
+  --function-code fileb:///tmp/cf-index-rewrite.js \
+  --query 'FunctionSummary.FunctionMetadata.FunctionARN' --output text)
 
 FUNC_ETAG=$(aws --profile "$AWS_PROFILE" cloudfront describe-function \
   --name staging-index-rewrite --query 'ETag' --output text)
 aws --profile "$AWS_PROFILE" cloudfront publish-function \
   --name staging-index-rewrite --if-match "$FUNC_ETAG" > /dev/null
+rm -f /tmp/cf-index-rewrite.js
 echo "    Function ARN: $FUNC_ARN"
 
 echo "==> Creating CloudFront distribution..."
