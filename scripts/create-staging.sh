@@ -23,6 +23,27 @@ OAC_ID=$(aws --profile "$AWS_PROFILE" cloudfront create-origin-access-control \
   }' --query 'OriginAccessControl.Id' --output text)
 echo "    OAC ID: $OAC_ID"
 
+echo "==> Creating CloudFront Function for index.html rewriting..."
+FUNC_ARN=$(aws --profile "$AWS_PROFILE" cloudfront create-function \
+  --name staging-index-rewrite \
+  --function-config '{"Comment":"Append index.html to directory requests","Runtime":"cloudfront-js-2.0"}' \
+  --function-code 'function handler(event) {
+  var request = event.request;
+  var uri = request.uri;
+  if (uri.endsWith("/")) {
+    request.uri += "index.html";
+  } else if (!uri.includes(".")) {
+    request.uri += "/index.html";
+  }
+  return request;
+}' --query 'FunctionSummary.FunctionMetadata.FunctionARN' --output text)
+
+FUNC_ETAG=$(aws --profile "$AWS_PROFILE" cloudfront describe-function \
+  --name staging-index-rewrite --query 'ETag' --output text)
+aws --profile "$AWS_PROFILE" cloudfront publish-function \
+  --name staging-index-rewrite --if-match "$FUNC_ETAG" > /dev/null
+echo "    Function ARN: $FUNC_ARN"
+
 echo "==> Creating CloudFront distribution..."
 DIST_OUTPUT=$(aws --profile "$AWS_PROFILE" cloudfront create-distribution \
   --distribution-config '{
@@ -44,7 +65,14 @@ DIST_OUTPUT=$(aws --profile "$AWS_PROFILE" cloudfront create-distribution \
       "ViewerProtocolPolicy": "redirect-to-https",
       "AllowedMethods": { "Quantity": 2, "Items": ["GET", "HEAD"] },
       "CachePolicyId": "658327ea-f89d-4fab-a63d-7e88639e58f6",
-      "Compress": true
+      "Compress": true,
+      "FunctionAssociations": {
+        "Quantity": 1,
+        "Items": [{
+          "FunctionARN": "'"$FUNC_ARN"'",
+          "EventType": "viewer-request"
+        }]
+      }
     },
     "CustomErrorResponses": {
       "Quantity": 1,

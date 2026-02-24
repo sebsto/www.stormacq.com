@@ -39,6 +39,12 @@ ETAG=$(aws --profile "$AWS_PROFILE" cloudfront get-origin-access-control \
 aws --profile "$AWS_PROFILE" cloudfront delete-origin-access-control \
   --id "$OAC_ID" --if-match "$ETAG"
 
+echo "==> Deleting CloudFront Function..."
+FUNC_ETAG=$(aws --profile "$AWS_PROFILE" cloudfront describe-function \
+  --name staging-index-rewrite --query 'ETag' --output text 2>/dev/null) && \
+aws --profile "$AWS_PROFILE" cloudfront delete-function \
+  --name staging-index-rewrite --if-match "$FUNC_ETAG" || true
+
 echo "==> Emptying and deleting S3 bucket $BUCKET_NAME..."
 aws --profile "$AWS_PROFILE" s3 rb "s3://$BUCKET_NAME" --force
 
