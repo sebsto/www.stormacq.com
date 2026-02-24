@@ -19,7 +19,7 @@ theme = "clean-blog"
     posts = "/:year/:month/:day/:slug/"
 
 [pagination]
-  pagerSize = 5
+  pagerSize = 10
 
 [outputs]
   home = ["HTML", "RSS"]
