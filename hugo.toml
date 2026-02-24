@@ -33,6 +33,9 @@ theme = "clean-blog"
     style = "monokai"
   [markup.goldmark]
     [markup.goldmark.renderer]
+      # Required: existing blog content uses inline HTML (links with target="_blank",
+      # embedded videos, styled elements). Disabling this would break rendered posts.
+      # Content is author-controlled (single-author blog), not user-generated.
       unsafe = true
 
 ignoreFiles = ["buildspec\\.yaml", "publish\\.sh", "docker/.*", "scripts/.*"]

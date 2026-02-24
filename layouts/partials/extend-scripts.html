@@ -46,10 +46,22 @@ function getId(url) {
 function yt_url2embed() {
     var p = document.getElementsByTagName('p');
     for(var i = 0; i < p.length; i++) {
-        var pattern = /^((http|https|ftp):\/\/)/;
-        if(pattern.test(p[i].innerHTML)) {
-            var myId = getId(p[i].innerHTML);
-            p[i].innerHTML = '<div class="videoWrapper"><iframe width="720" height="420" src="https://www.youtube.com/embed/' + myId + '?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></div>';
+        var pattern = /^((http|https):\/\/)/;
+        if(pattern.test(p[i].textContent.trim())) {
+            var myId = getId(p[i].textContent.trim());
+            if (myId === 'error') continue;
+            // Build DOM nodes instead of innerHTML to prevent XSS
+            var wrapper = document.createElement('div');
+            wrapper.className = 'videoWrapper';
+            var iframe = document.createElement('iframe');
+            iframe.width = '720';
+            iframe.height = '420';
+            iframe.src = 'https://www.youtube.com/embed/' + encodeURIComponent(myId) + '?rel=0&showinfo=0';
+            iframe.frameBorder = '0';
+            iframe.allowFullscreen = true;
+            wrapper.appendChild(iframe);
+            p[i].textContent = '';
+            p[i].appendChild(wrapper);
         }
     }
 }
@@ -59,7 +71,7 @@ yt_url2embed();
 
 <!-- Mermaid diagram rendering -->
 <script type="module">
-  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+  import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11.12.3/dist/mermaid.esm.min.mjs';
   mermaid.initialize({ startOnLoad: false });
   // Hugo's Goldmark wraps ```mermaid blocks in <pre><code class="language-mermaid">
   document.querySelectorAll('code.language-mermaid').forEach(function(el) {
