@@ -12,6 +12,7 @@ theme = "clean-blog"
   linkedin_username = "sebastienstormacq"
   google_analytics = "UA-5360703-2"
   defaultBackground = "/img/bg-post.png"
+  homePostCount = 10
 
 [permalinks]
   [permalinks.page]

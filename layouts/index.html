@@ -92,7 +92,8 @@
         {{ .Content }}
 
         <!-- Home Post List -->
-        {{ range (first 5 (where .Site.RegularPages "Section" "posts")) }}
+        {{ $homePostCount := .Site.Params.homePostCount | default 5 }}
+        {{ range (first $homePostCount (where .Site.RegularPages "Section" "posts")) }}
 
           <article class="post-preview">
             <a href="{{ .RelPermalink }}">
