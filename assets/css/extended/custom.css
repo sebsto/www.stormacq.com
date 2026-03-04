@@ -1,0 +1,24 @@
+/* Homepage two-column layout: posts + Bluesky sidebar */
+.home-columns {
+  display: flex;
+  gap: 2rem;
+}
+
+.home-posts {
+  flex: 1;
+  min-width: 0;
+}
+
+.home-sidebar {
+  width: 320px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .home-columns {
+    flex-direction: column;
+  }
+  .home-sidebar {
+    width: 100%;
+  }
+}
