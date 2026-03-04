@@ -1,5 +1,9 @@
 version: 0.2
 phases:
+  pre_build:
+    commands:
+      - echo Initializing git submodules on $(date)
+      - git submodule update --init --recursive --depth 1
   build:
     commands:
       - echo Build started on $(date)
