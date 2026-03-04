@@ -1,5 +1,4 @@
 ---
-background: /img/bg-about.png
 description: Amazon Web Services
 title: Developer 🥑 Advocate
 ---

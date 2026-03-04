@@ -1,0 +1,22 @@
+{{- define "main" }}
+<style>
+  .not-found-page {
+    text-align: center;
+    padding: 2rem 0;
+  }
+  .not-found-page h1 {
+    font-size: 4em;
+    margin: 0 0 1rem 0;
+  }
+  .not-found-page img {
+    max-height: 200px;
+    margin: 1rem 0;
+  }
+</style>
+<div class="not-found-page">
+  <h1>404</h1>
+  <img src="/img/kitten-1.png" alt="Cute kitten" height="200">
+  <p><strong>Page not found :(</strong></p>
+  <p>The requested page could not be found.</p>
+</div>
+{{- end }}{{/* end main */}}

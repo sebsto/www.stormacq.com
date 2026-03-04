@@ -19,18 +19,26 @@ https://youtu.be/_iBuMSUPZNk
 
 --- 
 
-| [Infrastructure Globale](#infrastructure-globale) | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [Compte et facturation](#compte-et-facturation) 
-| [Outils (Console, Ligne de Commande et SDK)](#outils-console-ligne-de-commande-et-sdk) | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [Amazon IAM](#amazon-identity-and-access-management-iam) 
-| [Amazon EC2](#amazon-elastic-compute-cloud-ec2) | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [Amazon VPC](#amazon-virtual-private-cloud-vpc) 
-| [Amazon EBS](#amazon-elastic-block-storage-ebs) | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [Amazon CloudFront](#amazon-cloudfront) 
-| [Elastic Load Balancer](#elastic-load-balancing-elb) | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; |  [Amazon RDS](#amazon-relational-database-service-rds)
-| [AWS Lambda](#aws-lambda) | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [Amazon S3](#amazon-simples-torage-service-s3) 
-| [**New:** Migration and Backup](#migration-and-backup) | &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | [**New:** Desktop Computing](#desktop-computing) 
+<div style="display:grid; grid-template-columns:1fr 1fr; gap:4px 2em;">
+
+[Infrastructure Globale](#infrastructure-globale)  
+[Compte et facturation](#compte-et-facturation)  
+[Outils (Console, Ligne de Commande et SDK)](#outils-console-ligne-de-commande-et-sdk)  
+[Amazon IAM](#amazon-identity-and-access-management-iam)  
+[Amazon EC2](#amazon-elastic-compute-cloud-ec2)  
+[Amazon VPC](#amazon-virtual-private-cloud-vpc)  
+[Amazon EBS](#amazon-elastic-block-storage-ebs)  
+[Amazon CloudFront](#amazon-cloudfront)  
+[Elastic Load Balancer](#elastic-load-balancing-elb)  
+[Amazon RDS](#amazon-relational-database-service-rds)  
+[AWS Lambda](#aws-lambda)  
+[Amazon S3](#amazon-simples-torage-service-s3)  
+[**New:** Migration and Backup](#migration-and-backup)  
+[**New:** Desktop Computing](#desktop-computing)  
+
+</div>
 
 --- 
-
-![video0](/img/posts/20200903/video0.jpg)&nbsp;![video1](/img/posts/20200903/video1.png)&nbsp;![video2](/img/posts/20200903/video2.png)&nbsp;![video3](/img/posts/20200903/video3.png)
-
 
 <p/>
 &nbsp;
@@ -72,7 +80,7 @@ https://youtu.be/_iBuMSUPZNk
 <p/>
 &nbsp;
 
-### Amazon Virtual Private Cloud (VPC)
+#### Amazon Virtual Private Cloud (VPC)
 
 - <a href="https://www.youtube.com/watch?v=5ZrDBWP0Okw&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=23" target="_blank">Comment créer son réseau privé sur AWS</a> ?
 - <a href="https://www.youtube.com/watch?v=QwhexkU2ya4&list=PLL_L4MF1Z7JW_-LW4ikJsgF2EIfpOp-IU&index=13" target="_blank">Comment configurer un Security Group</a> ?

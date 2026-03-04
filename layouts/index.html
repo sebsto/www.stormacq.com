@@ -1,143 +1,126 @@
-{{ define "main" }}
-<style type="text/css">
+{{- define "main" }}
 
-.icon-arrow-left:before {
-    content: "\261F";
-}
+{{- if (and site.Params.profileMode.enabled .IsHome) }}
+{{- partial "index_profile.html" . }}
+{{- else }}
 
-/* Create a bouncing scroll-down arrow on homepage with cover image */
-.scroll-down {
-    display: block;
-    position: absolute;
-    z-index: 100;
-    bottom: 45px;
-    left: 50%;
-    margin-left: -16px;
-    width: 50px;
-    height: 50px;
-    font-size: 50px;
-    text-align: center;
-    text-decoration: none;
-    color: rgba(255,255,255,0.7);
-    -webkit-animation: bounce 4s 2s infinite;
-    animation: bounce 4s 2s infinite;
-}
-
-/* Used to bounce .scroll-down on home page */
-@-webkit-keyframes bounce {
-    0%, 10%, 25%, 40%, 50% {
-        -webkit-transform: translateY(0) ;
-                transform: translateY(0) ;
-    }
-    20% {
-        -webkit-transform: translateY(-10px) ;
-                transform: translateY(-10px) ;
-    }
-    30% {
-        -webkit-transform: translateY(-5px) ;
-                transform: translateY(-5px) ;
-    }
-}
-@keyframes bounce {
-  0%, 10%, 25%, 40%, 50% {
-        -webkit-transform: translateY(0) ;
-                transform: translateY(0) ;
-    }
-    20% {
-        -webkit-transform: translateY(-10px) ;
-                transform: translateY(-10px) ;
-    }
-    30% {
-        -webkit-transform: translateY(-5px) ;
-                transform: translateY(-5px) ;
-    }
-}
-
-
-/* Stop it bouncing and increase contrast when hovered */
-.scroll-down:hover {
-  -webkit-animation: none;
-  animation: none;
-}
-.icon-arrow-left:hover {
-  text-decoration: none;
-}
-</style>
-<!-- Page Header -->
-{{ $bg := .Params.background | default .Site.Params.defaultBackground }}
-{{ with $bg }}
-  <header class="masthead" style="background-image: url('{{ . }}')">
-{{ else }}
-  <header class="masthead">
-{{ end }}
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
-          <div class="page-heading">
-            <h1>{{ .Site.Title }}</h1>
-            {{ with .Site.Params.description }}
-              <span class="subheading">{{ . | safeHTML }}</span>
-            {{ end }}
-          </div>
-        </div>
-      </div>
-    </div>
-  </header>
-
-  <div id="content" class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-
-        {{ .Content }}
-
-        <!-- Home Post List -->
-        {{ $homePostCount := .Site.Params.homePostCount | default 5 }}
-        {{ range (first $homePostCount (where .Site.RegularPages "Section" "posts")) }}
-
-          <article class="post-preview">
-            <a href="{{ .RelPermalink }}">
-              <h2 class="post-title">{{ .Title }}</h2>
-              {{ with .Params.subtitle }}
-                <h3 class="post-subtitle">{{ . }}</h3>
-              {{ else }}
-                <h3 class="post-subtitle">{{ .Summary | plainify | truncate 100 }}</h3>
-              {{ end }}
-            </a>
-            <p class="post-meta">Posted by
-              {{ with .Params.author }}
-                {{ . }}
-              {{ else }}
-                {{ $.Site.Params.author }}
-              {{ end }}
-              on
-              {{ .Date.Format "January 02, 2006" }}</p>
-          </article>
-
-          <hr>
-
-        {{ end }}
-
-        <!-- Pager -->
-        <div class="clearfix">
-          <a class="btn btn-primary float-right" href="{{ "posts/" | relURL }}">View All Posts &rarr;</a>
-        </div>
-
-      </div>
-
-      <!-- Bluesky embedded feed -->
-      <div class="col-lg-4 col-md-2 mx-auto">
-          <script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
-          <bsky-embed
-            username="sebsto.bsky.social"
-            limit="5"
-            link-target="_blank"
-            load-more="true"
-            custom-styles="* { font-size: 0.95em; }"
-          ></bsky-embed>
-      </div>
-
-    <!-- end row-->
-    </div>
+{{- if not .IsHome | and .Title }}
+<header class="page-header">
+  {{- partial "breadcrumbs.html" . }}
+  <h1>{{ .Title }}</h1>
+  {{- if .Description }}
+  <div class="post-description">
+    {{ .Description | markdownify }}
   </div>
-{{ end }}
+  {{- end }}
+</header>
+{{- end }}
+
+{{- if .Content }}
+<div class="post-content">
+  {{- if not (.Param "disableAnchoredHeadings") }}
+  {{- partial "anchored_headings.html" .Content -}}
+  {{- else }}{{ .Content }}{{ end }}
+</div>
+{{- end }}
+
+{{- $pages := union .RegularPages .Sections }}
+
+{{- if .IsHome }}
+{{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- $pages = where $pages "Params.hiddenInHomeList" "!=" "true"  }}
+{{- end }}
+
+{{- $paginator := .Paginate $pages }}
+
+{{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
+{{- partial "home_info.html" . }}
+{{- end }}
+
+<div class="home-columns">
+  <div class="home-posts">
+
+    {{- $term := .Data.Term }}
+    {{- range $index, $page := $paginator.Pages }}
+
+    {{- $class := "post-entry" }}
+
+    {{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
+    {{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
+    {{- $class = "first-entry" }}
+    {{- else if $term }}
+    {{- $class = "post-entry tag-entry" }}
+    {{- end }}
+
+    <article class="{{ $class }}">
+      {{- $isHidden := (.Param "cover.hiddenInList") | default (.Param "cover.hidden") | default false }}
+      {{- partial "cover.html" (dict "cxt" . "IsSingle" false "isHidden" $isHidden) }}
+      <header class="entry-header">
+        <h2 class="entry-hint-parent">
+          {{- .Title }}
+          {{- if .Draft }}
+          <span class="entry-hint" title="Draft">
+            <svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" fill="currentColor">
+              <path
+                d="M160-410v-60h300v60H160Zm0-165v-60h470v60H160Zm0-165v-60h470v60H160Zm360 580v-123l221-220q9-9 20-13t22-4q12 0 23 4.5t20 13.5l37 37q9 9 13 20t4 22q0 11-4.5 22.5T862.09-380L643-160H520Zm300-263-37-37 37 37ZM580-220h38l121-122-18-19-19-18-122 121v38Zm141-141-19-18 37 37-18-19Z" />
+            </svg>
+          </span>
+          {{- end }}
+        </h2>
+      </header>
+      {{- if (ne (.Param "hideSummary") true) }}
+      <div class="entry-content">
+        <p>{{ .Summary | plainify | htmlUnescape }}{{ if .Truncated }}...{{ end }}</p>
+      </div>
+      {{- end }}
+      {{- if not (.Param "hideMeta") }}
+      <footer class="entry-footer">
+        {{- partial "post_meta.html" . -}}
+      </footer>
+      {{- end }}
+      <a class="entry-link" aria-label="post link to {{ .Title | plainify }}" href="{{ .Permalink }}"></a>
+    </article>
+    {{- end }}
+
+    {{- if gt $paginator.TotalPages 1 }}
+    <footer class="page-footer">
+      <nav class="pagination">
+        {{- if $paginator.HasPrev }}
+        <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
+          «&nbsp;{{ i18n "prev_page" }}&nbsp;
+          {{- if (.Param "ShowPageNums") }}
+          {{- sub $paginator.PageNumber 1 }}/{{ $paginator.TotalPages }}
+          {{- end }}
+        </a>
+        {{- end }}
+        {{- if $paginator.HasNext }}
+        <a class="next" href="{{ $paginator.Next.URL | absURL }}">
+          {{- i18n "next_page" }}&nbsp;
+          {{- if (.Param "ShowPageNums") }}
+          {{- add 1 $paginator.PageNumber }}/{{ $paginator.TotalPages }}
+          {{- end }}&nbsp;»
+        </a>
+        {{- end }}
+      </nav>
+    </footer>
+    {{- end }}
+
+  </div>{{/* end home-posts */}}
+
+  <!-- Bluesky embedded feed sidebar -->
+  <div class="home-sidebar">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/bsky-embed/dist/bsky-embed.es.js" async></script>
+    <bsky-embed
+      username="sebsto.bsky.social"
+      limit="5"
+      link-target="_blank"
+      load-more="true"
+      custom-styles="* { font-size: 0.95em; }"
+    ></bsky-embed>
+  </div>
+
+</div>{{/* end home-columns */}}
+
+{{- end }}{{/* end profileMode */}}
+
+{{- end }}{{- /* end main */ -}}
