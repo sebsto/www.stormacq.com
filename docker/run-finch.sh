@@ -3,15 +3,12 @@
 # Run Hugo site using Apple Container
 # Run from the main site directory: ./docker/run-container.sh
 
-IMAGE_NAME="hugo-site"
-
-# Build the image
-# finch build -t $IMAGE_NAME -f docker/Dockerfile .
+IMAGE_NAME="ghcr.io/gohugoio/hugo:v0.157.0"
 
 # Run with the site mounted so changes are picked up
 finch run \
   -p 1313:1313 \
-  --rm \
-  --volume="$PWD:/src" \
-  -it $IMAGE_NAME \
-  hugo server --bind 0.0.0.0 -p 1313 --watch --poll 700ms
+  --rm -it \
+  -v $(pwd):/project \
+  $IMAGE_NAME \
+  server --bind 0.0.0.0 --watch
