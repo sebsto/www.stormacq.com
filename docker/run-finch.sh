@@ -5,9 +5,6 @@
 
 IMAGE_NAME="ghcr.io/gohugoio/hugo:v0.157.0"
 
-# Initialize git submodules
-git submodule update --init --recursive
-
 # Run with the site mounted so changes are picked up
 finch run \
   -p 1313:1313 \
