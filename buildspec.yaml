@@ -2,10 +2,9 @@ version: 0.2
 phases:
   pre_build:
     commands:
-      - echo Initializing git submodules on $(date)
-      - git config --global credential.helper store
-      - git submodule sync --recursive
-      - git submodule update --init --recursive
+      - echo Downloading PaperMod theme on $(date)
+      - rm -rf themes/PaperMod
+      - git clone --depth 1 --branch v8 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
   build:
     commands:
       - echo Build started on $(date)
