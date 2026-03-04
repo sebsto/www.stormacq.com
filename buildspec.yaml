@@ -1,16 +1,16 @@
 version: 0.2
 phases:
-  install:
-    commands:
-      - HUGO_VERSION=0.147.6
-      - HUGO_CHECKSUM_URL="https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_checksums.txt"
-      - HUGO_TAR="hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
-      - wget -q "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_TAR}"
-      - wget -qO checksums.txt "${HUGO_CHECKSUM_URL}"
-      - grep "${HUGO_TAR}" checksums.txt | sha256sum -c -
-      - tar xzf "${HUGO_TAR}" -C /usr/local/bin
-      - rm -f "${HUGO_TAR}" checksums.txt
-      - hugo version
+  # install:
+  #   commands:
+  #     - HUGO_VERSION=0.147.6
+  #     - HUGO_CHECKSUM_URL="https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_checksums.txt"
+  #     - HUGO_TAR="hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+  #     - wget -q "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/${HUGO_TAR}"
+  #     - wget -qO checksums.txt "${HUGO_CHECKSUM_URL}"
+  #     - grep "${HUGO_TAR}" checksums.txt | sha256sum -c -
+  #     - tar xzf "${HUGO_TAR}" -C /usr/local/bin
+  #     - rm -f "${HUGO_TAR}" checksums.txt
+  #     - hugo version
   build:
     commands:
       - echo Build started on $(date)
