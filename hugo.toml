@@ -6,7 +6,7 @@ theme = "clean-blog"
 [params]
   author = "Sébastien Stormacq"
   email = "sebastien.stormacq@gmail.com"
-  description = "Developer Advocate @ AWS. This blog is about AWS Cloud, Swift & Mobile (opinions are my own)"
+  description = "Developer Advocate @ AWS. I write about the cloud & Swift<br/>(opinions are my own)"
   twitter_username = "sebsto"
   github_username = "sebsto"
   linkedin_username = "sebastienstormacq"

@@ -77,7 +77,7 @@
           <div class="page-heading">
             <h1>{{ .Site.Title }}</h1>
             {{ with .Site.Params.description }}
-              <span class="subheading">{{ . }}</span>
+              <span class="subheading">{{ . | safeHTML }}</span>
             {{ end }}
           </div>
         </div>
