@@ -5,6 +5,9 @@
 
 IMAGE_NAME="ghcr.io/gohugoio/hugo:v0.157.0"
 
+# Initialize git submodules
+git submodule update --init --recursive
+
 # Build the image
 # container build -t $IMAGE_NAME -f docker/Dockerfile .
 

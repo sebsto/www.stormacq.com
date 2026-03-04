@@ -1,5 +1,11 @@
 version: 0.2
 phases:
+  pre_build:
+    commands:
+      - echo Initializing git submodules on $(date)
+      - git config --global credential.helper store
+      - git submodule sync --recursive
+      - git submodule update --init --recursive
   build:
     commands:
       - echo Build started on $(date)
