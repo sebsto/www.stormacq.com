@@ -1,6 +1,5 @@
-FROM hugomods/hugo:exts
+FROM ghcr.io/gohugoio/hugo:v0.157.0
 
-WORKDIR /src
-EXPOSE 1313
-
-CMD ["hugo", "server", "--bind", "0.0.0.0", "-p", "1313"]
+USER root
+RUN apk add --no-cache bash aws-cli
+USER hugo:hugo

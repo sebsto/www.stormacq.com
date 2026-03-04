@@ -7,4 +7,6 @@ amplify
 venv
 __pycache__
 node_modules
+cdk.out
 public
+_site/
