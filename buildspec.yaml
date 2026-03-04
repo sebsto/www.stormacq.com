@@ -1,11 +1,5 @@
 version: 0.2
 phases:
-  pre_build:
-    commands:
-      - echo Downloading PaperMod theme on $(date)
-      - rm -rf themes/PaperMod
-      - mkdir -p themes/PaperMod
-      - wget -qO- https://github.com/adityatelange/hugo-PaperMod/archive/refs/tags/v8.0.tar.gz | tar xz --strip-components=1 -C themes/PaperMod
   build:
     commands:
       - echo Build started on $(date)
