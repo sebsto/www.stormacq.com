@@ -3,7 +3,7 @@
 # Run Hugo site using Apple Container
 # Run from the main site directory: ./docker/run-container.sh
 
-IMAGE_NAME="hugo-site"
+IMAGE_NAME="ghcr.io/gohugoio/hugo:v0.157.0"
 
 # Build the image
 # container build -t $IMAGE_NAME -f docker/Dockerfile .
