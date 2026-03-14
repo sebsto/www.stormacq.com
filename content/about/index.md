@@ -13,7 +13,7 @@ elegance. His favorite playgrounds? Distributed architectures, developer
 tools, mobile computing... and everything that enables teams to ship
 faster, safer, and at scale.
 
-A regular speaker at AWS Summit, a blogger on the [AWS News
+A regular speaker at developer conferences, a blogger on the [AWS News
 Blog](https://aws.amazon.com/blogs/aws/author/stormacq/) (aka "Jeff's
 blog"), host of the official [AWS 🇫🇷
 Podcast](https://sebs.to/paef), and contributor to
