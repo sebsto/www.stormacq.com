@@ -1,3 +1,9 @@
+/* Widen the overall page layout */
+:root {
+  --main-width: 1100px;
+  --nav-width: 1200px;
+}
+
 /* Homepage two-column layout: posts + Bluesky sidebar */
 .home-columns {
   display: flex;
@@ -10,7 +16,7 @@
 }
 
 .home-sidebar {
-  width: 320px;
+  width: 280px;
   flex-shrink: 0;
 }
 
