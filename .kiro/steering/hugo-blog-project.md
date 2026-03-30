@@ -1,5 +1,6 @@
 ---
 inclusion: auto
+description: Conventions, structure et stack technique du blog Hugo stormacq.com
 ---
 
 # Blog Hugo — stormacq.com
@@ -66,7 +67,10 @@ Les URLs suivent le format `/:year/:month/:day/:slug/` (configuré dans `hugo.to
 
 ## Build & déploiement
 
-- `hugo --minify` pour le build
+- Hugo n'est PAS installé localement — toujours utiliser un conteneur via Finch
+- Build : `finch run --rm -v $(pwd):/project ghcr.io/gohugoio/hugo:v0.157.0 --minify`
+- Serveur local : `./docker/run-finch.sh` (monte le répertoire courant, port 1313)
+- Les scripts conteneur sont dans `docker/` (`run-finch.sh` pour Finch, `run-container.sh` pour Apple Container)
 - Output dans `public/`
 - Déployé via AWS CodeBuild (`buildspec.yaml`)
 - Le cache Hugo est dans `resources/`
