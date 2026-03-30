@@ -3,19 +3,11 @@ import * as cdk from 'aws-cdk-lib';
 import * as codebuild from 'aws-cdk-lib/aws-codebuild';
 import * as codepipeline from 'aws-cdk-lib/aws-codepipeline';
 import * as codepipeline_actions from 'aws-cdk-lib/aws-codepipeline-actions';
-import * as ecr_assets from 'aws-cdk-lib/aws-ecr-assets';
 import * as s3 from 'aws-cdk-lib/aws-s3';
-import * as path from 'path';
 
 const app = new cdk.App();
 const stack = new cdk.Stack(app, 'SebInTheCloudBuildV2', {
   env: { region: 'eu-central-1', account: '401955065246' }
-});
-
-// Build and push Docker image to ECR automatically
-const hugoImage = new ecr_assets.DockerImageAsset(stack, 'HugoImage', {
-  directory: path.join(__dirname, '../../docker'),
-  platform: ecr_assets.Platform.LINUX_ARM64
 });
 
 // Reference existing S3 buckets
@@ -31,15 +23,13 @@ const project = new codebuild.Project(stack, 'SebInTheCloud', {
     repo: 'www.stormacq.com'
   }),
   environment: {
-    buildImage: codebuild.LinuxArmBuildImage.fromDockerRegistry(hugoImage.imageUri),
+    buildImage: codebuild.LinuxArmBuildImage.AMAZON_LINUX_2_STANDARD_3_0,
     computeType: codebuild.ComputeType.SMALL
   },
   timeout: cdk.Duration.minutes(60),
   queuedTimeout: cdk.Duration.minutes(480),
   badge: true
 });
-
-hugoImage.repository.grantPull(project);
 
 // Pipeline artifacts
 const sourceOutput = new codepipeline.Artifact('SebInTheCloud-Sources');
@@ -91,7 +81,6 @@ const pipeline = new codepipeline.Pipeline(stack, 'Pipeline', {
   ]
 });
 
-new cdk.CfnOutput(stack, 'ImageUri', { value: hugoImage.imageUri });
 new cdk.CfnOutput(stack, 'ProjectName', { value: project.projectName });
 new cdk.CfnOutput(stack, 'PipelineName', { value: pipeline.pipelineName });
 
