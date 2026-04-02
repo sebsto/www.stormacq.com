@@ -11,6 +11,6 @@ deploy:
 invalidate:
 	aws cloudfront create-invalidation \
 		--distribution-id $(DISTRIBUTION_ID) \
-		--paths "/" "/index.html" "/posts/" "/posts/index.html" "/feed.xml" \
+		--paths "/" "/index.html" "/posts/" "/posts/index.html" "/feed.xml" "/2026/*" \
 		--profile $(AWS_PROFILE) \
 		--output json
