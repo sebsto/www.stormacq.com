@@ -1,6 +1,6 @@
 ---
 title: "What I Learned Building Real Projects with AI Coding Agents"
-subtitle: "Seven practical lessons from shipping production code with AI agents — from brainstorming to deployment, and everything that went wrong in between."
+subtitle: "Ten practical lessons from shipping production code with AI agents — from brainstorming to deployment, and everything that went wrong in between."
 date: 2026-03-31 13:00:00 +0100
 tags: [ai, kiro, ai-sdlc]
 author: Seb
@@ -8,7 +8,7 @@ background: /img/posts/20260331/banner.png
 images: ['/img/posts/20260331/banner.png']
 ---
 
-I gave a talk at the AI SDLC meetup in Geneva this week. The topic: what I actually learned building real projects with AI coding agents over the past few months. Not theory, not "10 tips for better prompts." Practical lessons from shipping production code — a [macOS voice dictation app](https://stormacq.com/2026/03/04/wispr/), a [blog migration](https://stormacq.com/2026/03/14/kiro-knowledge-base/), an [Xcode-to-Bedrock proxy](https://stormacq.com/2026/02/20/xcode-openrouter-bedrock/), and a few others.
+I gave a talk at an AI DLC conference in Geneva this week. The topic: what I actually learned building real projects with AI coding agents over the past few months. Not theory, not "10 tips for better prompts." Practical lessons from shipping production code — a [macOS voice dictation app](https://stormacq.com/2026/03/04/wispr/), a [historical blog post](https://stormacq.com/2026/03/14/kiro-knowledge-base/), an [Xcode-to-Bedrock proxy](https://stormacq.com/2026/02/20/xcode-openrouter-bedrock/), and a few others.
 
 The talk covered the full development lifecycle, from the first brainstorming session to the final code review. Here's a written version of what I shared, expanded with details that didn't fit in 30 minutes on stage.
 
@@ -18,7 +18,7 @@ Most people open their IDE and start prompting: "build me a REST API that does X
 
 The first thing I do on any project is use the agent as a thinking partner. Not for code. For ideas. I describe what I want to build, and I ask the agent to challenge my assumptions. "What are the tradeoffs of this approach?" "What am I missing?" "What would you do differently?"
 
-This back-and-forth surfaces blind spots you didn't know you had. On the Wispr project, the agent pushed back on my initial plan to use GCD for audio capture and suggested actor-based isolation instead. That single conversation saved me from a concurrency mess that would have taken days to untangle later.
+This back-and-forth surfaces blind spots you didn't know you had. On the Wispr project, the agent pushed back on my initial plan to use [Grand Central Disptach](https://developer.apple.com/documentation/dispatch) for audio capture and suggested actor-based isolation instead. That single conversation saved me from a concurrency mess that would have taken days to untangle later.
 
 The key is to resist the urge to write code immediately. Spend twenty minutes or more thinking with the agent. Then save a summary of the discussion. You'll thank yourself later.
 
@@ -26,13 +26,13 @@ The key is to resist the urge to write code immediately. Spend twenty minutes or
 
 This is the single biggest lesson. Don't just prompt the agent. Write specs.
 
-For large projects, I use a structured SDLC methodology. For smaller features or bug fixes, a lightweight spec is enough. But there's always a written document before the agent starts coding. A spec forces you to think clearly about what you want, and it gives the agent guardrails to work within.
+For large projects, I use a structured DLC methodology, such as [SpecKit](https://speckit.org/), [BMad](https://github.com/bmad-code-org/BMAD-METHOD), or [AI-DLC](https://aws.amazon.com/blogs/devops/ai-driven-development-life-cycle/). For smaller features or bug fixes, a lightweight spec is enough. But there's always a written document before the agent starts coding. A spec forces you to think clearly about what you want, and it gives the agent guardrails to work within.
 
 The format doesn't need to be fancy. Requirements, acceptance criteria, a rough design. The point is to have a contract. When bugs appear later, you can trace them back to a specific requirement that wasn't met. When the agent drifts, you can point it back to the spec.
 
 One spec per feature. One feature per branch. One branch per pull request. This keeps things clean and reviewable. I've tried the "one giant spec" approach. It doesn't work. The agent loses focus, the scope creeps, and you end up with a mess that's hard to review.
 
-### Pick the right model for the job
+### Pick the right tool for the job
 
 Not all tasks need the same model. I use lighter models (Sonnet) for planning, iteration, and quick tasks. When I need heavy lifting — complex refactors, large codebases, multi-file changes — I switch to Opus.
 
@@ -46,7 +46,7 @@ The agent is only as good as the feedback it gets. Without feedback, it's flying
 
 During a session, I keep two feedback channels open at all times. The compiler catches syntax errors immediately. Tests catch behavioral issues. When the agent sees a test failure, it can reason about the fix. When it sees a compiler error, it self-corrects. This tight loop — code, compile, test, fix — is the single most impactful practice I've adopted.
 
-Between sessions, there's a different kind of feedback. When the agent makes the same mistake twice — wrong import style, wrong naming convention, wrong test framework — I don't just fix it. I write it down in my steering docs. Next session, the agent won't make that mistake again. Your steering docs are your institutional memory. They're a living document. Update them after every session.
+Between sessions, there's a different kind of feedback. When the agent makes the same mistake twice — wrong import style, wrong naming convention, wrong test framework — I don't just fix it. I ask the agent to write it down in my steering docs. Next session, the agent won't make that mistake again. Your steering docs are your institutional memory. They're a living document. Update them after every session.
 
 ### Manage your context
 
