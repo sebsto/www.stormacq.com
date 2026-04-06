@@ -82,13 +82,13 @@ If you've learned to work with an agent for code, you already know how to work w
 
 If you take away seven things from this post:
 
-🧠 Brainstorm first, code second.
-📝 Spec everything — one spec, one feature, one branch.
-🔧 Right model and right skill for the job.
-🔄 Feedback loops are everything.
-🧩 Manage context: subagents, CLI, worktrees.
-👀 Always review — all code deserves scrutiny.
-🎯 MCP when you need interop, scripts when you don't.
+🧠 Brainstorm first, code second.  
+📝 Spec everything — one spec, one feature, one branch.  
+🔧 Right model and right skill for the job.  
+🔄 Feedback loops are everything.  
+🧩 Manage context: subagents, CLI, worktrees.  
+👀 Always review — all code deserves scrutiny.  
+🎯 MCP when you need interop, scripts when you don't.  
 
 The slides and speaker notes are on [GitHub](https://github.com/sebsto/ai-coding-lessons-learned) if you want to reuse or adapt them for your own team.
 
