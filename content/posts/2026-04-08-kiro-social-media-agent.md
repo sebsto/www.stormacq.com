@@ -4,8 +4,8 @@ subtitle: "How I built a Kiro CLI agent that posts messages and images to Mastod
 date: 2026-04-08 04:00:00 +0100
 tags: [kiro, ai, social-media]
 author: Seb
-background: /img/posts/20260408/kiro-social-media-agent.png
-images: ['/img/posts/20260408/kiro-social-media-agent.png']
+background: /img/posts/20260408/banner.png
+images: ['/img/posts/20260408/banner.png']
 ---
 
 Every time I publish a blog post, I share it on social media. Mastodon, LinkedIn, Bluesky, X. Four platforms, four different APIs, four different character limits, four different image upload procedures. It's tedious. Not hard, just repetitive enough to be annoying.
@@ -48,6 +48,8 @@ I start the agent from the terminal:
 kiro-cli --agent "Social Media"
 ```
 
+![The Social Media agent after startup, reading the reference document and waiting for instructions](/img/posts/20260408/kiro-social-media-agent.png)
+
 Then I give it a URL and some direction:
 
 ```
@@ -58,8 +60,6 @@ Post about it with this image: ~/Desktop/screenshot.png
 ```
 
 I don't write the social media messages myself. The agent reads the URL, understands the content, and crafts a message for each platform's character limit and tone. LinkedIn gets a longer, more professional version. Bluesky and X get a punchy short version. Mastodon sits somewhere in between. It shows me a preview of all four messages. I review, tweak if needed, confirm, and it posts everywhere in sequence, reporting success or failure for each one.
-
-![The Social Media agent in action](/img/posts/20260408/kiro-social-media-agent.png)
 
 The screenshot shows what happens when you first ask the agent to post. It reads the reference document, explains the workflow, checks token status, and waits for your message. If a message is too long for X's 280-character limit, it asks me to shorten it or suggests a trimmed version.
 
