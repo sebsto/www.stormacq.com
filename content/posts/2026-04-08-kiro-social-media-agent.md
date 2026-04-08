@@ -14,7 +14,7 @@ So I built a [Kiro CLI](https://kiro.dev/docs/cli/) custom agent that does it fo
 
 ### Step 1: The steering document
 
-The agent needs credentials and instructions for each platform. I wrote a single Markdown file, a reference document, that contains everything: API endpoints, authentication tokens, curl samples, character limits, image upload procedures, and posting guidelines.
+The agent needs credentials and instructions for each platform. Following my instructions, Kiro wrote a single Markdown file, a reference document, that contains everything: API endpoints, authentication tokens, curl samples, character limits, image upload procedures, and posting guidelines.
 
 Each platform has its own section. Mastodon uses a simple Bearer token. LinkedIn uses OAuth2 with tokens that expire every two months. Bluesky needs a fresh session before each post. X requires OAuth 1.0a signature generation. The document captures all of this, so the agent knows exactly what to do for each platform without me having to explain it every time.
 
