@@ -8,9 +8,9 @@ background: /img/posts/20260408/banner.png
 images: ['/img/posts/20260408/banner.png']
 ---
 
-Every time I publish a blog post, I share it on social media. Mastodon, LinkedIn, Bluesky, X. Four platforms, four different APIs, four different character limits, four different image upload procedures. It's tedious. Not hard, just repetitive enough to be annoying.
+Every time I publish a blog post or a podcast episode, I share it on social media. Mastodon, LinkedIn, Bluesky, X. Four platforms, four different APIs, four different character limits, four different image upload procedures. It's tedious. Not hard, just repetitive enough to be annoying.
 
-So I built a [Kiro CLI](https://kiro.dev/docs/cli/) custom agent that does it for me. I give it a message and optionally an image, it adapts the text to each platform's constraints, shows me a preview, and posts everywhere once I confirm. The whole thing took about thirty minutes to set up.
+So I built a [Kiro CLI](https://kiro.dev/docs/cli/) custom agent that does it for me. I give it a message and optionally an image, it adapts the text to each platform's constraints, shows me a preview, and posts everywhere once I confirm. The whole thing took about one hour to set up, mostly the time to collect credentials on each platform.
 
 ### Step 1: The steering document
 
