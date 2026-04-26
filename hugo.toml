@@ -61,8 +61,15 @@ theme = "PaperMod"
 [pagination]
   pagerSize = 10
 
+[outputFormats.Markdown]
+  mediaType = "text/markdown"
+  baseName = "index"
+  isPlainText = true
+
 [outputs]
-  home = ["HTML", "RSS"]
+  home = ["HTML", "RSS", "Markdown"]
+  page = ["HTML", "Markdown"]
+  section = ["HTML", "RSS", "Markdown"]
 
 [outputFormats.RSS]
   mediaType = "application/rss+xml"
