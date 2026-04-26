@@ -109,7 +109,7 @@ The CloudFront distribution `E3MEG4UBSP7M9Y` was not managed by any CloudFormati
 2. **Phase 2** — `cdk deploy` with the updated config: new CloudFront Functions wired in, Response Headers Policy removed. CloudFormation updated the distribution in place.
 
 ### Post-deployment cleanup
-The old CloudFront Function `prod-index-rewrite` (ARN: `arn:aws:cloudfront::401955065246:function/prod-index-rewrite`) is no longer associated with the distribution and can be deleted from the console.
+The old CloudFront Function `prod-index-rewrite` (ARN: `arn:aws:cloudfront::<REDACTED>:function/prod-index-rewrite`) is no longer associated with the distribution and can be deleted from the console.
 
 ---
 
