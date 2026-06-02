@@ -1,10 +1,10 @@
 # Agent-Readiness Improvement Plan
 
-> Goal: Improve stormacq.com score on isitagentready.com (currently 67)
+> Goal: Improve stormacq.com score on isitagentready.com — **achieved 100/100** (was 67)
 > Constraints:
 > - Minimize cost — prefer free AWS features and native Hugo capabilities
 > - All CloudFront changes must be done via CDK in `scripts/cdk-codebuild/`
-> Status: **Deployed** (2026-04-26)
+> Status: **Complete** (2026-04-26)
 
 ## Architecture
 
