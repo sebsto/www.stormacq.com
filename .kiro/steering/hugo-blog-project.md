@@ -75,6 +75,48 @@ Les URLs suivent le format `/:year/:month/:day/:slug/` (configuré dans `hugo.to
 - Déployé via AWS CodeBuild (`buildspec.yaml`)
 - Le cache Hugo est dans `resources/`
 
+## Style d'écriture
+
+Le blog a un style personnel et conversationnel. Voici les règles à suivre pour rester cohérent avec le ton de Seb :
+
+### Ton général
+
+- Première personne, narratif — on raconte une histoire, pas un rapport technique
+- Conversationnel et chaleureux, comme si on expliquait à un collègue développeur autour d'un café
+- Mélanger phrases courtes et punchy avec des explications plus longues — ne pas être uniformément dense
+- Humour léger et sous-entendu — pas de blagues forcées, juste des apartés détendus ("I couldn't resist.", "the best part was…", smileys occasionnels)
+- Pas de ton académique ou corporate — éviter les formulations passives et impersonnelles
+
+### Structure narrative
+
+- Commencer par le contexte personnel et la motivation ("Here is why.", "A few weeks ago…", "I wanted to…")
+- Arc narratif : setup (contexte/problème) → parcours (ce qu'on a fait, les choix) → conclusion (ce qu'on a appris)
+- Transitions conversationnelles entre sections ("So, how did it go?", "Let me walk you through…", "Getting there wasn't linear.")
+- Éviter les gros blocs type rapport — préférer un flux qui se lit comme un récit
+
+### Détails pratiques
+
+- Ancrer les choses dans le réel : coûts, impact concret, expérience vécue (ex: "less than a cup of coffee per month")
+- Partager les galères et les faux-pas, pas juste le résultat final ("42 commits tell the real story", "I OOM'd", "I switched SDKs halfway through")
+- Montrer qu'on a mesuré et expérimenté — ne pas juste affirmer, donner les chiffres qui soutiennent les décisions
+
+### Forme
+
+- Liens intégrés naturellement dans les phrases, pas des dumps de références en fin de paragraphe
+- Markdown headings avec `###` pour les sous-sections, pas de bold isolé comme titre de paragraphe
+- Tableaux et listes utilisés avec parcimonie, quand ils apportent vraiment de la clarté
+- Les blocs de code sont courts et ciblés — montrer le minimum nécessaire
+- S'adresser au lecteur directement : "Give it a try", "Let me know your feedback"
+- Signature de fin : "Happy coding.", "Happy hacking.", ou un appel à l'action léger
+
+### Ce qu'il ne faut PAS faire en écriture
+
+- Ne pas écrire comme un benchmark report — éviter le style "Results / Methodology / Conclusion"
+- Ne pas abuser des bold pour structurer le texte à la place des headings
+- Ne pas oublier le "pourquoi ça m'intéresse personnellement" au début
+- Ne pas être impersonnel — c'est un blog perso, pas de la doc officielle
+- Ne pas utiliser d'emoji (sauf smiley textuel occasionnel comme `:-)`), pas de `™️` ou dérivés
+
 ## Ce qu'il ne faut PAS faire
 
 - Ne pas toucher au thème PaperMod directement (il est dans `themes/`, géré comme dépendance)
