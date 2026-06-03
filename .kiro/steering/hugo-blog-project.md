@@ -81,18 +81,18 @@ Le blog a un style personnel et conversationnel. Voici les règles à suivre pou
 
 ### Ton général
 
-- Première personne, narratif — on raconte une histoire, pas un rapport technique
-- Conversationnel et chaleureux, comme si on expliquait à un collègue développeur autour d'un café
-- Mélanger phrases courtes et punchy avec des explications plus longues — ne pas être uniformément dense
-- Humour léger et sous-entendu — pas de blagues forcées, juste des apartés détendus ("I couldn't resist.", "the best part was…", smileys occasionnels)
-- Pas de ton académique ou corporate — éviter les formulations passives et impersonnelles
+- Première personne, narratif. On raconte une histoire, pas un rapport technique.
+- Conversationnel et chaleureux, comme si on expliquait à un collègue développeur autour d'un café.
+- Mélanger phrases courtes et punchy avec des explications plus longues. Ne pas être uniformément dense.
+- Humour léger et sous-entendu. Pas de blagues forcées, juste des apartés détendus ("I couldn't resist.", "the best part was…", smileys occasionnels).
+- Pas de ton académique ou corporate. Éviter les formulations passives et impersonnelles.
 
 ### Structure narrative
 
 - Commencer par le contexte personnel et la motivation ("Here is why.", "A few weeks ago…", "I wanted to…")
 - Arc narratif : setup (contexte/problème) → parcours (ce qu'on a fait, les choix) → conclusion (ce qu'on a appris)
 - Transitions conversationnelles entre sections ("So, how did it go?", "Let me walk you through…", "Getting there wasn't linear.")
-- Éviter les gros blocs type rapport — préférer un flux qui se lit comme un récit
+- Éviter les gros blocs type rapport. Préférer un flux qui se lit comme un récit.
 
 ### Détails pratiques
 
@@ -105,17 +105,43 @@ Le blog a un style personnel et conversationnel. Voici les règles à suivre pou
 - Liens intégrés naturellement dans les phrases, pas des dumps de références en fin de paragraphe
 - Markdown headings avec `###` pour les sous-sections, pas de bold isolé comme titre de paragraphe
 - Tableaux et listes utilisés avec parcimonie, quand ils apportent vraiment de la clarté
-- Les blocs de code sont courts et ciblés — montrer le minimum nécessaire
+- Les blocs de code sont courts et ciblés. Montrer le minimum nécessaire.
 - S'adresser au lecteur directement : "Give it a try", "Let me know your feedback"
 - Signature de fin : "Happy coding.", "Happy hacking.", ou un appel à l'action léger
 
+### Ponctuation et rythme (observés sur les articles pré-2026)
+
+- PAS de tirets cadratins (em dashes `—`). Jamais. Utiliser plutôt : des virgules, des parenthèses, des deux-points, ou simplement couper en deux phrases.
+- Phrases courtes et directes. Sujet-verbe-complément. Pas de subordonnées imbriquées.
+- Les parenthèses sont utilisées pour les apartés légers : "(the old one is 13 years old !)", "(code)", "(I obviously backup a last AMI before doing so :-) )"
+- Deux-points pour introduire une explication ou une liste : "Here is why.", "The idea is the same :"
+- Smileys textuels occasionnels en fin de phrase : `:-)`
+- Points de suspension très rares, préférer un point final
+- Les paragraphes sont courts (2-4 phrases max). Si un paragraphe dépasse 5 phrases, le couper.
+
+### Vocabulaire et tournures authentiques
+
+- "Let me know your feedback on [platform]"
+- "Here is why."
+- "So, ..." pour introduire une transition (pas "So —")
+- "The good news is that..."
+- "I was wrong." (admission directe, pas de détour)
+- "Now you are ready to..."
+- "Like always, when I am answering the same question more than 2 or 3 times..."
+- Utilise des comparaisons concrètes et terre-à-terre : "less than a cup of coffee per month", "the best part was to terminate the instance"
+- Adresse directe au lecteur avec "you" fréquent
+- Pas de mots sophistiqués quand un mot simple fait l'affaire ("use" pas "leverage", "fast" pas "performant")
+
 ### Ce qu'il ne faut PAS faire en écriture
 
-- Ne pas écrire comme un benchmark report — éviter le style "Results / Methodology / Conclusion"
+- PAS de tirets cadratins (em dashes). Utiliser virgules, parenthèses ou deux-points à la place.
+- Ne pas écrire comme un benchmark report. Éviter le style "Results / Methodology / Conclusion"
 - Ne pas abuser des bold pour structurer le texte à la place des headings
 - Ne pas oublier le "pourquoi ça m'intéresse personnellement" au début
-- Ne pas être impersonnel — c'est un blog perso, pas de la doc officielle
+- Ne pas être impersonnel. C'est un blog perso, pas de la doc officielle
 - Ne pas utiliser d'emoji (sauf smiley textuel occasionnel comme `:-)`), pas de `™️` ou dérivés
+- Ne pas écrire de phrases trop longues avec des incises. Couper. Respirer.
+- Ne pas utiliser d'italiques pour l'emphase de façon répétitive (une ou deux fois par article max)
 
 ## Ce qu'il ne faut PAS faire
 
