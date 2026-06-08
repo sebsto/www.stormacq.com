@@ -12,6 +12,6 @@
     "fast-check": "^3.23.2",
     "gray-matter": "^4.0.3",
     "js-yaml": "^4.1.0",
-    "vitest": "^3.2.1"
+    "vitest": "^3.2.6"
   }
 }
