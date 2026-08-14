@@ -4,6 +4,7 @@ import * as codebuild from 'aws-cdk-lib/aws-codebuild';
 import * as codepipeline from 'aws-cdk-lib/aws-codepipeline';
 import * as codepipeline_actions from 'aws-cdk-lib/aws-codepipeline-actions';
 import * as cloudfront from 'aws-cdk-lib/aws-cloudfront';
+import * as codestarconnections from 'aws-cdk-lib/aws-codestarconnections';
 import * as s3 from 'aws-cdk-lib/aws-s3';
 
 const app = new cdk.App();
@@ -115,6 +116,15 @@ const distribution = new cloudfront.CfnDistribution(stack, 'Distribution', {
 const sourceOutput = new codepipeline.Artifact('SebInTheCloud-Sources');
 const buildOutput = new codepipeline.Artifact('BuildArtifact');
 
+const connectionArn = 'arn:aws:codeconnections:eu-central-1:401955065246:connection/5b07bb5d-f12b-406e-836b-20aceafb8d6d';
+
+// Repository link — registers the webhook so pushes to GitHub trigger the pipeline
+new codestarconnections.CfnRepositoryLink(stack, 'RepoLink', {
+  connectionArn,
+  ownerId: 'sebsto',
+  repositoryName: 'www.stormacq.com',
+});
+
 // CodePipeline
 const pipeline = new codepipeline.Pipeline(stack, 'Pipeline', {
   pipelineName: 'sebinthecloud-v2',
@@ -130,7 +140,7 @@ const pipeline = new codepipeline.Pipeline(stack, 'Pipeline', {
           owner: 'sebsto',
           repo: 'www.stormacq.com',
           branch: 'main',
-          connectionArn: 'arn:aws:codeconnections:eu-central-1:401955065246:connection/5b07bb5d-f12b-406e-836b-20aceafb8d6d',
+          connectionArn,
           output: sourceOutput,
           triggerOnPush: true
         })
