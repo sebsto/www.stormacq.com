@@ -116,7 +116,7 @@ const distribution = new cloudfront.CfnDistribution(stack, 'Distribution', {
 const sourceOutput = new codepipeline.Artifact('SebInTheCloud-Sources');
 const buildOutput = new codepipeline.Artifact('BuildArtifact');
 
-const connectionArn = 'arn:aws:codeconnections:eu-central-1:401955065246:connection/5b07bb5d-f12b-406e-836b-20aceafb8d6d';
+const connectionArn = 'arn:aws:codeconnections:eu-central-1:401955065246:connection/ba36b2b2-3d6a-4404-ab67-8caa3be2c597';
 
 // Repository link — registers the webhook so pushes to GitHub trigger the pipeline
 new codestarconnections.CfnRepositoryLink(stack, 'RepoLink', {
