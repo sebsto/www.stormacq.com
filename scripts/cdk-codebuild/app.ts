@@ -130,7 +130,7 @@ const pipeline = new codepipeline.Pipeline(stack, 'Pipeline', {
           owner: 'sebsto',
           repo: 'www.stormacq.com',
           branch: 'main',
-          connectionArn: 'arn:aws:codestar-connections:eu-central-1:401955065246:connection/1a3722f1-bd2f-40d4-badf-accd624640c6',
+          connectionArn: 'arn:aws:codeconnections:eu-central-1:401955065246:connection/5b07bb5d-f12b-406e-836b-20aceafb8d6d',
           output: sourceOutput,
           triggerOnPush: true
         })
