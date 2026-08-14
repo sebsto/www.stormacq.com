@@ -1,5 +1,5 @@
 DISTRIBUTION_ID = E3MEG4UBSP7M9Y
-AWS_PROFILE = seb
+AWS_PROFILE = default
 
 deploy:
 	aws codepipeline start-pipeline-execution \
@@ -14,3 +14,11 @@ invalidate:
 		--paths "/" "/index.html" "/posts/" "/posts/index.html" "/feed.xml" "/2026/*" \
 		--profile $(AWS_PROFILE) \
 		--output json
+
+serve:
+	container run \
+		-p 1313:1313 \
+		--rm -it \
+		-v $(PWD):/project \
+		ghcr.io/gohugoio/hugo:v0.157.0 \
+		server --bind 0.0.0.0 --poll 700ms -D
